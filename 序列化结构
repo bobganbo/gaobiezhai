@@ -1,0 +1,58 @@
+a:2:{s:4:"type";s:1:"2";s:9:"area_html";a:3:{i:0;a:4:{s:5:"title";s:7:"iReader";s:4:"desc";s:0:"";s:3:"url";s:50:"http://mkt.an12.com/api/www.an12.com_1.39_an12.apk";s:12:"resource_url";s:47:"templates/default/css/img/index_top_left/a1.jpg";}i:1;a:4:{s:5:"title";s:12:"旋风跑跑";s:4:"desc";s:0:"";s:3:"url";s:50:"http://mkt.an12.com/api/www.an12.com_1.39_an12.apk";s:12:"resource_url";s:47:"templates/default/css/img/index_top_left/a2.jpg";}i:2;a:4:{s:5:"title";s:15:"饥饿的兔子";s:4:"desc";s:0:"";s:3:"url";s:50:"http://mkt.an12.com/api/www.an12.com_1.39_an12.apk";s:12:"resource_url";s:47:"templates/default/css/img/index_top_left/a3.jpg";}}}
+
+
+Array
+(
+    [type] => 2
+    [area_html] => Array
+        (
+            [0] => Array
+                (
+                    [title] => iReader
+                    [desc] =>
+                    [url] => http://mkt.an12.com/api/www.an12.com_1.39_an12.apk
+                    [resource_url] => templates/default/css/img/index_top_left/a1.jpg
+                )
+
+            [1] => Array
+                (
+                    [title] => 旋风跑跑
+                    [desc] =>
+                    [url] => http://mkt.an12.com/api/www.an12.com_1.39_an12.apk
+                    [resource_url] => templates/default/css/img/index_top_left/a2.jpg
+                )
+
+            [2] => Array
+                (
+                    [title] => 饥饿的兔子
+                    [desc] =>
+                    [url] => http://mkt.an12.com/api/www.an12.com_1.39_an12.apk
+                    [resource_url] => templates/default/css/img/index_top_left/a3.jpg
+                )
+                        [3] => Array
+                            (
+                                [title] => iReader
+                                [desc] =>
+                                [url] => http://mkt.an12.com/api/www.an12.com_1.39_an12.apk
+                                [resource_url] => templates/default/css/img/index_top_left/a1.jpg
+                            )
+
+                        [4] => Array
+                            (
+                                [title] => 旋风跑跑
+                                [desc] =>
+                                [url] => http://mkt.an12.com/api/www.an12.com_1.39_an12.apk
+                                [resource_url] => templates/default/css/img/index_top_left/a2.jpg
+                            )
+
+                        [5] => Array
+                            (
+                                [title] => 饥饿的兔子
+                                [desc] =>
+                                [url] => http://mkt.an12.com/api/www.an12.com_1.39_an12.apk
+                                [resource_url] => templates/default/css/img/index_top_left/a3.jpg
+                            )
+
+        )
+
+)
