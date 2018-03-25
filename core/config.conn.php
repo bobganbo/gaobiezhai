@@ -11,7 +11,7 @@
  * 定义数据库配置参数
  */
 // 数据库host名称
-define('DB_HOST', 'localhost');
+define('DB_HOST', '127.0.0.1');
 // 数据库用户名
 define('DB_USERNAME', 'root');
 //数据库密码

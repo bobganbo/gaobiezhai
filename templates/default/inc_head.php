@@ -35,7 +35,7 @@ function do_search(){
         </div>
         <div class="top-head">
             <div class="marauto">
-                <a href="javascript:void(0);" class="l web-logo"><?php if(defined('SITE_LOGO') && SITE_LOGO != ''){ echo '<img border="0" src="'.SITE_LOGO.'">';}?></a>
+                <a href="javascript:void(0);" class="l web-logo"><?php if(defined('SITE_LOGO') && SITE_LOGO != ''){ echo '<img border="0" src="'.SITE_LOGO.'" style="width:100px;height:100px;" >';}?></a>
                 <ul class="r head-seach">
                     <li class="seach-bar">
                         <p class="bdr-span">

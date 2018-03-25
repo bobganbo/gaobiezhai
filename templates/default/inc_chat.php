@@ -150,7 +150,7 @@
         if( avar == 0 ) avar = 1;
         avar = 'a' + avar + '.jpg';
         // 创建一个Socket实例
-        ws = new WebSocket('ws://192.168.80.128:8090');
+        ws = new WebSocket('ws://119.29.156.114:8090');
         var loading = layer.load(0, {shade: false}); //0代表加载的风格，支持0-2
         ws.onopen = function(){
             //console.log("握手成功");

@@ -12,7 +12,7 @@ define("SITE_PATH", "/"); //站点安装路径，默认为根目录
  * 以下参数为可后台编辑
  */
 define("SITE_NAME", "告别宅"); //站点名称
-define("SITE_URL", "http://localhost.appcms.work.com"); //站点域名
+define("SITE_URL", "http://fortest.gaobiezhai.com");//站点域名
 define("SITE_LOGO", "/upload/logo.png"); //站点LOGO
 define("UPLOAD_PATH", "/img/"); //资源上传路径,相对于upload
 define("SITE_REWRITEURL", "0"); //是否开启伪静态重写 0==不开启，1==开启

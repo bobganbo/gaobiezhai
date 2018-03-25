@@ -22,7 +22,6 @@
  * @param  $ => $history   当前历史版本数组【仅应用历史版本页】
  * @param  $ => $topid     顶级分类ID【仅应用、应用历史版本、资讯页】
  */
-
 if (is_dir("install") && !file_exists("install/install.lock.php")) {
     header('Location: install/');
     die();
@@ -30,7 +29,6 @@ if (is_dir("install") && !file_exists("install/install.lock.php")) {
 require_once(dirname(__FILE__) . "/core/init.php");
 require_once (dirname(__FILE__) ."/core/lib/LibUtil.class.php");
 require_once (dirname(__FILE__) ."/core/lib/LibAuth.class.php");
-
 // 预防XSS漏洞
 foreach ($_GET as $k => $v) {
     $_GET[$k] = htmlspecialchars($v);

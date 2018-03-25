@@ -14,15 +14,16 @@ class db_mysql {
      * 初始化类，根据传入的数据库参数连接数据库
      */
     public function __construct() {
-        $this -> conn = mysql_connect(DB_HOST , DB_USERNAME , DB_PASS) or die("do not connect database");
-        mysql_select_db(DB_DBNAME , $this -> conn) or die("do not open database");
-        mysql_query("set names " . DB_CHARSET);
+        //echo DB_HOST."_".DB_USERNAME."_".DB_PASS;die; 
+        $this -> conn = mysqli_connect(DB_HOST , DB_USERNAME , DB_PASS,DB_DBNAME) or die("do not connect database");
+        //mysqli_select_db(DB_DBNAME , $this -> conn) or die("do not open database");
+        mysqli_query($this -> conn,"set names " . DB_CHARSET);
     } 
     /**
      * 销毁类
      */
     public function __destory() {
-        mysql_close();
+        mysqli_close($this->conn);
     } 
     /**
      * 执行查询语句返回结果集
@@ -37,27 +38,27 @@ class db_mysql {
         $sql_count_time = 0;
         if ($is_total > 0) {
             $count_sql=preg_replace("~select (.*?) from(.*?)~","select count(1) as t from $2",strtolower($sql));
-            $countid=mysql_query($count_sql);
-            $total_rs=mysql_fetch_assoc($countid);
+            $countid=mysqli_query($this->conn,$count_sql);
+            $total_rs=mysqli_fetch_assoc($countid);
             $total = $total_rs['t'];
-            //$total = mysql_num_rows(mysql_query($sql));
+            //$total = mysqli_num_rows(mysqli_query($sql));
             $this -> query_count++;
             $sql_count_time = helper :: getmicrotime() - $_start;
         } 
         // 查询取得记录列表
-        $rs = mysql_query($sql . ' ' . $suffix);
+        $rs = mysqli_query($this->conn,$sql . ' ' . $suffix);
         $this -> query_count++;
         $i = 0;
         $list = array();
         if ($rs) {
-            while ($rows = mysql_fetch_assoc($rs)) {
+            while ($rows = mysqli_fetch_assoc($rs)) {
                 $list[$i] = $rows;
                 $i++;
             } 
         } 
         // 返回该查询的记录总数和记录列表
         $querys = array('sql' => $sql . ' ' . $suffix, // SQL
-            'error' => mysql_error(), // SQL报错信息
+            'error' => mysqli_error($this->conn), // SQL报错信息
             'sql_time' => helper :: getmicrotime() - $_start, // 整个SQL完成耗费时间
             'sql_time_count' => $sql_count_time, // 统计行数耗费时间
             'total' => $total, // 记录总数，如果$is_total=0，则该值为0
@@ -72,12 +73,12 @@ class db_mysql {
      */
     public function query_insert($sql) {
         $_start = helper :: getmicrotime();
-        mysql_query($sql);
+        mysqli_query($this->conn,$sql);
         $this -> query_count++;
         $querys = array('sql' => $sql,
-            'error' => mysql_error(),
+            'error' => mysqli_error($this->conn),
             'sql_time' => helper :: getmicrotime() - $_start, // 整个SQL完成耗费时间
-            'autoid' => mysql_insert_id(),
+            'autoid' => mysqli_insert_id($this->conn),
             );
         return $querys;
     } 
@@ -86,10 +87,10 @@ class db_mysql {
      */
     public function query_update($sql) {
         $_start = helper :: getmicrotime();
-        mysql_query($sql);
+        mysqli_query($this->conn,$sql);
         $this -> query_count++;
         $querys = array('sql' => $sql,
-            'error' => mysql_error(),
+            'error' => mysqli_error($this->conn),
             'sql_time' => helper :: getmicrotime() - $_start, // 整个SQL完成耗费时间
             );
         return $querys;
