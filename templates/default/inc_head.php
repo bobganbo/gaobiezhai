@@ -23,13 +23,15 @@ function do_search(){
                     <a href="javascript:void(0);" onclick="C.fav('<?php echo SITE_NAME;?>','<?php echo SITE_URL;?>');" id="collecttion">收藏本站</a>&nbsp;&nbsp;&nbsp;
                     <a href="javascript:void(0);" onclick="C.sethome('<?php echo SITE_URL;?>');" id="home-page">设为首页</a>&nbsp;&nbsp;&nbsp;
 
-                    <span class="main-nav2">
+                    <span class="no-login">
                          <!--未登录-->
-                         <a href="javascript:void(0);"  class="cd-signin no-login" id="login2">登录</a>
+                         <a href="javascript:void(0);"  class="cd-signin" id="login2">登录</a>
                     </span>
                     <!--已登录-->
-                    <a href="javascript:void(0);" class="login" style="display: none;color:blue;"></a>
-
+                    <span class="login" style="display: none;">
+                        <a href="javascript:void(0);" class="login-name" style="color:blue;"></a>
+                        <a href="javascript:void(0);" class="login-out" style="color:blue;">退出登录</a>
+                    </span>
                 </div>
           </div>
         </div>
@@ -70,24 +72,6 @@ function do_search(){
             </div>
         </div>
 
-        <!--<div id="LoginBox">
-            <div class="row1">
-                登录窗口<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="closeBtn">×</a>
-            </div>
-            <div class="row">
-                用户名: <span class="inputBox">
-                <input type="text" id="txtName" placeholder="账号/邮箱" />
-            </span><a href="javascript:void(0)" title="提示" class="warning" id="warn">*</a>
-            </div>
-            <div class="row">
-                密&nbsp;&nbsp;&nbsp;&nbsp;码: <span class="inputBox">
-                <input type="text" id="txtPwd" placeholder="密码" />
-            </span><a href="javascript:void(0)" title="提示" class="warning" id="warn2">*</a>
-            </div>
-            <div style="text-align: center">
-                <a href="#" id="loginbtn">登录</a>
-            </div>
-        </div>-->
 
         <div class="cd-user-modal"> <!-- this is the entire modal form, including the background -->
             <div class="cd-user-modal-container"> <!-- this is the container wrapper -->
@@ -119,9 +103,6 @@ function do_search(){
                             <input class="full-width" type="submit" value="登录">
                         </p>
                     </form>
-
-                    <p class="cd-form-bottom-message"><a href="#0">忘记密码?</a></p>
-                    <!-- <a href="#0" class="cd-close-form">Close</a> -->
                 </div> <!-- cd-login -->
                 <div id="cd-signup"> <!-- sign up form -->
                     <form class="cd-form">
@@ -155,24 +136,6 @@ function do_search(){
 
                     <!-- <a href="#0" class="cd-close-form">Close</a> -->
                 </div> <!-- cd-signup -->
-
-                <div id="cd-reset-password"> <!-- reset password form -->
-                    <p class="cd-form-message">忘记密码? 请输入你的邮箱地址. 你将收到一封重置密码的邮件</p>
-
-                    <form class="cd-form">
-                        <p class="fieldset">
-                            <label class="image-replace cd-email" for="reset-email">邮箱</label>
-                            <input class="full-width has-padding has-border" id="reset-email" type="email" placeholder="邮箱">
-                            <span class="cd-error-message">Error message here!</span>
-                        </p>
-
-                        <p class="fieldset">
-                            <input class="full-width has-padding" type="submit" value="重置密码">
-                        </p>
-                    </form>
-
-                    <p class="cd-form-bottom-message"><a href="#0">返回登录</a></p>
-                </div> <!-- cd-reset-password -->
                 <a href="#0" class="cd-close-form">Close</a>
             </div> <!-- cd-user-modal-container -->
         </div> <!-- cd-user-modal -->

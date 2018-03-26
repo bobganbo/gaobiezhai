@@ -110,6 +110,9 @@ class LibAuth{
         LibUtil::cookie(self::$cookieName,null);
         LibUtil::cookie("ck_userid",null);
         LibUtil::cookie("ck_username",null);
+        setcookie("Cuser", "", time() - 3600,'/','.appcms.work.com');
+        setcookie("ck_userid", "", time() - 3600,'/','.appcms.work.com');
+        setcookie("ck_username", "", time() - 3600,'/','.appcms.work.com');
     }
 
 

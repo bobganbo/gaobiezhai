@@ -8,7 +8,8 @@ jQuery(document).ready(function($){
 		$tab_signup = $form_modal_tab.children('li').eq(1).children('a'),
 		$forgot_password_link = $form_login.find('.cd-form-bottom-message a'),
 		$back_to_login_link = $form_forgot_password.find('.cd-form-bottom-message a'),
-		$main_nav = $('.main-nav2');
+		$main_nav = $('.no-login'),
+        $login_out = $('.login');
 
 	//open modal
 	$main_nav.on('click', function(event){
@@ -25,6 +26,21 @@ jQuery(document).ready(function($){
 		}
 
 	});
+
+    $('.login-out').on('click',function(event){
+        //event.preventDefault();
+        $.post("/loginout.php",{},function(data){
+            var  data = eval("("+data+")");
+            if(data.code==1){
+                $login_out.removeClass('is-visible');
+                $main_nav.addClass('is-visible');
+                //$url = GetQueryString('url');
+                window.location.href = "/";
+            }
+        });
+    });
+
+
 
 	//close modal
 	$('.cd-user-modal').on('click', function(event){
@@ -103,7 +119,6 @@ jQuery(document).ready(function($){
                 $form_modal.removeClass('is-visible');
                 $url = GetQueryString('url');
                 window.location.href = decodeURIComponent($url);
-                //init_logined();
             }
         });
         //$form_login.find('input[type="email"]').toggleClass('has-error').next('span').toggleClass('is-visible');
@@ -140,7 +155,7 @@ jQuery(document).ready(function($){
         }
         //设置用户名
         $('.no-login').hide();
-        $('.login').show().text(uname);
+        $('.login').show().find('.login-name').text(uname);
     }
 
 
