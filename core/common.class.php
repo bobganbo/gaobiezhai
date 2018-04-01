@@ -87,6 +87,41 @@ class common
     }
 
     /**
+     * 判断某个用户是否正在申请进房
+     * @param $userId
+     * @param $roomId
+     */
+    public function isApplyToRoom($userId,$roomId){
+        $isApply = false;
+        $userId = intval($userId);
+        $roomId = intval($roomId);
+        $sql ="select * from ". TB_PREFIX ."user_room_apply where userId = {$userId} and roomId = {$roomId} limit 1";
+        $rs = $this->dbm->query($sql);
+        if(!empty($rs['list'][0]) && $rs['list'][0]['isAudit'] == 0){
+            $isApply = true;
+        }
+        return $isApply;
+    }
+
+    /**
+     * 判断某个用户是否有权限进房
+     * @param $userId
+     * @param $roomId
+     */
+     public function isAuthToRoom($userId,$roomId){
+         $isAuth = false;
+         $userId = intval($userId);
+         $roomId = intval($roomId);
+         $sql ="select * from ". TB_PREFIX ."user_room_map where uid = {$userId} and roomid = {$roomId} limit 1";
+         //echo $sql;die;
+         $rs = $this->dbm->query($sql);
+         if(!empty($rs['list'][0]) && $rs['list'][0]['state'] == 1){
+             $isAuth = true;
+         }
+         return $isAuth;
+     }
+
+    /**
      * 获取热门关键字
      */
     public function get_keyword($limit = 5)
@@ -426,6 +461,23 @@ class common
             }
             $fields = substr($fields, 1);
         }
+
+        //点击我的圈子，强制将分类置为空
+        if($cate_id == 22){
+            $cate_id = "";
+            //获取当前用户加入的圈子
+            LibAuth::isLogin();
+            $res = $this->getApplyRoomByUid(LibAuth::$userId);
+            $myRoomList = [];
+            if($res){
+                foreach($res as $v){
+                    $myRoomList[] = $v['roomid'];
+                }
+                $roomids = implode(",",$myRoomList);
+                $where = " app_id in({$roomids})";
+            }
+        }
+
 
         $total = 0; //总数                                  
         // 拼接SQL语句
@@ -1286,6 +1338,23 @@ class common
                 break;
         }
     }
+
+    /**
+     * 通过用户id获取当前用户加入的房间
+     * @param $uid
+     */
+    public function getApplyRoomByUid($uid){
+        if(!$uid){
+            return false;
+        }
+        $sql = "SELECT * FROM " . TB_PREFIX . "user_room_map where uid=" . $uid ;
+        $res = $this->dbm->query($sql);
+        if (is_array($res['list']) && count($res['list']) > 0) {
+            return $res['list'];
+        }
+        return false;
+    }
+
 }
 
 ?>

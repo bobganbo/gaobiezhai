@@ -1,5 +1,5 @@
 <?php require_once(dirname(__FILE__).'/inc_header.php');?>
-<script language="javascript" type="text/javascript" src="templates/css/js/advert.js" ></script>
+<script language="javascript" type="text/javascript" src="templates/css/js/advert.js?x=11" ></script>
 <script>
     <?php if(isset($page['get']['jsfun']) && $page['get']['jsfun']=='add'){
         echo 'window.onload=function(){recommend_show(0,'.$page['get']['type'].');}';

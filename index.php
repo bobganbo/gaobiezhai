@@ -29,6 +29,7 @@ if (is_dir("install") && !file_exists("install/install.lock.php")) {
 require_once(dirname(__FILE__) . "/core/init.php");
 require_once (dirname(__FILE__) ."/core/lib/LibUtil.class.php");
 require_once (dirname(__FILE__) ."/core/lib/LibAuth.class.php");
+require_once (dirname(__FILE__) ."/core/lib/LibConst.class.php");
 // 预防XSS漏洞
 foreach ($_GET as $k => $v) {
     $_GET[$k] = htmlspecialchars($v);
@@ -152,11 +153,8 @@ if ($tpl == 'content_app') {
     //需要先登录，才允许进入到聊天室
     $isLogin = LibAuth::isLogin(false);
     if(!$isLogin){
-        //header("refresh:3;url=/");
-        //header("Location:/");
-        //echo "请先登录~";
-        //exit;
         $tmp_file=  '/templates/default/jump.php';
+        $status = -1;
         require(dirname(__FILE__) . $tmp_file);
         exit;
     }
@@ -166,31 +164,30 @@ if ($tpl == 'content_app') {
         die('信息不存在');
     }
     //判断下房间满员状态
-
-
-    //判断下该用户是否有进入该聊天室的权限，0：没权限，1：审核中，2：有权限
-
-
-    //审核中，跳转到审核页
-
-
-} elseif ($tpl == 'content_app_history') {
-    //需要先登录，才允许进入到聊天室
-   /*
-    LibAuth::isLogin();
-    $c->update_vistor($id, 0);
-    $con = $c->get_content($id, 0);
-    // exit(print_r($con['history']));
-    foreach ($con['history'] as $a) { // 判断当前应用版本信息
-        if ($a['history_id'] == $hid) {
-            $history = $a;
-            // print_r($history);
-            continue;
-        }
+    if(isset($con['is_full'])&&$con['is_full'] == LibConst::IS_ROOM_FULL){
+        $tmp_file=  '/templates/default/jump.php';
+        $status = -2;
+        require(dirname(__FILE__) . $tmp_file);
+        exit;
     }
-    if (!isset($history)) die('历史版本数据不存在');
-   */
-} elseif ($tpl == 'content_info') {
+    //审核中，跳转到审核页
+    $isApply = $c->isApplyToRoom(LibAuth::$userId,$id);
+    if($isApply){
+        $tmp_file=  '/templates/default/jump.php';
+        $status = -3;
+        require(dirname(__FILE__) . $tmp_file);
+        exit;
+
+    }
+    //判断下该用户是否有进入该聊天室的权限，0：没权限，1：审核中，2：有权限
+    $isAuth = $c->isAuthToRoom(LibAuth::$userId,$id);
+    if(!$isAuth){
+        $tmp_file=  '/templates/default/jump.php';
+        $status = -4;
+        require(dirname(__FILE__) . $tmp_file);
+        exit;
+    }
+}elseif ($tpl == 'content_info') {
     $c->update_vistor($id, 1);
     $con = $c->get_content($id, 1);
     if (!isset($con['info_id'])) {

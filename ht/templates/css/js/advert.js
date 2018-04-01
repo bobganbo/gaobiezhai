@@ -13,6 +13,7 @@ function show_ad(id,type){
     //广告位id
     $(".ad_type").val(type);
     $(".ad_pace").val(id);
+    console.log(id+'='+type);
     $.post('advert.php?m=edit_ads',{"area_id":id},function(data){
         try{
             var json=$.evalJSON(data);

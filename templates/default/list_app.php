@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title><?php echo $c->categories[$cid]['cname'].'安卓应用下载 - '.SITE_NAME;?></title>
+<title><?php echo $c->categories[$cid]['cname'].'-'.SITE_NAME;?></title>
 <script language="javascript" type="text/javascript" src="<?php echo SITE_PATH;?>templates/lib/jquery-1.7.1.min.js" ></script>
 <link rel="stylesheet"  href="<?php echo SITE_PATH;?>templates/<?php echo TEMPLATE;?>/css/style.css"  type="text/css" />
 <script type="text/javascript" src="<?php echo SITE_PATH;?>templates/<?php echo TEMPLATE;?>/css/js/comm.js"></script>
@@ -35,7 +35,6 @@
                 <div class="pr zIndex10 tab-content">
                     <div class="bor-sty bg-fff">
                     <?php $lists = $c->get_list(array('pagesize'=>PAGESIZE,'count'=>1,'cate_id'=>$cid,'rewrite'=>SITE_REWRITEURL,'p'=>$p));
-                    //print_r($lists['sql']);
                     ?>
                         <div class="app-list boutique-cnt">
                         <?php if(!empty($lists['list'])){foreach($lists['list'] as $key=> $val){?>

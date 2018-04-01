@@ -16,7 +16,15 @@
                         <p class="line-t-10"></p>
                         <h2><b><?php echo $con['info_title'];?></b></h2>
                         <p class="line-t-10"></p>
-                        系统检测到您未登录，请先登录~<span id='djsSapn'  style='background:yellow;height:20px;width:30px;'>3</span> 秒后将跳转到首页
+                        <?php if($status == -1){;?>
+                            系统检测到您未登录，请先登录<span id='djsSapn'  style='background:yellow;height:20px;width:30px;'>3</span> 秒后将跳转到首页
+                        <?php }elseif($status == -2){?>
+                            该聊天室已满员，请进入其它房间<span id='djsSapn'  style='background:yellow;height:20px;width:30px;'>3</span> 秒后将跳转到首页
+                        <?php }elseif($status == -3){?>
+
+                        <?php }else{?>
+                            系统检测到您未授权加入该群聊天室<span id='djsSapn'  style='background:yellow;height:20px;width:30px;'>3</span> 秒后将跳转到首页
+                        <?php }?>
                     </div>
 
                 </div>
