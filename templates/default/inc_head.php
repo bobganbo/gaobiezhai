@@ -25,7 +25,7 @@ function do_search(){
 
                     <span class="no-login">
                          <!--未登录-->
-                         <a href="javascript:void(0);"  class="cd-signin" id="login2">登录</a>
+                         <a href="javascript:void(0);"  class="cd-signin">登录</a>
                     </span>
                     <!--已登录-->
                     <span class="login" style="display: none;">
@@ -43,7 +43,6 @@ function do_search(){
                         <p class="bdr-span">
                             <input type="text" class="l seach-txt" id="seach-txt" onkeyup="search_up(this,event)" onclick="show_hot(this);" onkeydown="search_down(this,event); if(event.keyCode==13) do_search();" value="<?php if(isset($_GET['q'])) echo $_GET['q'];?>"/>
                             <a href="javascript:void(0);" class="l seach-btn" onClick="do_search()">搜圈子</a>
-							
                         </p>
                     </li>
 					<li class="keyword">

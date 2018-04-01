@@ -34,7 +34,6 @@ jQuery(document).ready(function($){
             if(data.code==1){
                 $login_out.removeClass('is-visible');
                 $main_nav.addClass('is-visible');
-                //$url = GetQueryString('url');
                 window.location.href = "/";
             }
         });

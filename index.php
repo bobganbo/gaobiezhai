@@ -150,7 +150,16 @@ if (intval($cid) > 0) {
 
 if ($tpl == 'content_app') {
     //需要先登录，才允许进入到聊天室
-    LibAuth::isLogin();
+    $isLogin = LibAuth::isLogin(false);
+    if(!$isLogin){
+        //header("refresh:3;url=/");
+        //header("Location:/");
+        //echo "请先登录~";
+        //exit;
+        $tmp_file=  '/templates/default/jump.php';
+        require(dirname(__FILE__) . $tmp_file);
+        exit;
+    }
     $c->update_vistor($id, 0);
     $con = $c->get_content($id, 0);
     if (!isset($con['app_id'])) {

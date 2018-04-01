@@ -21,29 +21,29 @@
                     //print_r($lists['sql']);
                     ?>
                         <div class="app-list boutique-cnt">
-                        <?php if(!empty($lists['list'])){foreach($lists['list'] as $key=> $val){?>
-                          <div class="app-cnt">     
-                            <a href="<?php echo $val['surl']; ?>" class="l app-ico"><img src="<?php echo $val['app_logo']; ?>" border="0" alt="<?php echo $val['app_title']; ?>"></a>
-                            <div class="app-info">
-                                <div style="width:100%;">
-                                    <a class="app-title" href="<?php echo $val['surl']; ?>"><?php echo $val['app_title']; ?></a>
-                                    <ul class="level" ><li class="<?php echo "l".ceil($val['app_recomment']/2); ?>"></li></ul>
-                                </div>
+                            <?php if(!empty($lists['list'])){foreach($lists['list'] as $key=> $val){?>
+                                <div class="app-cnt">
+                                    <a href="<?php echo $val['surl']; ?>" class="l app-ico"><img src="<?php echo $val['app_logo']; ?>" border="0" alt="<?php echo $val['app_title']; ?>"></a>
+                                    <div class="app-info">
+                                        <div style="width:100%;">
+                                            <a class="app-title" href="<?php echo $val['surl']; ?>"><?php echo $val['app_title']; ?></a>
+                                            <ul class="level" ><li class="<?php echo "l".ceil($val['app_recomment']/2); ?>"></li></ul>
+                                        </div>
                                 <span class="app-describe">
                                     <?php echo helper::utf8_substr($val['app_desc'],0,70);?>
                                 </span>
-                                <p class="app-data">
-                                    <span>发布时间：&nbsp;&nbsp;<em><?php echo date("Y-m-d",$val['app_update_time']);?></em></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <span>支持固件：&nbsp;&nbsp;<em><?php echo $val['app_system']; ?></em></span>
-                                </p>
-                            </div>
-                            <div class="app-btn">
-                                <a class="btn-down" href="<?php echo $val['surl'];?>">免费下载</a>
-                                <br /><br />
-                                <span>下载:<em><?php echo $val['app_down']; ?>次</em></span>
-                            </div>
-                          </div>
-                          <?php } }else{echo '<div class="h788"><span>没有找到数据</span></div>';}?>
+                                        <p class="app-data">
+                                            <span>发布时间：&nbsp;&nbsp;<em><?php echo date("Y-m-d",$val['app_update_time']);?></em></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <span>剩余时间：&nbsp;&nbsp;<em><?php echo $val['left_time']; ?></em></span>
+                                        </p>
+                                    </div>
+                                    <div class="app-btn">
+                                        <a class="btn-down" href="<?php echo $val['surl']; ?>">申请加入</a>
+                                        <br /><br />
+                                        <span>访问:<em><?php echo $val['app_down']; ?>次</em></span>
+                                    </div>
+                                </div>
+                            <?php } }else{ echo '<div class="h788"><span>没有找到数据</span></div>';}?>
                         </div>
                         <div class="pagebar">
                             <?php if(!empty($lists['list'])) echo $lists['pagebar']['pagecode']?>
