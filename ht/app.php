@@ -109,13 +109,16 @@ function m__save_edit() {
 	$page['post']['app_update_time'] = time();
 	$page['post']['uid'] = isset($_SESSION['uid']) ? intval($_SESSION['uid']) : '0';
     $page['post']['uname'] = isset($_SESSION['uname']) ? htmlspecialchars($_SESSION['uname']) : '';
+    $page['post']['end_time'] = strtotime($page['post']['end_time']);
    /*修改分类关系的数据*/
     $relation['id'] = $page['post']['app_id'] ;
     $relation['field']['id_update_time'] = time() ;
     $relation['field']['id_visitors'] = $page['post']['app_visitors'];
     if (!isset($page['post']['app_id']) || $page['post']['app_id'] <= 0) {
         // 添加应用
-		$where = " app_title = '" . $page['post']['app_title'] . "'";
+        $page['post']['start_time'] = time();
+
+        $where = " app_title = '" . $page['post']['app_title'] . "'";
 		$resapp = $dbm -> single_query(array('table_name' => TB_PREFIX . 'app_list', 'where' => $where));
 		if (!empty($resapp['list'])) {
 			die('{"code":"100","msg":"已经存在该应用"}');

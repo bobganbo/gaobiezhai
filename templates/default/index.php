@@ -34,7 +34,7 @@
                         <dl>
                             <dt class="play-img"><a href="<?php echo $v['surl']?>"><img src="<?php echo $v['app_logo']; ?>" width="72" height="72" border="0" alt="<?php echo $v['app_title']; ?>"></a></dt>
                             <dd class="play-name"><a href="<?php echo $v['surl']?>"><?php echo $v['app_title']; ?></a></dd>
-                            <dd class="play-type"><?php echo $v['cate']['cname']; ?></dd>
+                            <dd class="play-type"><?php echo $v['cate']['cname']."（".LibUtil::STSH($val['end_time'])."）"; ?></dd>
                             <dd class="play-download" style="display:none;"><a href="<?php echo $v['surl']?>">申请加入</a></dd>
                         </dl>
                     </li>
@@ -64,7 +64,7 @@
                             <p class="close" <?php if($k==0) echo "style='display:none;'" ?>>
                                 <span class="sort-num sort <?php if($k>2){echo "sort-num-grey";}?>"><?php echo ($k+1);?></span>
                                 <a href="<?php echo $v['surl'];?>" class="col-6b txt-overflw description"><?php echo $v['app_title'];?></a>
-                                <span class="col-94 download-num"><?php echo $v['app_down'];?>次</span>
+                                <span class="col-94 download-num"><?php echo LibUtil::STSH($val['end_time']);?></span>
                             </p>
                         </li>
                     <?php } } ?>
@@ -90,7 +90,7 @@
                             <p class="close" <?php if($k==0) echo "style='display:none;'" ?>>
                                 <span class="sort-num sort <?php if($k>2){echo "sort-num-grey";}?>"><?php echo ($k+1);?></span>
                                 <a href="<?php echo $v['surl'];?>" class="col-6b txt-overflw description"><?php echo $v['app_title']; ?></a>
-                                <span class="col-94 download-num"><?php echo $v['app_down'];?>次</span>
+                                <span class="col-94 download-num"><?php echo LibUtil::STSH($val['end_time']);?></span>
                             </p>
                         </li>
                         <?php } } ?>
@@ -116,7 +116,7 @@
                             <p class="close" <?php if($k==0) echo "style='display:none;'" ?>>
                                 <span class="sort-num sort <?php if($k>2){echo "sort-num-grey";}?>"><?php echo ($k+1);?></span>
                                 <a href="<?php echo $v['surl'];?>" class="col-6b txt-overflw description"><?php echo $v['app_title'];?></a>
-                                <span class="col-94 download-num"><?php echo $v['app_down'];?>次</span>
+                                <span class="col-94 download-num"><?php echo LibUtil::STSH($val['end_time']);?></span>
                             </p>
                         </li>
                         <?php } } ?>
@@ -187,7 +187,7 @@
                                 <p class="close" <?php if($k==0) echo "style='display:none;'" ?>>
                                     <span class="sort-num sort <?php if($k>2){echo "sort-num-grey";}?>"><?php echo ($k+1);?></span>
                                     <a href="<?php echo $v['surl'];?>" class="col-6b txt-overflw description"><?php echo $v['app_title'];?></a>
-                                    <span class="col-94 download-num"><?php echo $v['app_down'];?>次</span>
+                                    <span class="col-94 download-num"><?php echo LibUtil::STSH($val['end_time']);?></span>
                                 </p>
                             </li>
                             <?php } } ?>

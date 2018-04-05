@@ -49,8 +49,8 @@
                                     <?php echo helper::utf8_substr($val['app_desc'],0,70);?>
                                 </span>
                                 <p class="app-data">
-                                    <span>发布时间：&nbsp;&nbsp;<em><?php echo date("Y-m-d",$val['app_update_time']);?></em></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <span>剩余时间：&nbsp;&nbsp;<em><?php echo $val['left_time']; ?></em></span>
+                                    <span>发布时间：&nbsp;&nbsp;<em><?php echo date("Y-m-d",$val['start_time']);?></em></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <span>剩余时间：&nbsp;&nbsp;<em><?php echo LibUtil::STSH($val['end_time']); ?></em></span>
                                 </p>
                             </div>
                             <div class="app-btn">

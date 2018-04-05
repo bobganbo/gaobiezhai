@@ -199,4 +199,35 @@ class LibUtil{
 
         return $_str;
     }
+
+    /**
+     * 计算还剩余天时分
+     * @param int $unixEndTime
+     * @return string
+     */
+    public static function STSH($unixEndTime=0)
+    {
+        if ($unixEndTime <= time()) { // 如果过了活动终止日期
+            return '0天0时0分';
+        }
+
+        // 使用当前日期时间到活动截至日期时间的毫秒数来计算剩余天时分
+        $time = $unixEndTime - time();
+
+        $days = 0;
+        if ($time >= 86400) { // 如果大于1天
+            $days = (int)($time / 86400);
+            $time = $time % 86400; // 计算天后剩余的毫秒数
+        }
+
+        $xiaoshi = 0;
+        if ($time >= 3600) { // 如果大于1小时
+            $xiaoshi = (int)($time / 3600);
+            $time = $time % 3600; // 计算小时后剩余的毫秒数
+        }
+
+        $fen = (int)($time / 60); // 剩下的毫秒数都算作分
+
+        return $days.'天'.$xiaoshi.'时'.$fen.'分';
+    }
 }

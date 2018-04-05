@@ -10,6 +10,17 @@ $(document).ready(function () {
     ]
     });
 });
+
+function timestampToTime(timestamp) {
+    var date = new Date(timestamp * 1000);//时间戳为10位需*1000，时间戳为13位的话不需乘1000
+    Y = date.getFullYear() + '-';
+    M = (date.getMonth()+1 < 10 ? '0'+(date.getMonth()+1) : date.getMonth()+1) + '-';
+    D = date.getDate() + ' ';
+    h = date.getHours() + ':';
+    m = date.getMinutes() + ':';
+    s = date.getSeconds();
+    return Y+M+D+h+m+s;
+}
 /*显示添加或者是编辑层*/
 function show_edit(app_id) {
     if (app_id > 0) {
@@ -47,6 +58,11 @@ function show_edit(app_id) {
                 $("#last_cate_id").attr("disabled", true);
                 /*显示历史版本信息*/
                 $("#history_list").html('');
+
+                $('#limit_num').val(ret.apps.list[0].limit_num);
+
+                $('#end_time').val(timestampToTime(ret.apps.list[0].end_time));
+
                 //alert(hist.length);
                 if (hist.length > 0) {
                     // his_html = "";

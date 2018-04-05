@@ -1,5 +1,6 @@
 <?php require_once(dirname(__FILE__).'/inc_header.php');?>
-<script language="javascript" type="text/javascript" src="templates/css/js/app.js" ></script>
+<script language="javascript" type="text/javascript" src="templates/css/js/app.js?x=23" ></script>
+<script language="javascript" type="text/javascript" src="templates/css/js/My97DatePicker/WdatePicker.js"></script>
 <script language="javascript" type="text/javascript">
 <?php if(isset($page['get']['jsfun']) && $page['get']['jsfun']=='add'){
     echo 'window.onload=function(){show_edit(0);}';
@@ -16,7 +17,7 @@ $(window).ready(function(){
 <!-- 右侧区域开始 -->
 <div class="right_body">
     <!-- 当前位置开始 -->
-    <div class="snav">当前位置：<a href="frame.php">管理首页</a>&nbsp;&nbsp;»&nbsp;&nbsp;应用列表</div><!-- 当前位置结束 -->
+    <div class="snav">当前位置：<a href="frame.php">管理首页</a>&nbsp;&nbsp;»&nbsp;&nbsp;圈子列表</div><!-- 当前位置结束 -->
 
     <!-- 右侧主体内容开始 -->
     <div class="mbody">
@@ -71,7 +72,6 @@ $(window).ready(function(){
                     <th width="70">图片</th>
                     <th width="80" class="alignleft">类型</th>
                     <th width="80" class="alignleft">访问量</th>
-                    <th width="80" class="alignleft">加入量</th>
                     <th width="50" class="alignleft">评分</th>
                     <th width="80" class="alignleft">更新时间</th>
                     <th width="200"></th>
@@ -92,7 +92,6 @@ $(window).ready(function(){
                     <td><?php echo(' <font color=blue>'.count($vapp['resource']).' 图</font>');?></td>
                     <td class="alignleft"><?php echo $vapp['app_type'];?></td>
                     <td class="alignleft"><?php echo $vapp['app_visitors'];?></td>
-                    <td class="alignleft"><?php echo $vapp['app_down'];?></td>
                     <td class="alignleft"><?php echo $vapp['app_grade'];?></td>
                     <td class="alignleft"><?php if(strtotime(date('Y-m',time()))<=$vapp['app_update_time']){?> <font color="red"> <?php echo date('Y-m-d',$vapp['app_update_time']); ?></font><?php }else{ echo date('Y-m-d',$vapp['app_update_time']); }?></td>
                     <td>
@@ -123,7 +122,7 @@ $(window).ready(function(){
                     <table class="tb3" id="tab001">
                         <input type="hidden" size="50" class="ipt"  id="app_id"   name="app_id" value="0"/>
                         <tr>
-                            <td width="100">应用名称：</td>
+                            <td width="100">圈子名称：</td>
                             <td  class="alignleft"><input type="text" size="50" class="ipt"  id="app_title"   name="app_title" value=""/>
                             <span>* 不能为空</span>
                             </td>
@@ -161,6 +160,17 @@ $(window).ready(function(){
                             <td  class="alignleft"><input type="text" class="ipt" id="app_comments" name="app_comments"  value=""/></td>
 
                         </tr>
+
+                        <tr>
+                            <td>限制人数：</td>
+                            <td  class="alignleft"><input type="text" class="ipt" id="limit_num" name="limit_num"  value="0"/></td>
+                            <td>圈子截止时间：</td>
+                            <td  class="alignleft">
+                                <input class="Wdate" id="end_time" name="end_time" type="text" onClick="WdatePicker({el:this,dateFmt:'yyyy-MM-dd HH:mm:ss'})" value=""/>
+                            </td>
+                        </tr>
+
+
                         <tr>
                             <td>推荐星级：</td>
                             <td  class="alignleft" colspan="3"><input type="text" class="ipt" id="app_recomment" name="app_recomment"  value="6"/>
@@ -180,7 +190,7 @@ $(window).ready(function(){
                             </td>
                         </tr>
                         <tr>
-                            <td>应用详情：</td>
+                            <td>圈子详情：</td>
                             <td colspan="3">
                             <div style="position:absolute;">
                             <textarea name="app_desc" id="app_desc" style="display:none"></textarea>
