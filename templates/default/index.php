@@ -150,9 +150,6 @@
                     <?php }?>
                     </div>
                 </div>
-
-                <p class="line-t-10"></p>
-                <div style="width: 230px;height:200px;overflow: hidden; "><?php $c->get_ad(17); ?></div>
                 <p class="line-t-10"></p>
                 <?php $a = $c->get_list(array('count'=>0,'cate_id'=>19,'pagesize'=>8,'type'=>1,'rewrite'=>SITE_REWRITEURL));
                 //print_r($a);?>
