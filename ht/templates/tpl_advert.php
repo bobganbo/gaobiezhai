@@ -60,7 +60,7 @@
                     
                     <td >
                         <a class="but2 but2s" href="javascript:void(0);" onClick="del_adpace(<?php echo $v['area_id'] ?>);">删除</a>
-                        <a class="but2 but2s" href="javascript:void(0);" onClick="show_ad(<?php echo $v['area_id']; ?>,<?php echo $v['type']; ?>);">管理广告</a>
+                        <a class="but2 but2s" href="javascript:void(0);" onClick="show_ad(<?php echo $v['area_id']; ?>,<?php echo $v['type']?$v['type']:2; ?>);">管理广告</a>
                         <a class="but2 but2s" href="javascript:void(0);" onClick="edit_adpace(<?php echo $v['area_id'];?>);">修改</a>   
                     </td>
                 </tr>
