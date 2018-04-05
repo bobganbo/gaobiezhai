@@ -55,8 +55,7 @@
                             </div>
                             <div class="app-btn">
                                 <a class="btn-down" href="<?php echo $val['surl']; ?>">申请加入</a>
-                                <br /><br />
-                                <span>访问:<em><?php echo $val['app_down']; ?>次</em></span>
+                                <br />
                             </div>
                           </div>
                           <?php } }else{ echo '<div class="h788"><span>没有找到数据</span></div>';}?>

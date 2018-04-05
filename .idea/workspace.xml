@@ -25,20 +25,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="list_app.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="list_app.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/default/list_app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.655172" vertical-offset="615" max-vertical-offset="1660">
-              <caret line="52" column="104" selection-start-line="52" selection-start-column="74" selection-end-line="52" selection-end-column="104" />
+            <state vertical-scroll-proportion="0.19354838" vertical-offset="1020" max-vertical-offset="1640">
+              <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/default/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.71672356" vertical-offset="300" max-vertical-offset="4180">
+            <state vertical-scroll-proportion="-6.6666665" vertical-offset="300" max-vertical-offset="4180">
               <caret line="36" column="124" selection-start-line="36" selection-start-column="124" selection-end-line="36" selection-end-column="124" />
               <folding />
             </state>
@@ -113,8 +113,8 @@
         <option value="$PROJECT_DIR$/ht/templates/tpl_app.php" />
         <option value="$PROJECT_DIR$/ht/app.php" />
         <option value="$PROJECT_DIR$/core/lib/LibUtil.class.php" />
-        <option value="$PROJECT_DIR$/templates/default/list_app.php" />
         <option value="$PROJECT_DIR$/templates/default/index.php" />
+        <option value="$PROJECT_DIR$/templates/default/list_app.php" />
       </list>
     </option>
   </component>
@@ -760,18 +760,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/default/list_app.php">
+    <entry file="file://$PROJECT_DIR$/templates/default/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.655172" vertical-offset="615" max-vertical-offset="1660">
-          <caret line="52" column="104" selection-start-line="52" selection-start-column="74" selection-end-line="52" selection-end-column="104" />
+        <state vertical-scroll-proportion="-6.6666665" vertical-offset="300" max-vertical-offset="4180">
+          <caret line="36" column="124" selection-start-line="36" selection-start-column="124" selection-end-line="36" selection-end-column="124" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/default/index.php">
+    <entry file="file://$PROJECT_DIR$/templates/default/list_app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71672356" vertical-offset="300" max-vertical-offset="4180">
-          <caret line="36" column="124" selection-start-line="36" selection-start-column="124" selection-end-line="36" selection-end-column="124" />
+        <state vertical-scroll-proportion="0.19354838" vertical-offset="1020" max-vertical-offset="1640">
+          <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
           <folding />
         </state>
       </provider>
