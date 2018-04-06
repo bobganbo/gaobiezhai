@@ -148,7 +148,6 @@ if (intval($cid) > 0) {
     }
 }
 // 2.2)判断分类下内容页面模板，资讯详情页，应用详情页，应用历史版本页
-
 if ($tpl == 'content_app') {
     //需要先登录，才允许进入到聊天室
     $isLogin = LibAuth::isLogin(false);
@@ -171,13 +170,12 @@ if ($tpl == 'content_app') {
         exit;
     }
     //审核中，跳转到审核页
-    $isApply = $c->isApplyToRoom(LibAuth::$userId,$id);
+    $isApply = $c->isApplyToRoom(LibAuth::$userId,$id,$con['app_title'],LibAuth::$userName);
     if($isApply){
         $tmp_file=  '/templates/default/jump.php';
         $status = -3;
         require(dirname(__FILE__) . $tmp_file);
         exit;
-
     }
     //判断下该用户是否有进入该聊天室的权限，0：没权限，1：审核中，2：有权限
     $isAuth = $c->isAuthToRoom(LibAuth::$userId,$id);

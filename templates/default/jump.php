@@ -21,7 +21,7 @@
                         <?php }elseif($status == -2){?>
                             该聊天室已满员，请进入其它房间<span id='djsSapn'  style='background:yellow;height:20px;width:30px;'>3</span> 秒后将跳转到首页
                         <?php }elseif($status == -3){?>
-
+                            系统检测到您已申请加入该聊天室，待审核通过~
                         <?php }else{?>
                             系统检测到您未授权加入该群聊天室<span id='djsSapn'  style='background:yellow;height:20px;width:30px;'>3</span> 秒后将跳转到首页
                         <?php }?>

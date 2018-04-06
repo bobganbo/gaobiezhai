@@ -90,15 +90,28 @@ class common
      * 判断某个用户是否正在申请进房
      * @param $userId
      * @param $roomId
+     * @param $roomName 房间名称
+     * @param $userName 用户昵称
      */
-    public function isApplyToRoom($userId,$roomId){
+    public function isApplyToRoom($userId,$roomId,$roomName,$userName){
         $isApply = false;
         $userId = intval($userId);
         $roomId = intval($roomId);
-        $sql ="select * from ". TB_PREFIX ."user_room_apply where userId = {$userId} and roomId = {$roomId} limit 1";
+        $sql ="select * from ". TB_PREFIX ."user_room_apply where uid = {$userId} and room_id = {$roomId} limit 1";
         $rs = $this->dbm->query($sql);
-        if(!empty($rs['list'][0]) && $rs['list'][0]['isAudit'] == 0){
-            $isApply = true;
+        if(!empty($rs['list'][0])){
+            if($rs['list'][0]['status'] == 0){
+                $isApply = true;
+            }
+        }else{
+            //没有记录的情况
+            $time = time();
+            $sql = "insert into ".TB_PREFIX ."user_room_apply(`room_id`,`room_name`,`uid`,`uname`,`apply_time`) values
+                    ({$roomId},'{$roomName}',{$userId},'{$userName}',{$time})";
+            $rs = $this->dbm->query_insert($sql);
+            if(!empty($rs['autoid'])){
+               $isApply = true;
+            }
         }
         return $isApply;
     }

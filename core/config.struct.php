@@ -36,6 +36,7 @@ $menu = array(
             //array('title' => '图片本地化', 'url' => 'download.php',),
 			array('title' => '推荐位', 'url' => 'recommend.php?type=0',),
             //array('title' => '应用专题', 'url' => 'special.php?type=3',),
+            array('title' => '申请列表','url' => 'apply.php?type=0')
             ),
         ),
     array('title' => '资讯管理',
