@@ -12,7 +12,7 @@ define("SITE_PATH", "/"); //站点安装路径，默认为根目录
  * 以下参数为可后台编辑
  */
 define("SITE_NAME", "告别宅"); //站点名称
-define("SITE_URL", "http://fortest.gaobiezhai.com");//站点域名
+define("SITE_URL", "http://test.gaobiezhai.cn");//站点域名
 define("SITE_LOGO", "/upload/logo.png"); //站点LOGO
 define("UPLOAD_PATH", "/img/"); //资源上传路径,相对于upload
 define("SITE_REWRITEURL", "0"); //是否开启伪静态重写 0==不开启，1==开启
@@ -31,7 +31,7 @@ define("SEO_DESCRIPTION", "这是一个认识附近新朋友的网站"); //首�
 define("CONTENT_MOBILE", "1"); //是否开启手机版
 define("WAP_URL", ""); //手机版独立域名
 define("WAP_LOGO", "/upload/logos.png"); //手机版图片
-define("WAP_TPL", "m"); //手机版模板
+define("WAP_TPL", "default"); //手机版模板
 define("CACHE_TIME", "");
 define("UNION_ID", "");
 

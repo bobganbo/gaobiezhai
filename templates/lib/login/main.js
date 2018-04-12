@@ -28,9 +28,10 @@ jQuery(document).ready(function($){
 	});
 
     $('.login-out').on('click',function(event){
-        //event.preventDefault();
+        event.preventDefault();
         $.post("/loginout.php",{},function(data){
             var  data = eval("("+data+")");
+            //console.log(data);return false;   
             if(data.code==1){
                 $login_out.removeClass('is-visible');
                 $main_nav.addClass('is-visible');

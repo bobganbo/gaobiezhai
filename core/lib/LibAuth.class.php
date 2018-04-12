@@ -80,7 +80,7 @@ class LibAuth{
         if ($autoGo) {
             //默认未登录跳转到
             if (!$result) {
-                header('Location:/index.php?url=http://localhost.appcms.work.com/' . urlencode($_SERVER['REQUEST_URI']));//登录后进行跳转
+                header('Location:/index.php?url=http://test.gaobiezhai.cn/' . urlencode($_SERVER['REQUEST_URI']));//登录后进行跳转
                 die;
             }
         } else {
@@ -97,9 +97,9 @@ class LibAuth{
         $time=time();//当前时间
         $sign=md5("{$userInfo['id']}|{$userInfo['uname']}|{$time}|" . self::$config['authKey']);
         $ck_name=$userInfo['id']."|".$userInfo['uname']."|".$time."|".$sign;
-        LibUtil::cookie(self::$cookieName,$ck_name);
-        LibUtil::cookie("ck_userid", $userInfo['id']);
-        LibUtil::cookie("ck_username", $userInfo['uname']);
+        LibUtil::cookie(self::$cookieName,$ck_name,86400,'/','.gaobiezhai.cn');
+        LibUtil::cookie("ck_userid", $userInfo['id'],86400,'/','.gaobiezhai.cn');
+        LibUtil::cookie("ck_username", $userInfo['uname'],86400,'/','.gaobiezhai.cn');
     }
 
     /**
@@ -107,13 +107,19 @@ class LibAuth{
      * @throws Exception
      */
     public static function clearUserCookie(){
-        LibUtil::cookie(self::$cookieName,null);
-        LibUtil::cookie("ck_userid",null);
-        LibUtil::cookie("ck_username",null);
-        setcookie("Cuser", "", time() - 3600,'/','.appcms.work.com');
-        setcookie("ck_userid", "", time() - 3600,'/','.appcms.work.com');
-        setcookie("ck_username", "", time() - 3600,'/','.appcms.work.com');
-    }
+        LibUtil::cookie(self::$cookieName,null,0,'/','.gaobiezhai.cn');
+        LibUtil::cookie("ck_userid",null,0,'/','.gaobiezhai.cn');
+        LibUtil::cookie("ck_username",null,0,'/','.gaobiezhai.cn');
+        $_SESSION = array(); //清除SESSION值.  
+        if(isset($_COOKIE[session_name()])){  //判断客户端的cookie文件是否存在,存在的话将其设置为过期.  
+           setcookie(session_name(),'',time()-1,'/','.gaobiezhai.cn');  
+        }  
+        session_destroy();  //清除服务器的sesion文件 
+
+        //setcookie("Cuser", "", time() - 3600);
+        //setcookie("ck_userid", "", time() - 3600);
+        //setcookie("ck_username", "", time() - 3600);
+     }
 
 
 }

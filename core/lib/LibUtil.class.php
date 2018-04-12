@@ -19,7 +19,7 @@ class LibUtil{
         if(!$name){
             throw new Exception("cookie参数调用错误");
         }
-        if(empty($value)){
+        if($value ===''){
             //取cookie
             return isset($_COOKIE[$name])?$_COOKIE[$name]:'';
         }

@@ -151,7 +151,7 @@ function m__save_ads() {
 
 function m__edit_ads() {
     global $dbm, $c;
-    $area_id = isset($_POST['area_id'])?$_POST['area_id']:'';
+    $area_id = isset($_POST['area_id'])?$_POST['area_id']:$_GET['area_id'];
     $params['area_id'] = $area_id;
     $res = $c -> get_recommend($params);
     $area_html = $res['area_html'];

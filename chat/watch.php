@@ -9,7 +9,9 @@
 if (PHP_SAPI != 'cli') {
     exit('Access denied.');
 }
-$res = exec("/bin/ps -ef|/bin/grep '/data/htdocs/gaobiezhai/chat/index.php'|/bin/grep -v 'grep'");
+$res = exec("ps -ef | grep '/gaobiezhai/chat/index.php'| grep -v 'grep' ");
+
+print_r($res);
 if (empty($res)) {
     exec("/usr/local/php/bin/php /data/htdocs/gaobiezhai/chat/index.php >/dev/null  &");
 }

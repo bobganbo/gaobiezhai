@@ -14,19 +14,18 @@
 require_once(dirname(__FILE__) . "/../core/init.php");
 
 $time_start = helper :: getmicrotime(); //开始时间
-
 $dbm = new db_mysql(); //数据库类实例
+
 /**
  * 获取mysql版本信息
  */
 if ($dbm) {
-    $page['mysql_version'] = mysql_get_server_info();
+    //$page['mysql_version'] = mysql_get_server_info();
 } else {
     $page['mysql_version'] = "未连接数据库";
 } 
 $page['get'] = $_GET; //get参数的 m 和 ajax 参数是默认占用的，一个用来执行动作函数，一个用来判断是否启用模板还是直接输出JSON格式数据
 $page['post'] = $_POST;
-
 check_admin(); //判断用户是否登录
 
 /**
