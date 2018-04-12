@@ -140,6 +140,8 @@ jQuery(document).ready(function($){
                 //init_logined();
                 $url = GetQueryString('url');
                 window.location.href = decodeURIComponent($url);
+            }else{
+                alert(data.msg);
             }
         });
 

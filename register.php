@@ -15,8 +15,8 @@ foreach ($_POST as $k => $v) {
     $_POST[$k] = LibUtil::getStr($v);
 }
 $dbm = new db_mysql();
-$uname = $_POST['username'];
-$pwd = $_POST['password'];
+$uname = addslashes($_POST['username']);
+$pwd = addslashes($_POST['password']);
 $email = $_POST['email'];
 //$pwd = md5($_POST['password']);
 $vcode = $_POST['vcode'];//图片验证码
@@ -30,8 +30,8 @@ if(!LibVcode::verify($vcode)){
 //邮箱地址检测
 if(!LibUtil::checkEmail($email)){
 
-    //echo json_encode(array('code'=>0,'msg'=>'请输入正确的邮箱地址','data'=>''));
-    //exit;
+    echo json_encode(array('code'=>0,'msg'=>'请输入正确的邮箱地址','data'=>''));
+    exit;
 }
 
 $data = array(
@@ -42,6 +42,7 @@ $data = array(
 
 $sql  = "INSERT INTO ".TB_PREFIX."user (uname,pwd,email) VALUES('{$uname}','{$pwd}','{$email}')";
 $res = $dbm->query_insert($sql);
+
 //注册成功
 if($res['autoid']){
     $data['code'] = 1;
