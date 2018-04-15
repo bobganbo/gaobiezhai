@@ -103,10 +103,11 @@
         //check login
         if(!checkLogin()){
             var uname = $.cookie('ck_username');
-            if(!uname){
+            var uid = $.cookie('ck_userid');
+            if(!uname || !uid){
                 return false;
             }
-            doLogin(uname);
+            doLogin(uname,uid);
         }
         //send message
         document.getElementById('message').addEventListener('keydown',function(e){
@@ -144,20 +145,27 @@
         });
     }
 
-    function doLogin( name ){
+    function UrlValue(name) { //获取页面URL地址参数方法
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i"); //声明正则表达式
+        var r = window.location.search.substr(1).match(reg); //用正则表达式匹配URL地址参数
+        if (r != null) return unescape(r[2]); return null; //如果匹配到参数，返回参数结果，如果没有匹配到，返回null
+    }
+
+    function doLogin( name ,uid){
         //获取头像
         var avar = parseInt(Math.random() * 10);
         if( avar == 0 ) avar = 1;
         avar = 'a' + avar + '.jpg';
+        var roomId =UrlValue('id');
         // 创建一个Socket实例
-        ws = new WebSocket('ws://119.29.156.114:8090/');
+        ws = new WebSocket('ws://192.168.80.133:8090/');
         var loading = layer.load(0, {shade: false}); //0代表加载的风格，支持0-2
         ws.onopen = function(){
             //console.log("握手成功");
             layer.close(loading);
-            localStorage.setItem('userInfo', '{"uname" : "' + name + '", "avar" : "' + avar + '"}');
+            localStorage.setItem('userInfo', '{"uname" : "' + name + '", "avar" : "' + avar + '","roomid" : "' + roomId + '","uid" : "' + uid +'"}');
             $("#tips").text('您好：' + name);
-            var msg = '{"type" : "1", "user" : "' + name + '", "avar" : "' + avar + '"}';
+            var msg = '{"type" : "1", "user" : "' + name + '", "avar" : "' + avar + '","roomid" : "' + roomId + '","uid":"'+uid+'"}';
             ws.send( msg );
         };
 
@@ -193,14 +201,14 @@
 
     //退出登录
     function loginOut(){
-        var msg = '{"type" : "4", "msg" : "login out"}';
+        var roomId =UrlValue('id');
+        var msg = '{"type" : "4", "msg" : "login out","roomid":"'+roomId+'"}';
         ws.send( msg );
         localStorage.setItem('userInfo', '');
-
         layer.load(0, {shade: false}); //0代表加载的风格，支持0-2
         setTimeout( function(){
-            window.location.reload();
-        }, 2);
+            window.parent.location = '/';
+        }, 3);
     }
 
     //提示上线
@@ -242,7 +250,7 @@
         if( userinfo ){
             //socket send
             var msg = '{"type" : "3", "user" : "' + userinfo.uname + '", "avar" : "' + userinfo.avar + '", "stime" : "'
-                + times + '", "msg": "' + $("#message").val() + '"}';
+                + times + '", "msg": "' + $("#message").val() + '","roomid":"'+userinfo.roomid+'","uid":"'+userinfo.uid+'"}';
             // console.log(msg);
             ws.send( msg );
 

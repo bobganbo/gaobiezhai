@@ -18,8 +18,6 @@ class SocketChat
     private $currentRoomid = 6;//当前房间id
     private $currentUid = 1;
 
-    private static $users = [];
-
 
     public function __construct( $port = 0 )
     {
@@ -40,7 +38,6 @@ class SocketChat
         self::$connectPool[] = $this->master;
 
         while( true ){
-
             $readFds = self::$connectPool;
             //阻塞接收客户端链接
             @socket_select( $readFds, $writeFds, $e = null, $this->timeout );
@@ -59,16 +56,8 @@ class SocketChat
                         //超过最大连接数
                         if( count( self::$connectPool ) > self::$maxConnectNum )
                             continue;
-
                         //加入连接池
                         $this->connect( $client );
-
-                        //连接握手
-                        $user = [
-                            'socket' => $client,
-                            'hand'   => false
-                        ];
-                        self::$users[(int)$client] = $user;
                     }
 
                 }else{
@@ -79,14 +68,13 @@ class SocketChat
                         $this->disConnect( $socket );
                     }else{
                         //未握手 先握手
-                        if(!self::$users[(int)$socket]['hand']){//!$this->handShake
+                        if( !$this->handShake ){
 
                             $this->doHandShake( $socket, $buffer );
                         }else{
 
                             //如果是已经握完手的数据，广播其发送的消息
                             $buffer = $this->decode( $buffer );
-                            $this->runLog("buffer:".$buffer);
                             $this->parseMessage( $buffer, $socket );
                         }
                     }
@@ -103,8 +91,8 @@ class SocketChat
         //msg type  1 初始化  2 通知  3 一般聊天  4 断开链接  5 获取在线用户 6 通知下线
         $message = json_decode( $message, true );
         $this->currentRoomid = $message['roomid'];
-        $this->runLog("decode buffer:".var_export($message,true));
-
+        $this->currentUid = $message['uid'];
+        $this->runLog("current socket:".$socket);
         switch( $message['type'] ){
             case 1:
                 $this->bind( $socket, $message );
@@ -115,8 +103,9 @@ class SocketChat
                     'avar' => $message['avar']
                 ];
                 $this->sendToAll( $socket,  $msg );
+
                 //更新在线用户
-                $this->freshOnlineUser();
+                $this->freshOnlineUser($socket);
 
                 break;
             case 3:
@@ -126,14 +115,13 @@ class SocketChat
                 //通知用户离线
                 $msgOutline = [
                     'type' => '6',
-                    'user' => self::$chatUser[$this->currentRoomid][(int)$socket]['user']
+                    'user' => self::$chatUser[$this->currentRoomid][$this->currentUid]['user']
                 ];
-                $this->tellOnlineInfo( $msgOutline );
+                $this->tellOnlineInfo( $socket,$msgOutline );
                 //断开 要离线的用户
                 $this->disConnect( $socket );
-
                 //更新在线用户
-                $this->freshOnlineUser();
+                $this->freshOnlineUser($socket);
 
                 break;
             default:
@@ -144,19 +132,26 @@ class SocketChat
     //用户--链接 绑定
     public function bind( $socket, $user )
     {
-        self::$chatUser[$this->currentRoomid][(int) $socket] = [
+        if(isset(self::$chatUser[$this->currentRoomid][$this->currentUid])) {
+             //$oldSocket = self::$chatUser[$this->currentRoomid][$this->currentUid]['socket'];
+             //解绑旧的socket
+             //$this->disConnect($oldSocket);
+             //$this->unBind($oldSocket);
+        }
+        self::$chatUser[$this->currentRoomid][$this->currentUid] = [
             'user' => $user['user'],
             'avar' => $user['avar'],
             'roomid' => $this->currentRoomid,
-            'uid'  => $user['uid']
+            //'uid'    => $this->currentUid,
+            'socket' => (int)$socket,
         ];
+        $this->runLog("bind:".var_export(self::$chatUser,true));
     }
 
     //用户--链接 解绑
     public function unBind( $socket )
     {
-        unset( self::$chatUser[$this->currentRoomid][(int) $socket] );
-        unset(self::$users[(int)$socket]);
+        unset( self::$chatUser[$this->currentRoomid][$this->currentUid]);
     }
 
     //获取在线用户
@@ -166,45 +161,70 @@ class SocketChat
     }
 
     //更新在线用户
-    public function freshOnlineUser()
+    public function freshOnlineUser($socket)
     {
         $msgOnlie = [
             'type' => "5",
             'msg' => 'online user',
             'info' => self::$chatUser[$this->currentRoomid]
         ];
-        $this->tellOnlineInfo( $msgOnlie );
+        $this->tellOnlineInfo($socket,$msgOnlie );
     }
 
     //广播所有的客户端(排除自己和master)
     public function sendToAll( $client, $mess )
     {
         //拼装发送者的名称
-        $mess['user'] = self::$chatUser[$this->currentRoomid][(int) $client]['user'];
+        $mess['user'] = self::$chatUser[$this->currentRoomid][$this->currentUid]['user'];
         $mess['stime'] = date('Y-m-d H:i:s');
         //只广播同一房间的用户
-        $roomid = self::$chatUser[$this->currentRoomid][(int) $client]['roomid'];
-        $this->runLog("sendroomid:".$roomid.",mess:".var_export($mess,true));
+        $userInfo = self::$chatUser[$this->currentRoomid];
+        foreach($userInfo as $user){
+            if($user['socket'] == $client){
+                continue;
+            }
+            $this->send($user['socket'],$mess);
+        }
+
+        /*
         foreach( self::$connectPool as $socket ){
             if( $socket != $this->master && $socket != $client  ){
-                if($roomid == self::$chatUser[$this->currentRoomid][(int)$socket]['roomid']){
+                if($roomid == self::$chatUser[$this->currentRoomid][$this->currentUid]['roomid']){
+                    self::log("roomid:".$roomid.",mess".json_encode($mess));
                     $this->send( $socket, $mess );
-                    $this->runLog("socket:".$socket.",mess:".var_export($mess,true));
                 }
             }
-        }
+        }*/
     }
 
     //广播客户端在线用户信息
-    public function tellOnlineInfo( $mess )
+    public function tellOnlineInfo($client,$mess )
     {
+        //只广播同一房间的用户
+        //$roomid = self::$chatUser[$this->currentRoomid][$this->currentUid]['roomid'];
+
+        //只广播同一房间的用户
+        $userInfo = self::$chatUser[$this->currentRoomid];
+
+
+        foreach($userInfo as $user){
+            if($user['socket'] == $client){
+                //continue;
+            }
+            $this->send($user['socket'],$mess);
+        }
+
+
+        /*
         foreach( self::$connectPool as $socket ){
-            if( $socket != $this->master ){
-                if(isset(self::$chatUser[$this->currentRoomid][(int)$socket])){
+            if( $socket != $this->master){
+                if(isset(self::$chatUser[$this->currentRoomid][$this->currentUid]) && $roomid == self::$chatUser[$this->currentRoomid][$this->currentUid]['roomid']){
+                    $this->runLog($socket."_".var_export($mess));
                     $this->send( $socket, $mess );
                 }
             }
         }
+        */
     }
 
     //处理发送信息
@@ -217,6 +237,7 @@ class SocketChat
     //握手协议
     function doHandShake($socket, $buffer)
     {
+        $this->runLog("do hand shake {$socket}");
         list($resource, $host, $origin, $key) = $this->getHeaders($buffer);
         $upgrade  = "HTTP/1.1 101 Switching Protocol\r\n" .
             "Upgrade: websocket\r\n" .
@@ -224,8 +245,7 @@ class SocketChat
             "Sec-WebSocket-Accept: " . $this->calcKey($key) . "\r\n\r\n";  //必须以两个回车结尾
 
         socket_write($socket, $upgrade, strlen($upgrade));
-        //$this->handShake = true;
-        self::$users[(int)$socket]['hand'] = true;
+        $this->handShake = true;
         return true;
     }
 
@@ -306,8 +326,7 @@ class SocketChat
         $this->unBind( $socket );
         $this->runLog( $socket . " DISCONNECTED!" );
         if ($index >= 0){
-            //array_splice( self::$connectPool, $index, 1 );
-            unset(self::$connectPool[$index]);
+            array_splice( self::$connectPool, $index, 1 );
         }
     }
 

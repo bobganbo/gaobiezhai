@@ -20,7 +20,7 @@
                             <p class="close"  <?php if($k==0) echo "style='display:none;'" ?>>
                                 <span class="sort-num sort <?php if($k>2){echo 'sort-num-grey';}?>"><?php echo ($k+1);?></span>
                                 <a href="<?php echo $v['surl'];?>" class="col-6b txt-overflw description"><?php echo $v['app_title'];?></a>
-                                <span class="col-94 download-num"><?php echo $v['app_down'];?>次</span>
+                                <span class="col-94 download-num"><?php echo LibUtil::STSH($val['end_time']);?></span>
                             </p>
                         </li>
                         <?php }?>
@@ -48,7 +48,7 @@
                             <p class="close"  <?php if($k==0) echo "style='display:none;'" ?>>
                                 <span class="sort-num sort <?php if($k>2){echo 'sort-num-grey';}?>"><?php echo ($k+1);?></span>
                                 <a href="<?php echo $v['surl'];?>" class="col-6b txt-overflw description"><?php echo $v['app_title'];?></a>
-                                <span class="col-94 download-num"><?php echo $v['app_down'];?>次</span>
+                                <span class="col-94 download-num"><?php echo LibUtil::STSH($val['end_time']);?></span>
                             </p>
                         </li>
                         <?php }?>

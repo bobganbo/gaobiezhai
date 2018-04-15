@@ -83,13 +83,13 @@ function do_search(){
                     <form class="cd-form">
                         <p class="fieldset">
                             <label class="image-replace cd-email" for="signin-email">邮箱</label>
-                            <input class="full-width has-padding has-border" id="signin-email" type="email" placeholder="邮箱">
+                            <input class="full-width has-padding has-border" id="signin-email" type="email" placeholder="邮箱" style="width: -moz-available;">
                             <span class="cd-error-message">Error message here!</span>
                         </p>
 
                         <p class="fieldset">
                             <label class="image-replace cd-password" for="signin-password">密码</label>
-                            <input class="full-width has-padding has-border" id="signin-password" type="password"  placeholder="密码">
+                            <input class="full-width has-padding has-border" id="signin-password" type="password"  placeholder="密码" style="width: -moz-available;">
                             <span class="cd-error-message">Error message here!</span>
                         </p>
 
@@ -107,19 +107,19 @@ function do_search(){
                     <form class="cd-form">
                         <p class="fieldset">
                             <label class="image-replace cd-username" for="signup-username">用户名</label>
-                            <input class="full-width has-padding has-border" id="signup-username" type="text" placeholder="用户名">
+                            <input class="full-width has-padding has-border" id="signup-username" type="text" placeholder="用户名" style="width: -moz-available;">
                             <span class="cd-error-message">Error message here!</span>
                         </p>
 
                         <p class="fieldset">
                             <label class="image-replace cd-email" for="signup-email">邮箱</label>
-                            <input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="邮箱">
+                            <input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="邮箱" style="width: -moz-available;">
                             <span class="cd-error-message">Error message here!</span>
                         </p>
 
                         <p class="fieldset">
                             <label class="image-replace cd-password" for="signup-password">密码</label>
-                            <input class="full-width has-padding has-border" id="signup-password" type="password"  placeholder="密码">
+                            <input class="full-width has-padding has-border" id="signup-password" type="password"  placeholder="密码" style="width: -moz-available;">
                             <span class="cd-error-message">Error message here!</span>
                         </p>
 

@@ -33,14 +33,12 @@
                                     <?php echo helper::utf8_substr($val['app_desc'],0,70);?>
                                 </span>
                                         <p class="app-data">
-                                            <span>发布时间：&nbsp;&nbsp;<em><?php echo date("Y-m-d",$val['app_update_time']);?></em></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                            <span>剩余时间：&nbsp;&nbsp;<em><?php echo $val['left_time']; ?></em></span>
+                                            <span>发布时间：&nbsp;&nbsp;<em><?php echo date("Y-m-d",$val['start_time']);?></em></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <span>剩余时间：&nbsp;&nbsp;<em><?php echo LibUtil::STSH($val['end_time']); ?></em></span>
                                         </p>
                                     </div>
                                     <div class="app-btn">
                                         <a class="btn-down" href="<?php echo $val['surl']; ?>">申请加入</a>
-                                        <br /><br />
-                                        <span>访问:<em><?php echo $val['app_down']; ?>次</em></span>
                                     </div>
                                 </div>
                             <?php } }else{ echo '<div class="h788"><span>没有找到数据</span></div>';}?>

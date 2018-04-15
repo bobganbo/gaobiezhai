@@ -100,6 +100,9 @@ class LibAuth{
         LibUtil::cookie(self::$cookieName,$ck_name,86400,'/','.gaobiezhai.cn');
         LibUtil::cookie("ck_userid", $userInfo['id'],86400,'/','.gaobiezhai.cn');
         LibUtil::cookie("ck_username", $userInfo['uname'],86400,'/','.gaobiezhai.cn');
+        //LibUtil::cookie(self::$cookieName,$ck_name,86400,'/');
+        //LibUtil::cookie("ck_userid", $userInfo['id'],86400,'/');
+        //LibUtil::cookie("ck_username", $userInfo['uname'],86400,'/');
     }
 
     /**

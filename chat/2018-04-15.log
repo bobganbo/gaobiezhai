@@ -1,0 +1,4348 @@
+2018-04-15 05:27:01  
+Resource id #12 CONNECTED!
+2018-04-15 05:27:01  2018-4-15 05:27:01
+2018-04-15 05:27:01  do hand shake Resource id #12
+2018-04-15 05:27:01  
+2018-04-15 05:27:01  Resource id #12_
+2018-04-15 05:27:32  
+Resource id #18 CONNECTED!
+2018-04-15 05:27:32  2018-4-15 05:27:32
+2018-04-15 05:27:32  do hand shake Resource id #18
+2018-04-15 05:27:32  roomid:2,mess{"type":"2","msg":"online","avar":"a3.jpg","user":"aaa","stime":"2018-04-15 05:27:32"}
+2018-04-15 05:27:32  Resource id #12_
+2018-04-15 05:27:32  Resource id #18_
+2018-04-15 05:28:22  Resource id #18 DISCONNECTED!
+2018-04-15 05:28:32  
+Resource id #26 CONNECTED!
+2018-04-15 05:28:32  2018-4-15 05:28:32
+2018-04-15 05:28:32  do hand shake Resource id #26
+2018-04-15 05:28:32  roomid:2,mess{"type":"2","msg":"online","avar":"a8.jpg","user":"aaa","stime":"2018-04-15 05:28:32"}
+2018-04-15 05:28:32  Resource id #12_
+2018-04-15 05:28:32  Resource id #26_
+2018-04-15 05:28:56  Resource id #12 DISCONNECTED!
+2018-04-15 05:28:59  
+Resource id #34 CONNECTED!
+2018-04-15 05:28:59  2018-4-15 05:28:59
+2018-04-15 05:28:59  do hand shake Resource id #34
+2018-04-15 05:28:59  roomid:2,mess{"type":"2","msg":"online","avar":"a7.jpg","user":"aaa","stime":"2018-04-15 05:28:59"}
+2018-04-15 05:28:59  Resource id #26_
+2018-04-15 05:28:59  Resource id #34_
+2018-04-15 05:29:31  Resource id #34 DISCONNECTED!
+2018-04-15 05:29:46  Resource id #26 DISCONNECTED!
+2018-04-15 05:35:23  Server Started : 2018-04-15 05:35:23
+2018-04-15 05:35:23  Listening on   : 127.0.0.1 port 8090
+2018-04-15 05:35:23  Master socket  : Resource id #7 
+
+2018-04-15 05:35:27  
+Resource id #12 CONNECTED!
+2018-04-15 05:35:27  2018-4-15 05:35:27
+2018-04-15 05:35:27  do hand shake Resource id #12
+2018-04-15 05:35:27  
+2018-04-15 05:35:27  Resource id #12_
+2018-04-15 05:35:33  
+Resource id #18 CONNECTED!
+2018-04-15 05:35:33  2018-4-15 05:35:33
+2018-04-15 05:35:33  do hand shake Resource id #18
+2018-04-15 05:35:33  
+2018-04-15 05:35:33  roomid:2,mess{"type":"2","msg":"online","avar":"a7.jpg","user":"bbb","stime":"2018-04-15 05:35:33"}
+2018-04-15 05:35:33  Resource id #12_
+2018-04-15 05:35:33  Resource id #18_
+2018-04-15 05:35:36  Resource id #18 DISCONNECTED!
+2018-04-15 05:35:46  
+Resource id #27 CONNECTED!
+2018-04-15 05:35:46  2018-4-15 05:35:46
+2018-04-15 05:35:46  do hand shake Resource id #27
+2018-04-15 05:35:47  roomid:2,mess{"type":"2","msg":"online","avar":"a4.jpg","user":"bbb","stime":"2018-04-15 05:35:47"}
+2018-04-15 05:35:47  Resource id #12_
+2018-04-15 05:35:47  Resource id #27_
+2018-04-15 05:35:51  Resource id #27 DISCONNECTED!
+2018-04-15 05:35:55  Resource id #12 DISCONNECTED!
+2018-04-15 05:35:58  
+Resource id #36 CONNECTED!
+2018-04-15 05:35:58  2018-4-15 05:35:58
+2018-04-15 05:35:58  do hand shake Resource id #36
+2018-04-15 05:35:58  
+2018-04-15 05:35:58  Resource id #36_
+2018-04-15 05:36:03  
+Resource id #42 CONNECTED!
+2018-04-15 05:36:03  2018-4-15 05:36:03
+2018-04-15 05:36:03  do hand shake Resource id #42
+2018-04-15 05:36:03  roomid:2,mess{"type":"2","msg":"online","avar":"a1.jpg","user":"bbb","stime":"2018-04-15 05:36:03"}
+2018-04-15 05:36:03  Resource id #36_
+2018-04-15 05:36:03  Resource id #42_
+2018-04-15 05:36:15  Resource id #42 DISCONNECTED!
+2018-04-15 05:36:18  
+Resource id #50 CONNECTED!
+2018-04-15 05:36:18  2018-4-15 05:36:18
+2018-04-15 05:36:18  do hand shake Resource id #50
+2018-04-15 05:36:18  roomid:2,mess{"type":"2","msg":"online","avar":"a4.jpg","user":"bbb","stime":"2018-04-15 05:36:18"}
+2018-04-15 05:36:18  Resource id #36_
+2018-04-15 05:36:18  Resource id #50_
+2018-04-15 05:36:21  Resource id #50 DISCONNECTED!
+2018-04-15 05:36:26  
+Resource id #58 CONNECTED!
+2018-04-15 05:36:26  2018-4-15 05:36:26
+2018-04-15 05:36:26  do hand shake Resource id #58
+2018-04-15 05:36:26  roomid:2,mess{"type":"2","msg":"online","avar":"a9.jpg","user":"bbb","stime":"2018-04-15 05:36:26"}
+2018-04-15 05:36:26  Resource id #36_
+2018-04-15 05:36:26  Resource id #58_
+2018-04-15 05:36:28  Resource id #58 DISCONNECTED!
+2018-04-15 05:36:30  
+Resource id #66 CONNECTED!
+2018-04-15 05:36:30  2018-4-15 05:36:30
+2018-04-15 05:36:30  do hand shake Resource id #66
+2018-04-15 05:36:30  roomid:2,mess{"type":"2","msg":"online","avar":"a3.jpg","user":"bbb","stime":"2018-04-15 05:36:30"}
+2018-04-15 05:36:30  Resource id #36_
+2018-04-15 05:36:30  Resource id #66_
+2018-04-15 05:36:35  Resource id #36 DISCONNECTED!
+2018-04-15 05:36:37  
+Resource id #74 CONNECTED!
+2018-04-15 05:36:37  2018-4-15 05:36:37
+2018-04-15 05:36:37  do hand shake Resource id #74
+2018-04-15 05:36:37  roomid:2,mess{"type":"2","msg":"online","avar":"a1.jpg","user":"aaa","stime":"2018-04-15 05:36:37"}
+2018-04-15 05:36:37  Resource id #66_
+2018-04-15 05:36:37  Resource id #74_
+2018-04-15 05:36:42  Resource id #74 DISCONNECTED!
+2018-04-15 05:36:47  Resource id #66 DISCONNECTED!
+2018-04-15 05:36:48  
+Resource id #83 CONNECTED!
+2018-04-15 05:36:48  2018-4-15 05:36:48
+2018-04-15 05:36:48  do hand shake Resource id #83
+2018-04-15 05:36:48  Resource id #83_
+2018-04-15 05:37:57  
+Resource id #88 CONNECTED!
+2018-04-15 05:37:57  2018-4-15 05:37:57
+2018-04-15 05:37:57  do hand shake Resource id #88
+2018-04-15 05:37:57  roomid:2,mess{"type":"2","msg":"online","avar":"a1.jpg","user":"aaa","stime":"2018-04-15 05:37:57"}
+2018-04-15 05:37:57  Resource id #83_
+2018-04-15 05:37:57  Resource id #88_
+2018-04-15 05:56:13  
+Resource id #95 CONNECTED!
+2018-04-15 05:56:13  2018-4-15 05:56:13
+2018-04-15 05:56:13  do hand shake Resource id #95
+2018-04-15 05:56:13  roomid:2,mess{"type":"2","msg":"online","avar":"a8.jpg","user":"aaa","stime":"2018-04-15 05:56:13"}
+2018-04-15 05:56:13  roomid:2,mess{"type":"2","msg":"online","avar":"a8.jpg","user":"aaa","stime":"2018-04-15 05:56:13"}
+2018-04-15 05:56:13  Resource id #83_
+2018-04-15 05:56:13  Resource id #88_
+2018-04-15 05:56:13  Resource id #95_
+2018-04-15 05:56:15  Resource id #95 DISCONNECTED!
+2018-04-15 05:56:19  
+Resource id #105 CONNECTED!
+2018-04-15 05:56:19  2018-4-15 05:56:19
+2018-04-15 05:56:19  do hand shake Resource id #105
+2018-04-15 05:56:19  roomid:2,mess{"type":"2","msg":"online","avar":"a1.jpg","user":"aaa","stime":"2018-04-15 05:56:19"}
+2018-04-15 05:56:19  roomid:2,mess{"type":"2","msg":"online","avar":"a1.jpg","user":"aaa","stime":"2018-04-15 05:56:19"}
+2018-04-15 05:56:19  Resource id #83_
+2018-04-15 05:56:19  Resource id #88_
+2018-04-15 05:56:19  Resource id #105_
+2018-04-15 05:56:28  Resource id #105 DISCONNECTED!
+2018-04-15 05:56:31  
+Resource id #115 CONNECTED!
+2018-04-15 05:56:31  2018-4-15 05:56:31
+2018-04-15 05:56:31  do hand shake Resource id #115
+2018-04-15 05:56:31  
+2018-04-15 05:56:31  roomid:13,mess{"type":"2","msg":"online","avar":"a8.jpg","user":"aaa","stime":"2018-04-15 05:56:31"}
+2018-04-15 05:56:31  roomid:13,mess{"type":"2","msg":"online","avar":"a8.jpg","user":"aaa","stime":"2018-04-15 05:56:31"}
+2018-04-15 05:56:31  Resource id #83_
+2018-04-15 05:56:31  Resource id #88_
+2018-04-15 05:56:31  Resource id #115_
+2018-04-15 05:56:34  Resource id #115 DISCONNECTED!
+2018-04-15 05:56:48  
+Resource id #126 CONNECTED!
+2018-04-15 05:56:48  2018-4-15 05:56:48
+2018-04-15 05:56:48  do hand shake Resource id #126
+2018-04-15 05:56:48  roomid:2,mess{"type":"2","msg":"online","avar":"a6.jpg","user":"aaa","stime":"2018-04-15 05:56:48"}
+2018-04-15 05:56:48  roomid:2,mess{"type":"2","msg":"online","avar":"a6.jpg","user":"aaa","stime":"2018-04-15 05:56:48"}
+2018-04-15 05:56:48  Resource id #83_
+2018-04-15 05:56:48  Resource id #88_
+2018-04-15 05:56:48  Resource id #126_
+2018-04-15 05:56:59  Resource id #126 DISCONNECTED!
+2018-04-15 05:56:59  
+Resource id #136 CONNECTED!
+2018-04-15 05:56:59  2018-4-15 05:56:59
+2018-04-15 05:56:59  do hand shake Resource id #136
+2018-04-15 05:56:59  roomid:2,mess{"type":"2","msg":"online","avar":"a3.jpg","user":"aaa","stime":"2018-04-15 05:56:59"}
+2018-04-15 05:56:59  roomid:2,mess{"type":"2","msg":"online","avar":"a3.jpg","user":"aaa","stime":"2018-04-15 05:56:59"}
+2018-04-15 05:56:59  Resource id #83_
+2018-04-15 05:56:59  Resource id #88_
+2018-04-15 05:56:59  Resource id #136_
+2018-04-15 06:00:48  Server Started : 2018-04-15 06:00:48
+2018-04-15 06:00:48  Listening on   : 127.0.0.1 port 8090
+2018-04-15 06:00:48  Master socket  : Resource id #7 
+
+2018-04-15 06:00:56  
+Resource id #12 CONNECTED!
+2018-04-15 06:00:56  2018-4-15 06:00:56
+2018-04-15 06:00:56  do hand shake Resource id #12
+2018-04-15 06:00:56  
+2018-04-15 06:00:56  Resource id #12_
+2018-04-15 06:01:06  
+Resource id #18 CONNECTED!
+2018-04-15 06:01:06  2018-4-15 06:01:06
+2018-04-15 06:01:06  do hand shake Resource id #18
+2018-04-15 06:01:06  
+2018-04-15 06:01:06  roomid:2,mess{"type":"2","msg":"online","avar":"a5.jpg","user":"bbb","stime":"2018-04-15 06:01:06"}
+2018-04-15 06:01:06  Resource id #12_
+2018-04-15 06:01:06  Resource id #18_
+2018-04-15 06:01:15  Resource id #18 DISCONNECTED!
+2018-04-15 06:01:19  Resource id #12 DISCONNECTED!
+2018-04-15 06:01:20  
+Resource id #28 CONNECTED!
+2018-04-15 06:01:20  2018-4-15 06:01:20
+2018-04-15 06:01:20  do hand shake Resource id #28
+2018-04-15 06:01:20  12 DISCONNECTED!
+2018-04-15 06:01:20  
+2018-04-15 06:01:20  Resource id #28_
+2018-04-15 06:01:21  Resource id #28 DISCONNECTED!
+2018-04-15 06:06:41  Server Started : 2018-04-15 06:06:41
+2018-04-15 06:06:41  Listening on   : 127.0.0.1 port 8090
+2018-04-15 06:06:41  Master socket  : Resource id #7 
+
+2018-04-15 06:06:45  
+Resource id #12 CONNECTED!
+2018-04-15 06:06:45  2018-4-15 06:06:45
+2018-04-15 06:06:45  do hand shake Resource id #12
+2018-04-15 06:06:45  
+2018-04-15 06:06:45  Resource id #12_
+2018-04-15 06:06:52  
+Resource id #18 CONNECTED!
+2018-04-15 06:06:52  2018-4-15 06:06:52
+2018-04-15 06:06:52  do hand shake Resource id #18
+2018-04-15 06:06:52  
+2018-04-15 06:06:52  roomid:2,mess{"type":"2","msg":"online","avar":"a4.jpg","user":"bbb","stime":"2018-04-15 06:06:52"}
+2018-04-15 06:06:52  Resource id #12_
+2018-04-15 06:06:52  Resource id #18_
+2018-04-15 06:07:01  Resource id #18 DISCONNECTED!
+2018-04-15 06:07:04  
+Resource id #27 CONNECTED!
+2018-04-15 06:07:04  2018-4-15 06:07:04
+2018-04-15 06:07:04  do hand shake Resource id #27
+2018-04-15 06:07:04  
+2018-04-15 06:07:04  roomid:6,mess{"type":"2","msg":"online","avar":"a4.jpg","user":"bbb","stime":"2018-04-15 06:07:04"}
+2018-04-15 06:07:04  Resource id #12_
+2018-04-15 06:07:04  Resource id #27_
+2018-04-15 06:07:15  Resource id #12 DISCONNECTED!
+2018-04-15 06:07:21  Resource id #27 DISCONNECTED!
+2018-04-15 06:07:24  
+Resource id #37 CONNECTED!
+2018-04-15 06:07:24  2018-4-15 06:07:24
+2018-04-15 06:07:24  do hand shake Resource id #37
+2018-04-15 06:07:24  
+2018-04-15 06:07:24  Resource id #37_
+2018-04-15 06:07:32  
+Resource id #43 CONNECTED!
+2018-04-15 06:07:32  2018-4-15 06:07:32
+2018-04-15 06:07:32  do hand shake Resource id #43
+2018-04-15 06:07:32  
+2018-04-15 06:07:32  roomid:2,mess{"type":"2","msg":"online","avar":"a7.jpg","user":"aaa","stime":"2018-04-15 06:07:32"}
+2018-04-15 06:07:32  Resource id #37_
+2018-04-15 06:07:32  Resource id #43_
+2018-04-15 06:07:42  Resource id #37 DISCONNECTED!
+2018-04-15 06:07:47  
+Resource id #52 CONNECTED!
+2018-04-15 06:07:47  2018-4-15 06:07:47
+2018-04-15 06:07:47  do hand shake Resource id #52
+2018-04-15 06:07:47  
+2018-04-15 06:07:47  roomid:6,mess{"type":"2","msg":"online","avar":"a3.jpg","user":"bbb","stime":"2018-04-15 06:07:47"}
+2018-04-15 06:07:47  Resource id #43_
+2018-04-15 06:07:47  Resource id #52_
+2018-04-15 06:08:47  Resource id #52 DISCONNECTED!
+2018-04-15 06:08:52  
+Resource id #61 CONNECTED!
+2018-04-15 06:08:52  2018-4-15 06:08:52
+2018-04-15 06:08:52  do hand shake Resource id #61
+2018-04-15 06:08:52  
+2018-04-15 06:08:52  roomid:2,mess{"type":"2","msg":"online","avar":"a1.jpg","user":"bbb","stime":"2018-04-15 06:08:52"}
+2018-04-15 06:08:52  Resource id #43_
+2018-04-15 06:08:52  Resource id #61_
+2018-04-15 06:21:46  Server Started : 2018-04-15 06:21:46
+2018-04-15 06:21:46  Listening on   : 127.0.0.1 port 8090
+2018-04-15 06:21:46  Master socket  : Resource id #7 
+
+2018-04-15 06:21:50  
+Resource id #12 CONNECTED!
+2018-04-15 06:21:50  2018-4-15 06:21:50
+2018-04-15 06:21:50  do hand shake Resource id #12
+2018-04-15 06:21:50  
+2018-04-15 06:21:57  Resource id #12 DISCONNECTED!
+2018-04-15 06:22:11  
+Resource id #18 CONNECTED!
+2018-04-15 06:22:11  2018-4-15 06:22:11
+2018-04-15 06:22:11  do hand shake Resource id #18
+2018-04-15 06:22:12  
+2018-04-15 06:22:23  Resource id #18 DISCONNECTED!
+2018-04-15 06:23:20  
+Resource id #24 CONNECTED!
+2018-04-15 06:23:20  2018-4-15 06:23:20
+2018-04-15 06:23:20  do hand shake Resource id #24
+2018-04-15 06:23:20  
+2018-04-15 06:23:24  
+Resource id #29 CONNECTED!
+2018-04-15 06:23:24  2018-4-15 06:23:24
+2018-04-15 06:23:24  do hand shake Resource id #29
+2018-04-15 06:23:24  
+2018-04-15 06:23:28  Resource id #29 DISCONNECTED!
+2018-04-15 06:23:31  
+Resource id #35 CONNECTED!
+2018-04-15 06:23:31  2018-4-15 06:23:31
+2018-04-15 06:23:31  do hand shake Resource id #35
+2018-04-15 06:23:31  
+2018-04-15 06:27:51  Server Started : 2018-04-15 06:27:51
+2018-04-15 06:27:51  Listening on   : 127.0.0.1 port 8090
+2018-04-15 06:27:51  Master socket  : Resource id #7 
+
+2018-04-15 06:27:57  
+Resource id #12 CONNECTED!
+2018-04-15 06:27:57  2018-4-15 06:27:57
+2018-04-15 06:27:57  do hand shake Resource id #12
+2018-04-15 06:27:57  
+2018-04-15 06:27:58  Resource id #12 DISCONNECTED!
+2018-04-15 06:28:00  
+Resource id #18 CONNECTED!
+2018-04-15 06:28:00  2018-4-15 06:28:00
+2018-04-15 06:28:00  do hand shake Resource id #18
+2018-04-15 06:28:00  
+2018-04-15 06:28:10  
+Resource id #23 CONNECTED!
+2018-04-15 06:28:10  2018-4-15 06:28:10
+2018-04-15 06:28:10  do hand shake Resource id #23
+2018-04-15 06:28:10  
+2018-04-15 06:30:28  Server Started : 2018-04-15 06:30:28
+2018-04-15 06:30:28  Listening on   : 127.0.0.1 port 8090
+2018-04-15 06:30:28  Master socket  : Resource id #7 
+
+2018-04-15 06:30:35  
+Resource id #12 CONNECTED!
+2018-04-15 06:30:35  2018-4-15 06:30:35
+2018-04-15 06:30:35  do hand shake Resource id #12
+2018-04-15 06:30:35  
+2018-04-15 06:30:35  userInfo:
+2018-04-15 06:30:59  Resource id #12 DISCONNECTED!
+2018-04-15 06:31:00  
+Resource id #19 CONNECTED!
+2018-04-15 06:31:00  2018-4-15 06:31:00
+2018-04-15 06:31:00  do hand shake Resource id #19
+2018-04-15 06:31:00  
+2018-04-15 06:31:00  userInfo:
+2018-04-15 06:36:12  Server Started : 2018-04-15 06:36:12
+2018-04-15 06:36:12  Listening on   : 127.0.0.1 port 8090
+2018-04-15 06:36:12  Master socket  : Resource id #7 
+
+2018-04-15 06:36:16  
+Resource id #12 CONNECTED!
+2018-04-15 06:36:16  2018-4-15 06:36:16
+2018-04-15 06:36:16  do hand shake Resource id #12
+2018-04-15 06:36:16  bind:
+2018-04-15 06:36:16  userInfo:
+2018-04-15 06:38:16  Server Started : 2018-04-15 06:38:16
+2018-04-15 06:38:16  Listening on   : 127.0.0.1 port 8090
+2018-04-15 06:38:16  Master socket  : Resource id #7 
+
+2018-04-15 06:38:22  
+Resource id #12 CONNECTED!
+2018-04-15 06:38:22  2018-4-15 06:38:22
+2018-04-15 06:38:22  do hand shake Resource id #12
+2018-04-15 06:38:22  bind:array (
+  2 => 
+  array (
+    'aaa' => 
+    array (
+      'user' => 'aaa',
+      'avar' => 'a4.jpg',
+      'roomid' => '2',
+      'socket' => 12,
+    ),
+  ),
+)
+2018-04-15 06:38:22  userInfo:array (
+  'aaa' => 
+  array (
+    'user' => 'aaa',
+    'avar' => 'a4.jpg',
+    'roomid' => '2',
+    'socket' => 12,
+  ),
+)
+2018-04-15 06:38:39  
+Resource id #18 CONNECTED!
+2018-04-15 06:38:39  2018-4-15 06:38:39
+2018-04-15 06:38:39  do hand shake Resource id #18
+2018-04-15 06:38:39  bind:array (
+  2 => 
+  array (
+    'aaa' => 
+    array (
+      'user' => 'aaa',
+      'avar' => 'a4.jpg',
+      'roomid' => '2',
+      'socket' => 12,
+    ),
+  ),
+  6 => 
+  array (
+    'bbb' => 
+    array (
+      'user' => 'bbb',
+      'avar' => 'a2.jpg',
+      'roomid' => '6',
+      'socket' => 18,
+    ),
+  ),
+)
+2018-04-15 06:38:39  userInfo:array (
+  'bbb' => 
+  array (
+    'user' => 'bbb',
+    'avar' => 'a2.jpg',
+    'roomid' => '6',
+    'socket' => 18,
+  ),
+)
+2018-04-15 06:39:06  Resource id #18 DISCONNECTED!
+2018-04-15 06:39:09  
+Resource id #25 CONNECTED!
+2018-04-15 06:39:09  2018-4-15 06:39:09
+2018-04-15 06:39:09  do hand shake Resource id #25
+2018-04-15 06:39:09  bind:array (
+  2 => 
+  array (
+    'aaa' => 
+    array (
+      'user' => 'aaa',
+      'avar' => 'a4.jpg',
+      'roomid' => '2',
+      'socket' => 12,
+    ),
+    'bbb' => 
+    array (
+      'user' => 'bbb',
+      'avar' => 'a1.jpg',
+      'roomid' => '2',
+      'socket' => 25,
+    ),
+  ),
+  6 => 
+  array (
+    'bbb' => 
+    array (
+      'user' => 'bbb',
+      'avar' => 'a2.jpg',
+      'roomid' => '6',
+      'socket' => 18,
+    ),
+  ),
+)
+2018-04-15 06:39:09  userInfo:array (
+  'aaa' => 
+  array (
+    'user' => 'aaa',
+    'avar' => 'a4.jpg',
+    'roomid' => '2',
+    'socket' => 12,
+  ),
+  'bbb' => 
+  array (
+    'user' => 'bbb',
+    'avar' => 'a1.jpg',
+    'roomid' => '2',
+    'socket' => 25,
+  ),
+)
+2018-04-15 06:43:06  Server Started : 2018-04-15 06:43:06
+2018-04-15 06:43:06  Listening on   : 127.0.0.1 port 8090
+2018-04-15 06:43:06  Master socket  : Resource id #7 
+
+2018-04-15 06:43:11  
+Resource id #12 CONNECTED!
+2018-04-15 06:43:11  2018-4-15 06:43:11
+2018-04-15 06:43:11  do hand shake Resource id #12
+2018-04-15 06:43:11  bind:array (
+  2 => 
+  array (
+    'aaa' => 
+    array (
+      'user' => 'aaa',
+      'avar' => 'a6.jpg',
+      'roomid' => '2',
+      'socket' => 12,
+    ),
+  ),
+)
+2018-04-15 06:43:11  userInfo:array (
+  'aaa' => 
+  array (
+    'user' => 'aaa',
+    'avar' => 'a6.jpg',
+    'roomid' => '2',
+    'socket' => 12,
+  ),
+)
+2018-04-15 06:43:11  usersocket:12，mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 06:43:11',
+)
+2018-04-15 06:46:03  Server Started : 2018-04-15 06:46:03
+2018-04-15 06:46:03  Listening on   : 127.0.0.1 port 8090
+2018-04-15 06:46:03  Master socket  : Resource id #7 
+
+2018-04-15 06:46:11  
+Resource id #12 CONNECTED!
+2018-04-15 06:46:11  2018-4-15 06:46:11
+2018-04-15 06:46:11  do hand shake Resource id #12
+2018-04-15 06:46:12  bind:array (
+  2 => 
+  array (
+    'aaa' => 
+    array (
+      'user' => 'aaa',
+      'avar' => 'a9.jpg',
+      'roomid' => '2',
+      'socket' => NULL,
+    ),
+  ),
+)
+2018-04-15 06:46:12  userInfo:array (
+  'aaa' => 
+  array (
+    'user' => 'aaa',
+    'avar' => 'a9.jpg',
+    'roomid' => '2',
+    'socket' => NULL,
+  ),
+)
+2018-04-15 06:46:12  usersocket:Resource id #12，mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a9.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 06:46:12',
+)
+2018-04-15 06:46:24  
+Resource id #19 CONNECTED!
+2018-04-15 06:46:24  2018-4-15 06:46:24
+2018-04-15 06:46:24  do hand shake Resource id #19
+2018-04-15 06:46:24  bind:array (
+  2 => 
+  array (
+    'aaa' => 
+    array (
+      'user' => 'aaa',
+      'avar' => 'a9.jpg',
+      'roomid' => '2',
+      'socket' => NULL,
+    ),
+    'bbb' => 
+    array (
+      'user' => 'bbb',
+      'avar' => 'a2.jpg',
+      'roomid' => '2',
+      'socket' => NULL,
+    ),
+  ),
+)
+2018-04-15 06:46:24  userInfo:array (
+  'aaa' => 
+  array (
+    'user' => 'aaa',
+    'avar' => 'a9.jpg',
+    'roomid' => '2',
+    'socket' => NULL,
+  ),
+  'bbb' => 
+  array (
+    'user' => 'bbb',
+    'avar' => 'a2.jpg',
+    'roomid' => '2',
+    'socket' => NULL,
+  ),
+)
+2018-04-15 06:46:24  usersocket:Resource id #12，mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 06:46:24',
+)
+2018-04-15 06:46:24  usersocket:Resource id #19，mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 06:46:24',
+)
+2018-04-15 06:46:30  Resource id #12 DISCONNECTED!
+2018-04-15 06:46:31  
+Resource id #28 CONNECTED!
+2018-04-15 06:46:31  2018-4-15 06:46:31
+2018-04-15 06:46:31  do hand shake Resource id #28
+2018-04-15 06:46:31  bind:array (
+  2 => 
+  array (
+    'bbb' => 
+    array (
+      'user' => 'bbb',
+      'avar' => 'a2.jpg',
+      'roomid' => '2',
+      'socket' => NULL,
+    ),
+    'aaa' => 
+    array (
+      'user' => 'aaa',
+      'avar' => 'a1.jpg',
+      'roomid' => '2',
+      'socket' => NULL,
+    ),
+  ),
+)
+2018-04-15 06:46:31  userInfo:array (
+  'bbb' => 
+  array (
+    'user' => 'bbb',
+    'avar' => 'a2.jpg',
+    'roomid' => '2',
+    'socket' => NULL,
+  ),
+  'aaa' => 
+  array (
+    'user' => 'aaa',
+    'avar' => 'a1.jpg',
+    'roomid' => '2',
+    'socket' => NULL,
+  ),
+)
+2018-04-15 06:46:31  usersocket:Resource id #19，mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 06:46:31',
+)
+2018-04-15 06:46:31  usersocket:Resource id #28，mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 06:46:31',
+)
+2018-04-15 06:46:39  Resource id #19 DISCONNECTED!
+2018-04-15 06:46:40  
+Resource id #37 CONNECTED!
+2018-04-15 06:46:40  2018-4-15 06:46:40
+2018-04-15 06:46:40  do hand shake Resource id #37
+2018-04-15 06:46:40  bind:array (
+  2 => 
+  array (
+    'aaa' => 
+    array (
+      'user' => 'aaa',
+      'avar' => 'a1.jpg',
+      'roomid' => '2',
+      'socket' => NULL,
+    ),
+    'bbb' => 
+    array (
+      'user' => 'bbb',
+      'avar' => 'a1.jpg',
+      'roomid' => '2',
+      'socket' => NULL,
+    ),
+  ),
+)
+2018-04-15 06:46:40  userInfo:array (
+  'aaa' => 
+  array (
+    'user' => 'aaa',
+    'avar' => 'a1.jpg',
+    'roomid' => '2',
+    'socket' => NULL,
+  ),
+  'bbb' => 
+  array (
+    'user' => 'bbb',
+    'avar' => 'a1.jpg',
+    'roomid' => '2',
+    'socket' => NULL,
+  ),
+)
+2018-04-15 06:46:40  usersocket:Resource id #28，mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 06:46:40',
+)
+2018-04-15 06:46:40  usersocket:Resource id #37，mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 06:46:40',
+)
+2018-04-15 06:49:47  Server Started : 2018-04-15 06:49:47
+2018-04-15 06:49:47  Listening on   : 127.0.0.1 port 8090
+2018-04-15 06:49:47  Master socket  : Resource id #7 
+
+2018-04-15 06:49:56  
+Resource id #12 CONNECTED!
+2018-04-15 06:49:56  2018-4-15 06:49:56
+2018-04-15 06:49:56  do hand shake Resource id #12
+2018-04-15 06:49:57  bind:array (
+  2 => 
+  array (
+    'aaa' => 
+    array (
+      'user' => 'aaa',
+      'avar' => 'a7.jpg',
+      'roomid' => '2',
+      'socket' => NULL,
+    ),
+  ),
+)
+2018-04-15 06:50:01  
+Resource id #17 CONNECTED!
+2018-04-15 06:50:01  2018-4-15 06:50:01
+2018-04-15 06:50:02  do hand shake Resource id #17
+2018-04-15 06:50:02  bind:array (
+  2 => 
+  array (
+    'aaa' => 
+    array (
+      'user' => 'aaa',
+      'avar' => 'a7.jpg',
+      'roomid' => '2',
+      'socket' => NULL,
+    ),
+    'bbb' => 
+    array (
+      'user' => 'bbb',
+      'avar' => 'a1.jpg',
+      'roomid' => '2',
+      'socket' => NULL,
+    ),
+  ),
+)
+2018-04-15 06:50:14  Resource id #17 DISCONNECTED!
+2018-04-15 06:50:15  
+Resource id #23 CONNECTED!
+2018-04-15 06:50:15  2018-4-15 06:50:15
+2018-04-15 06:50:15  do hand shake Resource id #23
+2018-04-15 06:50:15  bind:array (
+  2 => 
+  array (
+    'aaa' => 
+    array (
+      'user' => 'aaa',
+      'avar' => 'a7.jpg',
+      'roomid' => '2',
+      'socket' => NULL,
+    ),
+    'bbb' => 
+    array (
+      'user' => 'bbb',
+      'avar' => 'a6.jpg',
+      'roomid' => '2',
+      'socket' => NULL,
+    ),
+  ),
+)
+2018-04-15 06:59:56  Server Started : 2018-04-15 06:59:56
+2018-04-15 06:59:56  Listening on   : 127.0.0.1 port 8090
+2018-04-15 06:59:56  Master socket  : Resource id #7 
+
+2018-04-15 07:06:06  
+Resource id #12 CONNECTED!
+2018-04-15 07:06:06  2018-4-15 07:06:06
+2018-04-15 07:06:06  do hand shake Resource id #12
+2018-04-15 07:06:06  bind:array (
+  2 => 
+  array (
+    1 => 
+    array (
+      'user' => 'aaa',
+      'avar' => 'a1.jpg',
+      'roomid' => '2',
+      'socket' => NULL,
+      'uid' => '1',
+    ),
+  ),
+)
+2018-04-15 07:06:20  Resource id #12 DISCONNECTED!
+2018-04-15 07:06:24  
+Resource id #18 CONNECTED!
+2018-04-15 07:06:24  2018-4-15 07:06:24
+2018-04-15 07:06:24  do hand shake Resource id #18
+2018-04-15 07:06:24  bind:array (
+  2 => 
+  array (
+    1 => 
+    array (
+      'user' => 'aaa',
+      'avar' => 'a7.jpg',
+      'roomid' => '2',
+      'socket' => NULL,
+      'uid' => '1',
+    ),
+  ),
+)
+2018-04-15 07:07:29  Resource id #18 DISCONNECTED!
+2018-04-15 07:07:31  
+Resource id #24 CONNECTED!
+2018-04-15 07:07:31  2018-4-15 07:07:31
+2018-04-15 07:07:31  do hand shake Resource id #24
+2018-04-15 07:07:31  bind:array (
+  2 => 
+  array (
+    1 => 
+    array (
+      'user' => 'aaa',
+      'avar' => 'a1.jpg',
+      'roomid' => '2',
+      'socket' => NULL,
+      'uid' => '1',
+    ),
+  ),
+)
+2018-04-15 07:09:52  
+Resource id #29 CONNECTED!
+2018-04-15 07:09:52  2018-4-15 07:09:52
+2018-04-15 07:09:52  do hand shake Resource id #29
+2018-04-15 07:09:52  bind:array (
+  2 => 
+  array (
+    1 => 
+    array (
+      'user' => 'aaa',
+      'avar' => 'a1.jpg',
+      'roomid' => '2',
+      'socket' => NULL,
+      'uid' => '1',
+    ),
+    2 => 
+    array (
+      'user' => 'bbb',
+      'avar' => 'a3.jpg',
+      'roomid' => '2',
+      'socket' => NULL,
+      'uid' => '2',
+    ),
+  ),
+)
+2018-04-15 07:09:53  Resource id #29 DISCONNECTED!
+2018-04-15 07:09:55  
+Resource id #35 CONNECTED!
+2018-04-15 07:09:55  2018-4-15 07:09:55
+2018-04-15 07:09:55  do hand shake Resource id #35
+2018-04-15 07:09:55  bind:array (
+  2 => 
+  array (
+    1 => 
+    array (
+      'user' => 'aaa',
+      'avar' => 'a1.jpg',
+      'roomid' => '2',
+      'socket' => NULL,
+      'uid' => '1',
+    ),
+    2 => 
+    array (
+      'user' => 'bbb',
+      'avar' => 'a7.jpg',
+      'roomid' => '2',
+      'socket' => NULL,
+      'uid' => '2',
+    ),
+  ),
+)
+2018-04-15 07:09:55  Resource id #35 DISCONNECTED!
+2018-04-15 07:09:58  
+Resource id #41 CONNECTED!
+2018-04-15 07:09:58  2018-4-15 07:09:58
+2018-04-15 07:09:58  do hand shake Resource id #41
+2018-04-15 07:09:58  bind:array (
+  2 => 
+  array (
+    1 => 
+    array (
+      'user' => 'aaa',
+      'avar' => 'a1.jpg',
+      'roomid' => '2',
+      'socket' => NULL,
+      'uid' => '1',
+    ),
+    2 => 
+    array (
+      'user' => 'bbb',
+      'avar' => 'a9.jpg',
+      'roomid' => '2',
+      'socket' => NULL,
+      'uid' => '2',
+    ),
+  ),
+)
+2018-04-15 07:12:30  Server Started : 2018-04-15 07:12:30
+2018-04-15 07:12:30  Listening on   : 127.0.0.1 port 8090
+2018-04-15 07:12:30  Master socket  : Resource id #7 
+
+2018-04-15 07:12:36  
+Resource id #12 CONNECTED!
+2018-04-15 07:12:36  2018-4-15 07:12:36
+2018-04-15 07:12:36  do hand shake Resource id #12
+2018-04-15 07:12:36  bind:array (
+  2 => 
+  array (
+    1 => 
+    array (
+      'user' => 'aaa',
+      'avar' => 'a4.jpg',
+      'roomid' => '2',
+      'socket' => NULL,
+      'uid' => '1',
+    ),
+  ),
+)
+2018-04-15 07:15:13  Resource id #12 DISCONNECTED!
+2018-04-15 07:15:14  
+Resource id #18 CONNECTED!
+2018-04-15 07:15:14  2018-4-15 07:15:14
+2018-04-15 07:15:14  do hand shake Resource id #18
+2018-04-15 07:15:14  bind:array (
+  2 => 
+  array (
+    1 => 
+    array (
+      'user' => 'aaa',
+      'avar' => 'a4.jpg',
+      'roomid' => '2',
+      'socket' => NULL,
+      'uid' => '1',
+    ),
+  ),
+)
+2018-04-15 07:15:15  Resource id #18 DISCONNECTED!
+2018-04-15 07:15:16  
+Resource id #24 CONNECTED!
+2018-04-15 07:15:16  2018-4-15 07:15:16
+2018-04-15 07:15:16  do hand shake Resource id #24
+2018-04-15 07:15:16  bind:array (
+  2 => 
+  array (
+    1 => 
+    array (
+      'user' => 'aaa',
+      'avar' => 'a4.jpg',
+      'roomid' => '2',
+      'socket' => NULL,
+      'uid' => '1',
+    ),
+  ),
+)
+2018-04-15 07:15:29  Resource id #24 DISCONNECTED!
+2018-04-15 07:15:30  
+Resource id #30 CONNECTED!
+2018-04-15 07:15:30  2018-4-15 07:15:30
+2018-04-15 07:15:30  do hand shake Resource id #30
+2018-04-15 07:15:30  bind:array (
+  2 => 
+  array (
+    1 => 
+    array (
+      'user' => 'aaa',
+      'avar' => 'a9.jpg',
+      'roomid' => '2',
+      'socket' => NULL,
+      'uid' => '1',
+    ),
+  ),
+)
+2018-04-15 07:17:07  Server Started : 2018-04-15 07:17:07
+2018-04-15 07:17:07  Listening on   : 127.0.0.1 port 8090
+2018-04-15 07:17:07  Master socket  : Resource id #7 
+
+2018-04-15 07:17:12  
+Resource id #12 CONNECTED!
+2018-04-15 07:17:12  2018-4-15 07:17:12
+2018-04-15 07:17:12  do hand shake Resource id #12
+2018-04-15 07:17:12  bind:array (
+  2 => 
+  array (
+    1 => 
+    array (
+      'user' => 'aaa',
+      'avar' => 'a9.jpg',
+      'roomid' => '2',
+      'socket' => NULL,
+    ),
+  ),
+)
+2018-04-15 07:19:41  Server Started : 2018-04-15 07:19:41
+2018-04-15 07:19:41  Listening on   : 127.0.0.1 port 8090
+2018-04-15 07:19:41  Master socket  : Resource id #7 
+
+2018-04-15 07:20:03  
+Resource id #12 CONNECTED!
+2018-04-15 07:20:03  2018-4-15 07:20:03
+2018-04-15 07:20:03  do hand shake Resource id #12
+2018-04-15 07:20:03  current socket:Resource id #12
+2018-04-15 07:20:03  bind:array (
+  2 => 
+  array (
+    1 => 
+    array (
+      'user' => 'aaa',
+      'avar' => 'a6.jpg',
+      'roomid' => '2',
+      'socket' => NULL,
+    ),
+  ),
+)
+2018-04-15 07:22:48  Server Started : 2018-04-15 07:22:48
+2018-04-15 07:22:48  Listening on   : 127.0.0.1 port 8090
+2018-04-15 07:22:48  Master socket  : Resource id #7 
+
+2018-04-15 07:22:54  
+Resource id #12 CONNECTED!
+2018-04-15 07:22:54  2018-4-15 07:22:54
+2018-04-15 07:22:54  do hand shake Resource id #12
+2018-04-15 07:22:54  current socket:Resource id #12
+2018-04-15 07:22:54  bind:array (
+  2 => 
+  array (
+    1 => 
+    array (
+      'user' => 'aaa',
+      'avar' => 'a1.jpg',
+      'roomid' => '2',
+      'socket' => 12,
+    ),
+  ),
+)
+2018-04-15 07:23:07  current socket:Resource id #12
+2018-04-15 07:23:07  Resource id #12 DISCONNECTED!
+2018-04-15 07:23:12  
+Resource id #20 CONNECTED!
+2018-04-15 07:23:12  2018-4-15 07:23:12
+2018-04-15 07:23:12  do hand shake Resource id #20
+2018-04-15 07:23:12  current socket:Resource id #20
+2018-04-15 07:23:12  bind:array (
+  2 => 
+  array (
+    1 => 
+    array (
+      'user' => 'aaa',
+      'avar' => 'a1.jpg',
+      'roomid' => '2',
+      'socket' => 12,
+    ),
+  ),
+  6 => 
+  array (
+    1 => 
+    array (
+      'user' => 'aaa',
+      'avar' => 'a3.jpg',
+      'roomid' => '6',
+      'socket' => 20,
+    ),
+  ),
+)
+2018-04-15 07:35:21  
+Resource id #26 CONNECTED!
+2018-04-15 07:35:21  2018-4-15 07:35:21
+2018-04-15 07:35:21  do hand shake Resource id #26
+2018-04-15 07:35:21  current socket:Resource id #26
+2018-04-15 07:35:21  bind:array (
+  2 => 
+  array (
+    1 => 
+    array (
+      'user' => 'aaa',
+      'avar' => 'a1.jpg',
+      'roomid' => '2',
+      'socket' => 12,
+    ),
+  ),
+  6 => 
+  array (
+    1 => 
+    array (
+      'user' => 'aaa',
+      'avar' => 'a9.jpg',
+      'roomid' => '6',
+      'socket' => 26,
+    ),
+  ),
+)
+2018-04-15 07:35:24  current socket:Resource id #26
+2018-04-15 07:35:24  Resource id #26 DISCONNECTED!
+2018-04-15 07:35:24  
+Resource id #34 CONNECTED!
+2018-04-15 07:35:24  2018-4-15 07:35:24
+2018-04-15 07:35:24  do hand shake Resource id #34
+2018-04-15 07:35:24  current socket:Resource id #34
+2018-04-15 07:35:24  bind:array (
+  2 => 
+  array (
+    1 => 
+    array (
+      'user' => 'aaa',
+      'avar' => 'a1.jpg',
+      'roomid' => '2',
+      'socket' => 12,
+    ),
+  ),
+  6 => 
+  array (
+    1 => 
+    array (
+      'user' => 'aaa',
+      'avar' => 'a2.jpg',
+      'roomid' => '6',
+      'socket' => 34,
+    ),
+  ),
+)
+2018-04-15 07:38:19  Server Started : 2018-04-15 07:38:19
+2018-04-15 07:38:19  Listening on   : 127.0.0.1 port 8090
+2018-04-15 07:38:19  Master socket  : Resource id #7 
+
+2018-04-15 07:38:24  
+Resource id #12 CONNECTED!
+2018-04-15 07:38:24  2018-4-15 07:38:24
+2018-04-15 07:38:30  
+Resource id #15 CONNECTED!
+2018-04-15 07:38:30  2018-4-15 07:38:30
+2018-04-15 07:38:33  Resource id #15 DISCONNECTED!
+2018-04-15 07:38:35  
+Resource id #19 CONNECTED!
+2018-04-15 07:38:35  2018-4-15 07:38:35
+2018-04-15 07:38:35  Resource id #19 DISCONNECTED!
+2018-04-15 07:38:37  
+Resource id #23 CONNECTED!
+2018-04-15 07:38:37  2018-4-15 07:38:37
+2018-04-15 07:39:14  Resource id #12 DISCONNECTED!
+2018-04-15 07:39:17  
+Resource id #27 CONNECTED!
+2018-04-15 07:39:17  2018-4-15 07:39:17
+2018-04-15 07:40:01  Resource id #23 DISCONNECTED!
+2018-04-15 07:40:03  
+Resource id #31 CONNECTED!
+2018-04-15 07:40:03  2018-4-15 07:40:03
+2018-04-15 08:01:35  Server Started : 2018-04-15 08:01:35
+2018-04-15 08:01:35  Listening on   : 127.0.0.1 port 8090
+2018-04-15 08:01:35  Master socket  : Resource id #7 
+
+2018-04-15 08:01:44  
+Resource id #12 CONNECTED!
+2018-04-15 08:01:44  2018-4-15 08:01:44
+2018-04-15 08:06:28  
+Resource id #15 CONNECTED!
+2018-04-15 08:06:28  2018-4-15 08:06:28
+2018-04-15 08:06:28  socket:Resource id #12,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 08:06:28',
+)
+2018-04-15 08:10:33  Resource id #12 DISCONNECTED!
+2018-04-15 08:10:41  Resource id #15 DISCONNECTED!
+2018-04-15 08:11:51  Server Started : 2018-04-15 08:11:51
+2018-04-15 08:11:51  Listening on   : 127.0.0.1 port 8090
+2018-04-15 08:11:51  Master socket  : Resource id #7 
+
+2018-04-15 08:12:24  
+Resource id #12 CONNECTED!
+2018-04-15 08:12:24  2018-4-15 08:12:24
+2018-04-15 08:12:24  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a5.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:12:24',
+)
+2018-04-15 08:12:47  
+Resource id #16 CONNECTED!
+2018-04-15 08:12:47  2018-4-15 08:12:47
+2018-04-15 08:12:47  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a5.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 08:12:47',
+)
+2018-04-15 08:12:47  socket:Resource id #12,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a5.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 08:12:47',
+)
+2018-04-15 08:24:40  Server Started : 2018-04-15 08:24:40
+2018-04-15 08:24:40  Listening on   : 127.0.0.1 port 8090
+2018-04-15 08:24:40  Master socket  : Resource id #7 
+
+2018-04-15 08:24:53  
+Resource id #12 CONNECTED!
+2018-04-15 08:24:53  2018-4-15 08:24:53
+2018-04-15 08:24:53  buffer:{"type" : "1", "user" : "aaa", "avar" : "a2.jpg","roomid" : "2","uid":"1"}
+2018-04-15 08:24:53  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:24:53',
+)
+2018-04-15 08:25:07  buffer:{"type" : "3", "user" : "aaa", "avar" : "a2.jpg", "stime" : "2018-04-15 11:41:44", "msg": "hhj","roomid:"2","uid:"1"}
+2018-04-15 08:25:36  
+Resource id #18 CONNECTED!
+2018-04-15 08:25:36  2018-4-15 08:25:36
+2018-04-15 08:25:37  buffer:{"type" : "1", "user" : "bbb", "avar" : "a1.jpg","roomid" : "2","uid":"2"}
+2018-04-15 08:25:37  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 08:25:37',
+)
+2018-04-15 08:25:37  socket:Resource id #12,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 08:25:37',
+)
+2018-04-15 08:25:53  buffer:{"type" : "3", "user" : "bbb", "avar" : "a1.jpg", "stime" : "2018-04-15 11:42:30", "msg": "wooo","roomid:"2","uid:"2"}
+2018-04-15 08:26:24  buffer:{"type" : "3", "user" : "aaa", "avar" : "a2.jpg", "stime" : "2018-04-15 11:43:01", "msg": "woooaac ","roomid:"2","uid:"1"}
+2018-04-15 08:28:04  buffer:{"type" : "4", "msg" : "login out"}
+2018-04-15 08:28:04  Resource id #12 DISCONNECTED!
+2018-04-15 08:28:09  buffer:{"type" : "4", "msg" : "login out"}
+2018-04-15 08:28:09  Resource id #18 DISCONNECTED!
+2018-04-15 08:29:39  Server Started : 2018-04-15 08:29:39
+2018-04-15 08:29:39  Listening on   : 127.0.0.1 port 8090
+2018-04-15 08:29:39  Master socket  : Resource id #7 
+
+2018-04-15 08:29:46  
+Resource id #12 CONNECTED!
+2018-04-15 08:29:46  2018-4-15 08:29:46
+2018-04-15 08:29:46  buffer:{"type" : "1", "user" : "aaa", "avar" : "a7.jpg","roomid" : "2","uid":"1"}
+2018-04-15 08:29:46  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a7.jpg',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 08:29:46  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a7.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:29:46',
+)
+2018-04-15 08:30:01  
+Resource id #18 CONNECTED!
+2018-04-15 08:30:01  2018-4-15 08:30:01
+2018-04-15 08:30:01  buffer:{"type" : "1", "user" : "bbb", "avar" : "a8.jpg","roomid" : "2","uid":"2"}
+2018-04-15 08:30:01  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a8.jpg',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 08:30:01  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a8.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 08:30:01',
+)
+2018-04-15 08:30:01  socket:Resource id #12,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a8.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 08:30:01',
+)
+2018-04-15 08:30:21  buffer:{"type" : "3", "user" : "aaa", "avar" : "a7.jpg", "stime" : "2018-04-15 11:46:57", "msg": "wokkk","roomid:"2","uid:"1"}
+2018-04-15 08:30:21  decode buffer:NULL
+2018-04-15 08:33:19  buffer:{"type" : "4", "msg" : "login out"}
+2018-04-15 08:33:19  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+)
+2018-04-15 08:33:19  Resource id #12 DISCONNECTED!
+2018-04-15 08:33:23  buffer:{"type" : "4", "msg" : "login out"}
+2018-04-15 08:33:23  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+)
+2018-04-15 08:33:23  Resource id #18 DISCONNECTED!
+2018-04-15 08:34:25  Server Started : 2018-04-15 08:34:25
+2018-04-15 08:34:25  Listening on   : 127.0.0.1 port 8090
+2018-04-15 08:34:25  Master socket  : Resource id #7 
+
+2018-04-15 08:34:32  
+Resource id #12 CONNECTED!
+2018-04-15 08:34:32  2018-4-15 08:34:32
+2018-04-15 08:34:33  buffer:{"type" : "1", "user" : "aaa", "avar" : "a6.jpg","roomid" : "2","uid":"1"}
+2018-04-15 08:34:33  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a6.jpg',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 08:34:33  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:34:33',
+)
+2018-04-15 08:34:37  buffer:{"type" : "3", "user" : "aaa", "avar" : "a6.jpg", "stime" : "2018-04-15 11:51:14", "msg": "jj","roomid":"2","uid":"1"}
+2018-04-15 08:34:37  decode buffer:array (
+  'type' => '3',
+  'user' => 'aaa',
+  'avar' => 'a6.jpg',
+  'stime' => '2018-04-15 11:51:14',
+  'msg' => 'jj',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 08:34:37  sendroomid:2,mess:array (
+  'type' => '3',
+  'user' => 'aaa',
+  'avar' => 'a6.jpg',
+  'stime' => '2018-04-15 08:34:37',
+  'msg' => 'jj',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 08:35:22  
+Resource id #21 CONNECTED!
+2018-04-15 08:35:22  2018-4-15 08:35:22
+2018-04-15 08:35:22  buffer:{"type" : "1", "user" : "bbb", "avar" : "a1.jpg","roomid" : "2","uid":"2"}
+2018-04-15 08:35:22  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a1.jpg',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 08:35:22  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 08:35:22',
+)
+2018-04-15 08:35:22  socket:Resource id #12,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 08:35:22',
+)
+2018-04-15 08:35:28  buffer:{"type" : "3", "user" : "bbb", "avar" : "a1.jpg", "stime" : "2018-04-15 11:52:04", "msg": "hahcd ","roomid":"2","uid":"2"}
+2018-04-15 08:35:28  decode buffer:array (
+  'type' => '3',
+  'user' => 'bbb',
+  'avar' => 'a1.jpg',
+  'stime' => '2018-04-15 11:52:04',
+  'msg' => 'hahcd ',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 08:35:28  sendroomid:2,mess:array (
+  'type' => '3',
+  'user' => 'bbb',
+  'avar' => 'a1.jpg',
+  'stime' => '2018-04-15 08:35:28',
+  'msg' => 'hahcd ',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 08:35:28  socket:Resource id #12,mess:array (
+  'type' => '3',
+  'user' => 'bbb',
+  'avar' => 'a1.jpg',
+  'stime' => '2018-04-15 08:35:28',
+  'msg' => 'hahcd ',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 08:35:44  buffer:{"type" : "3", "user" : "aaa", "avar" : "a6.jpg", "stime" : "2018-04-15 11:52:21", "msg": "看起来不错","roomid":"2","uid":"1"}
+2018-04-15 08:35:44  decode buffer:array (
+  'type' => '3',
+  'user' => 'aaa',
+  'avar' => 'a6.jpg',
+  'stime' => '2018-04-15 11:52:21',
+  'msg' => '看起来不错',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 08:35:44  sendroomid:2,mess:array (
+  'type' => '3',
+  'user' => 'aaa',
+  'avar' => 'a6.jpg',
+  'stime' => '2018-04-15 08:35:44',
+  'msg' => '看起来不错',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 08:35:44  socket:Resource id #21,mess:array (
+  'type' => '3',
+  'user' => 'aaa',
+  'avar' => 'a6.jpg',
+  'stime' => '2018-04-15 08:35:44',
+  'msg' => '看起来不错',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 08:35:52  buffer:{"type" : "4", "msg" : "login out"}
+2018-04-15 08:35:52  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+)
+2018-04-15 08:35:52  Resource id #21 DISCONNECTED!
+2018-04-15 08:35:59  
+Resource id #39 CONNECTED!
+2018-04-15 08:35:59  2018-4-15 08:35:59
+2018-04-15 08:35:59  buffer:{"type" : "1", "user" : "bbb", "avar" : "a1.jpg","roomid" : "6","uid":"2"}
+2018-04-15 08:35:59  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a1.jpg',
+  'roomid' => '6',
+  'uid' => '2',
+)
+2018-04-15 08:35:59  sendroomid:6,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 08:35:59',
+)
+2018-04-15 08:36:13  buffer:{"type" : "3", "user" : "bbb", "avar" : "a1.jpg", "stime" : "2018-04-15 11:52:50", "msg": "jancd ","roomid":"6","uid":"2"}
+2018-04-15 08:36:13  decode buffer:array (
+  'type' => '3',
+  'user' => 'bbb',
+  'avar' => 'a1.jpg',
+  'stime' => '2018-04-15 11:52:50',
+  'msg' => 'jancd ',
+  'roomid' => '6',
+  'uid' => '2',
+)
+2018-04-15 08:36:13  sendroomid:6,mess:array (
+  'type' => '3',
+  'user' => 'bbb',
+  'avar' => 'a1.jpg',
+  'stime' => '2018-04-15 08:36:13',
+  'msg' => 'jancd ',
+  'roomid' => '6',
+  'uid' => '2',
+)
+2018-04-15 08:36:20  buffer:{"type" : "3", "user" : "bbb", "avar" : "a1.jpg", "stime" : "2018-04-15 11:52:57", "msg": "jajcd ","roomid":"6","uid":"2"}
+2018-04-15 08:36:20  decode buffer:array (
+  'type' => '3',
+  'user' => 'bbb',
+  'avar' => 'a1.jpg',
+  'stime' => '2018-04-15 11:52:57',
+  'msg' => 'jajcd ',
+  'roomid' => '6',
+  'uid' => '2',
+)
+2018-04-15 08:36:20  sendroomid:6,mess:array (
+  'type' => '3',
+  'user' => 'bbb',
+  'avar' => 'a1.jpg',
+  'stime' => '2018-04-15 08:36:20',
+  'msg' => 'jajcd ',
+  'roomid' => '6',
+  'uid' => '2',
+)
+2018-04-15 08:36:41  buffer:{"type" : "3", "user" : "aaa", "avar" : "a6.jpg", "stime" : "2018-04-15 11:53:18", "msg": "jjn","roomid":"2","uid":"1"}
+2018-04-15 08:36:41  decode buffer:array (
+  'type' => '3',
+  'user' => 'aaa',
+  'avar' => 'a6.jpg',
+  'stime' => '2018-04-15 11:53:18',
+  'msg' => 'jjn',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 08:36:41  sendroomid:2,mess:array (
+  'type' => '3',
+  'user' => 'aaa',
+  'avar' => 'a6.jpg',
+  'stime' => '2018-04-15 08:36:41',
+  'msg' => 'jjn',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 08:36:56  buffer:{"type" : "4", "msg" : "login out"}
+2018-04-15 08:36:56  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+)
+2018-04-15 08:36:56  Resource id #12 DISCONNECTED!
+2018-04-15 08:36:59  
+Resource id #57 CONNECTED!
+2018-04-15 08:36:59  2018-4-15 08:36:59
+2018-04-15 08:36:59  buffer:{"type" : "1", "user" : "aaa", "avar" : "a4.jpg","roomid" : "2","uid":"1"}
+2018-04-15 08:36:59  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a4.jpg',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 08:36:59  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a4.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:36:59',
+)
+2018-04-15 08:37:04  buffer:{"type" : "4", "msg" : "login out"}
+2018-04-15 08:37:04  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+)
+2018-04-15 08:37:04  Resource id #57 DISCONNECTED!
+2018-04-15 08:37:07  
+Resource id #66 CONNECTED!
+2018-04-15 08:37:07  2018-4-15 08:37:07
+2018-04-15 08:37:07  buffer:{"type" : "1", "user" : "aaa", "avar" : "a5.jpg","roomid" : "6","uid":"1"}
+2018-04-15 08:37:07  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a5.jpg',
+  'roomid' => '6',
+  'uid' => '1',
+)
+2018-04-15 08:37:07  sendroomid:6,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a5.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:37:07',
+)
+2018-04-15 08:37:07  socket:Resource id #39,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a5.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:37:07',
+)
+2018-04-15 08:37:12  buffer:{"type" : "3", "user" : "aaa", "avar" : "a5.jpg", "stime" : "2018-04-15 11:53:49", "msg": "uuubb","roomid":"6","uid":"1"}
+2018-04-15 08:37:12  decode buffer:array (
+  'type' => '3',
+  'user' => 'aaa',
+  'avar' => 'a5.jpg',
+  'stime' => '2018-04-15 11:53:49',
+  'msg' => 'uuubb',
+  'roomid' => '6',
+  'uid' => '1',
+)
+2018-04-15 08:37:12  sendroomid:6,mess:array (
+  'type' => '3',
+  'user' => 'aaa',
+  'avar' => 'a5.jpg',
+  'stime' => '2018-04-15 08:37:12',
+  'msg' => 'uuubb',
+  'roomid' => '6',
+  'uid' => '1',
+)
+2018-04-15 08:37:12  socket:Resource id #39,mess:array (
+  'type' => '3',
+  'user' => 'aaa',
+  'avar' => 'a5.jpg',
+  'stime' => '2018-04-15 08:37:12',
+  'msg' => 'uuubb',
+  'roomid' => '6',
+  'uid' => '1',
+)
+2018-04-15 08:37:22  buffer:{"type" : "3", "user" : "bbb", "avar" : "a1.jpg", "stime" : "2018-04-15 11:53:58", "msg": "你大爷","roomid":"6","uid":"2"}
+2018-04-15 08:37:22  decode buffer:array (
+  'type' => '3',
+  'user' => 'bbb',
+  'avar' => 'a1.jpg',
+  'stime' => '2018-04-15 11:53:58',
+  'msg' => '你大爷',
+  'roomid' => '6',
+  'uid' => '2',
+)
+2018-04-15 08:37:22  sendroomid:6,mess:array (
+  'type' => '3',
+  'user' => 'bbb',
+  'avar' => 'a1.jpg',
+  'stime' => '2018-04-15 08:37:22',
+  'msg' => '你大爷',
+  'roomid' => '6',
+  'uid' => '2',
+)
+2018-04-15 08:37:22  socket:Resource id #66,mess:array (
+  'type' => '3',
+  'user' => 'bbb',
+  'avar' => 'a1.jpg',
+  'stime' => '2018-04-15 08:37:22',
+  'msg' => '你大爷',
+  'roomid' => '6',
+  'uid' => '2',
+)
+2018-04-15 08:37:27  buffer:{"type" : "4", "msg" : "login out"}
+2018-04-15 08:37:27  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+)
+2018-04-15 08:37:27  Resource id #66 DISCONNECTED!
+2018-04-15 08:37:29  
+Resource id #84 CONNECTED!
+2018-04-15 08:37:29  2018-4-15 08:37:29
+2018-04-15 08:37:29  buffer:{"type" : "1", "user" : "aaa", "avar" : "a9.jpg","roomid" : "6","uid":"1"}
+2018-04-15 08:37:29  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a9.jpg',
+  'roomid' => '6',
+  'uid' => '1',
+)
+2018-04-15 08:37:29  sendroomid:6,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a9.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:37:29',
+)
+2018-04-15 08:37:29  socket:Resource id #39,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a9.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:37:29',
+)
+2018-04-15 08:37:41  buffer:�
+2018-04-15 08:37:41  decode buffer:NULL
+2018-04-15 08:37:42  
+Resource id #93 CONNECTED!
+2018-04-15 08:37:42  2018-4-15 08:37:42
+2018-04-15 08:37:43  buffer:{"type" : "1", "user" : "bbb", "avar" : "a6.jpg","roomid" : "6","uid":"2"}
+2018-04-15 08:37:43  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a6.jpg',
+  'roomid' => '6',
+  'uid' => '2',
+)
+2018-04-15 08:37:43  sendroomid:6,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 08:37:43',
+)
+2018-04-15 08:37:43  socket:Resource id #39,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 08:37:43',
+)
+2018-04-15 08:37:43  socket:Resource id #84,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 08:37:43',
+)
+2018-04-15 08:38:01  Resource id #39 DISCONNECTED!
+2018-04-15 08:40:25  buffer:{"type" : "4", "msg" : "login out"}
+2018-04-15 08:40:25  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+)
+2018-04-15 08:40:25  Resource id #84 DISCONNECTED!
+2018-04-15 08:40:25  
+Resource id #105 CONNECTED!
+2018-04-15 08:40:25  2018-4-15 08:40:25
+2018-04-15 08:40:26  buffer:{"type" : "1", "user" : "aaa", "avar" : "a2.jpg","roomid" : "6","uid":"1"}
+2018-04-15 08:40:26  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a2.jpg',
+  'roomid' => '6',
+  'uid' => '1',
+)
+2018-04-15 08:40:26  sendroomid:6,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:40:26',
+)
+2018-04-15 08:40:26  socket:Resource id #93,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:40:26',
+)
+2018-04-15 08:40:27  buffer:{"type" : "4", "msg" : "login out"}
+2018-04-15 08:40:27  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+)
+2018-04-15 08:40:27  Resource id #105 DISCONNECTED!
+2018-04-15 08:40:27  
+Resource id #115 CONNECTED!
+2018-04-15 08:40:27  2018-4-15 08:40:27
+2018-04-15 08:40:28  buffer:{"type" : "1", "user" : "aaa", "avar" : "a8.jpg","roomid" : "6","uid":"1"}
+2018-04-15 08:40:28  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a8.jpg',
+  'roomid' => '6',
+  'uid' => '1',
+)
+2018-04-15 08:40:28  sendroomid:6,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a8.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:40:28',
+)
+2018-04-15 08:40:28  socket:Resource id #93,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a8.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:40:28',
+)
+2018-04-15 08:40:28  buffer:{"type" : "4", "msg" : "login out"}
+2018-04-15 08:40:28  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+)
+2018-04-15 08:40:29  Resource id #115 DISCONNECTED!
+2018-04-15 08:40:29  
+Resource id #125 CONNECTED!
+2018-04-15 08:40:29  2018-4-15 08:40:29
+2018-04-15 08:40:29  buffer:{"type" : "1", "user" : "aaa", "avar" : "a8.jpg","roomid" : "6","uid":"1"}
+2018-04-15 08:40:29  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a8.jpg',
+  'roomid' => '6',
+  'uid' => '1',
+)
+2018-04-15 08:40:29  sendroomid:6,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a8.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:40:29',
+)
+2018-04-15 08:40:29  socket:Resource id #93,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a8.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:40:29',
+)
+2018-04-15 08:40:30  buffer:{"type" : "4", "msg" : "login out"}
+2018-04-15 08:40:30  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+)
+2018-04-15 08:40:30  Resource id #125 DISCONNECTED!
+2018-04-15 08:40:31  
+Resource id #135 CONNECTED!
+2018-04-15 08:40:31  2018-4-15 08:40:31
+2018-04-15 08:40:31  buffer:{"type" : "1", "user" : "aaa", "avar" : "a2.jpg","roomid" : "6","uid":"1"}
+2018-04-15 08:40:31  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a2.jpg',
+  'roomid' => '6',
+  'uid' => '1',
+)
+2018-04-15 08:40:31  sendroomid:6,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:40:31',
+)
+2018-04-15 08:40:31  socket:Resource id #93,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:40:31',
+)
+2018-04-15 08:40:32  buffer:{"type" : "4", "msg" : "login out"}
+2018-04-15 08:40:32  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+)
+2018-04-15 08:40:32  Resource id #135 DISCONNECTED!
+2018-04-15 08:40:33  
+Resource id #145 CONNECTED!
+2018-04-15 08:40:33  2018-4-15 08:40:33
+2018-04-15 08:40:33  buffer:{"type" : "1", "user" : "aaa", "avar" : "a9.jpg","roomid" : "6","uid":"1"}
+2018-04-15 08:40:33  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a9.jpg',
+  'roomid' => '6',
+  'uid' => '1',
+)
+2018-04-15 08:40:33  sendroomid:6,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a9.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:40:33',
+)
+2018-04-15 08:40:33  socket:Resource id #93,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a9.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:40:33',
+)
+2018-04-15 08:40:34  buffer:{"type" : "4", "msg" : "login out"}
+2018-04-15 08:40:34  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+)
+2018-04-15 08:40:34  Resource id #145 DISCONNECTED!
+2018-04-15 08:40:35  
+Resource id #155 CONNECTED!
+2018-04-15 08:40:35  2018-4-15 08:40:35
+2018-04-15 08:40:35  buffer:{"type" : "1", "user" : "aaa", "avar" : "a8.jpg","roomid" : "6","uid":"1"}
+2018-04-15 08:40:35  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a8.jpg',
+  'roomid' => '6',
+  'uid' => '1',
+)
+2018-04-15 08:40:35  sendroomid:6,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a8.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:40:35',
+)
+2018-04-15 08:40:35  socket:Resource id #93,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a8.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:40:35',
+)
+2018-04-15 08:41:51  buffer:{"type" : "3", "user" : "aaa", "avar" : "a8.jpg", "stime" : "2018-04-15 11:58:28", "msg": "加成的","roomid":"6","uid":"1"}
+2018-04-15 08:41:51  decode buffer:array (
+  'type' => '3',
+  'user' => 'aaa',
+  'avar' => 'a8.jpg',
+  'stime' => '2018-04-15 11:58:28',
+  'msg' => '加成的',
+  'roomid' => '6',
+  'uid' => '1',
+)
+2018-04-15 08:41:51  sendroomid:6,mess:array (
+  'type' => '3',
+  'user' => 'aaa',
+  'avar' => 'a8.jpg',
+  'stime' => '2018-04-15 08:41:51',
+  'msg' => '加成的',
+  'roomid' => '6',
+  'uid' => '1',
+)
+2018-04-15 08:41:51  socket:Resource id #93,mess:array (
+  'type' => '3',
+  'user' => 'aaa',
+  'avar' => 'a8.jpg',
+  'stime' => '2018-04-15 08:41:51',
+  'msg' => '加成的',
+  'roomid' => '6',
+  'uid' => '1',
+)
+2018-04-15 08:41:53  buffer:{"type" : "3", "user" : "aaa", "avar" : "a8.jpg", "stime" : "2018-04-15 11:58:30", "msg": "鹌鹑蛋","roomid":"6","uid":"1"}
+2018-04-15 08:41:53  decode buffer:array (
+  'type' => '3',
+  'user' => 'aaa',
+  'avar' => 'a8.jpg',
+  'stime' => '2018-04-15 11:58:30',
+  'msg' => '鹌鹑蛋',
+  'roomid' => '6',
+  'uid' => '1',
+)
+2018-04-15 08:41:53  sendroomid:6,mess:array (
+  'type' => '3',
+  'user' => 'aaa',
+  'avar' => 'a8.jpg',
+  'stime' => '2018-04-15 08:41:53',
+  'msg' => '鹌鹑蛋',
+  'roomid' => '6',
+  'uid' => '1',
+)
+2018-04-15 08:41:53  socket:Resource id #93,mess:array (
+  'type' => '3',
+  'user' => 'aaa',
+  'avar' => 'a8.jpg',
+  'stime' => '2018-04-15 08:41:53',
+  'msg' => '鹌鹑蛋',
+  'roomid' => '6',
+  'uid' => '1',
+)
+2018-04-15 08:41:55  buffer:{"type" : "3", "user" : "aaa", "avar" : "a8.jpg", "stime" : "2018-04-15 11:58:31", "msg": "鹌鹑蛋","roomid":"6","uid":"1"}
+2018-04-15 08:41:55  decode buffer:array (
+  'type' => '3',
+  'user' => 'aaa',
+  'avar' => 'a8.jpg',
+  'stime' => '2018-04-15 11:58:31',
+  'msg' => '鹌鹑蛋',
+  'roomid' => '6',
+  'uid' => '1',
+)
+2018-04-15 08:41:55  sendroomid:6,mess:array (
+  'type' => '3',
+  'user' => 'aaa',
+  'avar' => 'a8.jpg',
+  'stime' => '2018-04-15 08:41:55',
+  'msg' => '鹌鹑蛋',
+  'roomid' => '6',
+  'uid' => '1',
+)
+2018-04-15 08:41:55  socket:Resource id #93,mess:array (
+  'type' => '3',
+  'user' => 'aaa',
+  'avar' => 'a8.jpg',
+  'stime' => '2018-04-15 08:41:55',
+  'msg' => '鹌鹑蛋',
+  'roomid' => '6',
+  'uid' => '1',
+)
+2018-04-15 08:46:01  buffer:{"type" : "4", "msg" : "login out"}
+2018-04-15 08:46:01  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+)
+2018-04-15 08:46:01  Resource id #155 DISCONNECTED!
+2018-04-15 08:46:02  
+Resource id #177 CONNECTED!
+2018-04-15 08:46:02  2018-4-15 08:46:02
+2018-04-15 08:46:02  buffer:{"type" : "1", "user" : "aaa", "avar" : "a4.jpg","roomid" : "6","uid":"1"}
+2018-04-15 08:46:02  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a4.jpg',
+  'roomid' => '6',
+  'uid' => '1',
+)
+2018-04-15 08:46:02  sendroomid:6,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a4.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:46:02',
+)
+2018-04-15 08:46:02  socket:Resource id #93,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a4.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:46:02',
+)
+2018-04-15 08:46:33  buffer:{"type" : "4", "msg" : "login out"}
+2018-04-15 08:46:33  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+)
+2018-04-15 08:46:33  Resource id #177 DISCONNECTED!
+2018-04-15 08:46:34  
+Resource id #187 CONNECTED!
+2018-04-15 08:46:34  2018-4-15 08:46:34
+2018-04-15 08:46:34  buffer:{"type" : "1", "user" : "aaa", "avar" : "a7.jpg","roomid" : "6","uid":"1"}
+2018-04-15 08:46:34  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a7.jpg',
+  'roomid' => '6',
+  'uid' => '1',
+)
+2018-04-15 08:46:34  sendroomid:6,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a7.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:46:34',
+)
+2018-04-15 08:46:34  socket:Resource id #93,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a7.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:46:34',
+)
+2018-04-15 08:47:20  buffer:{"type" : "4", "msg" : "login out"}
+2018-04-15 08:47:20  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+)
+2018-04-15 08:47:20  Resource id #187 DISCONNECTED!
+2018-04-15 08:47:21  
+Resource id #197 CONNECTED!
+2018-04-15 08:47:21  2018-4-15 08:47:21
+2018-04-15 08:47:21  buffer:{"type" : "1", "user" : "aaa", "avar" : "a2.jpg","roomid" : "6","uid":"1"}
+2018-04-15 08:47:21  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a2.jpg',
+  'roomid' => '6',
+  'uid' => '1',
+)
+2018-04-15 08:47:21  sendroomid:6,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:47:21',
+)
+2018-04-15 08:47:21  socket:Resource id #93,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:47:21',
+)
+2018-04-15 08:48:10  buffer:{"type" : "4", "msg" : "login out"}
+2018-04-15 08:48:10  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+)
+2018-04-15 08:48:10  Resource id #197 DISCONNECTED!
+2018-04-15 08:48:12  
+Resource id #207 CONNECTED!
+2018-04-15 08:48:12  2018-4-15 08:48:12
+2018-04-15 08:48:12  buffer:{"type" : "1", "user" : "aaa", "avar" : "a1.jpg","roomid" : "2","uid":"1"}
+2018-04-15 08:48:12  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a1.jpg',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 08:48:12  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:48:12',
+)
+2018-04-15 08:48:32  buffer:{"type" : "4", "msg" : "login out"}
+2018-04-15 08:48:32  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+)
+2018-04-15 08:48:32  Resource id #207 DISCONNECTED!
+2018-04-15 08:48:32  
+Resource id #216 CONNECTED!
+2018-04-15 08:48:32  2018-4-15 08:48:32
+2018-04-15 08:48:32  buffer:{"type" : "1", "user" : "aaa", "avar" : "a9.jpg","roomid" : "2","uid":"1"}
+2018-04-15 08:48:32  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a9.jpg',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 08:48:32  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a9.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:48:32',
+)
+2018-04-15 08:55:07  Server Started : 2018-04-15 08:55:07
+2018-04-15 08:55:07  Listening on   : 127.0.0.1 port 8090
+2018-04-15 08:55:07  Master socket  : Resource id #7 
+
+2018-04-15 08:55:12  
+Resource id #12 CONNECTED!
+2018-04-15 08:55:12  2018-4-15 08:55:12
+2018-04-15 08:55:12  buffer:{"type" : "1", "user" : "aaa", "avar" : "a4.jpg","roomid" : "2","uid":"1"}
+2018-04-15 08:55:12  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a4.jpg',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 08:55:12  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a4.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:55:12',
+)
+2018-04-15 08:55:15  buffer:{"type" : "4", "msg" : "login out"}
+2018-04-15 08:55:15  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+)
+2018-04-15 08:55:15  Resource id #12 DISCONNECTED!
+2018-04-15 08:55:16  
+Resource id #21 CONNECTED!
+2018-04-15 08:55:16  2018-4-15 08:55:16
+2018-04-15 08:55:16  buffer:{"type" : "1", "user" : "aaa", "avar" : "a5.jpg","roomid" : "2","uid":"1"}
+2018-04-15 08:55:16  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a5.jpg',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 08:55:16  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a5.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:55:16',
+)
+2018-04-15 08:55:18  buffer:{"type" : "4", "msg" : "login out"}
+2018-04-15 08:55:18  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+)
+2018-04-15 08:55:18  Resource id #21 DISCONNECTED!
+2018-04-15 08:55:18  
+Resource id #30 CONNECTED!
+2018-04-15 08:55:18  2018-4-15 08:55:18
+2018-04-15 08:55:19  buffer:{"type" : "1", "user" : "aaa", "avar" : "a9.jpg","roomid" : "2","uid":"1"}
+2018-04-15 08:55:19  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a9.jpg',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 08:55:19  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a9.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:55:19',
+)
+2018-04-15 08:57:08  buffer:{"type" : "4", "msg" : "login out"}
+2018-04-15 08:57:08  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+)
+2018-04-15 08:57:08  Resource id #30 DISCONNECTED!
+2018-04-15 08:57:09  
+Resource id #39 CONNECTED!
+2018-04-15 08:57:09  2018-4-15 08:57:09
+2018-04-15 08:57:09  buffer:{"type" : "1", "user" : "aaa", "avar" : "a6.jpg","roomid" : "2","uid":"1"}
+2018-04-15 08:57:09  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a6.jpg',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 08:57:09  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 08:57:09',
+)
+2018-04-15 09:06:16  
+Resource id #45 CONNECTED!
+2018-04-15 09:06:16  2018-4-15 09:06:16
+2018-04-15 09:06:16  buffer:{"type" : "1", "user" : "bbb", "avar" : "a4.jpg","roomid" : "6","uid":"2"}
+2018-04-15 09:06:16  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a4.jpg',
+  'roomid' => '6',
+  'uid' => '2',
+)
+2018-04-15 09:06:16  sendroomid:6,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a4.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:06:16',
+)
+2018-04-15 09:06:26  buffer:{"type" : "4", "msg" : "login out"}
+2018-04-15 09:06:26  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+)
+2018-04-15 09:06:26  Resource id #39 DISCONNECTED!
+2018-04-15 09:06:35  
+Resource id #54 CONNECTED!
+2018-04-15 09:06:35  2018-4-15 09:06:35
+2018-04-15 09:06:35  buffer:{"type" : "1", "user" : "aaa", "avar" : "a7.jpg","roomid" : "6","uid":"1"}
+2018-04-15 09:06:35  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a7.jpg',
+  'roomid' => '6',
+  'uid' => '1',
+)
+2018-04-15 09:06:35  sendroomid:6,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a7.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:06:35',
+)
+2018-04-15 09:06:35  socket:Resource id #45,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a7.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:06:35',
+)
+2018-04-15 09:06:37  buffer:{"type" : "4", "msg" : "login out"}
+2018-04-15 09:06:37  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+)
+2018-04-15 09:06:37  Resource id #54 DISCONNECTED!
+2018-04-15 09:06:38  
+Resource id #64 CONNECTED!
+2018-04-15 09:06:38  2018-4-15 09:06:38
+2018-04-15 09:06:38  buffer:{"type" : "1", "user" : "aaa", "avar" : "a4.jpg","roomid" : "6","uid":"1"}
+2018-04-15 09:06:38  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a4.jpg',
+  'roomid' => '6',
+  'uid' => '1',
+)
+2018-04-15 09:06:38  sendroomid:6,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a4.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:06:38',
+)
+2018-04-15 09:06:38  socket:Resource id #45,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a4.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:06:38',
+)
+2018-04-15 09:14:05  buffer:PING
+2018-04-15 09:14:05  decode buffer:NULL
+2018-04-15 09:14:15  Resource id #45 DISCONNECTED!
+2018-04-15 09:17:46  buffer:{"type" : "4", "msg" : "login out"}
+2018-04-15 09:17:46  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+)
+2018-04-15 09:17:46  Resource id #64 DISCONNECTED!
+2018-04-15 09:18:51  Server Started : 2018-04-15 09:18:51
+2018-04-15 09:18:51  Listening on   : 127.0.0.1 port 8090
+2018-04-15 09:18:51  Master socket  : Resource id #7 
+
+2018-04-15 09:19:03  
+Resource id #12 CONNECTED!
+2018-04-15 09:19:03  2018-4-15 09:19:03
+2018-04-15 09:19:03  buffer:{"type" : "1", "user" : "aaa", "avar" : "a6.jpg","roomid" : "2","uid":"1"}
+2018-04-15 09:19:03  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a6.jpg',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 09:19:03  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:19:03',
+)
+2018-04-15 09:19:16  buffer:{"type" : "4", "msg" : "login out"}
+2018-04-15 09:19:16  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+)
+2018-04-15 09:19:16  Resource id #12 DISCONNECTED!
+2018-04-15 09:19:16  
+Resource id #21 CONNECTED!
+2018-04-15 09:19:16  2018-4-15 09:19:16
+2018-04-15 09:19:16  buffer:{"type" : "1", "user" : "aaa", "avar" : "a7.jpg","roomid" : "2","uid":"1"}
+2018-04-15 09:19:16  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a7.jpg',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 09:19:16  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a7.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:19:16',
+)
+2018-04-15 09:19:17  buffer:{"type" : "4", "msg" : "login out"}
+2018-04-15 09:19:17  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+)
+2018-04-15 09:19:17  Resource id #21 DISCONNECTED!
+2018-04-15 09:19:18  
+Resource id #30 CONNECTED!
+2018-04-15 09:19:18  2018-4-15 09:19:18
+2018-04-15 09:19:18  buffer:{"type" : "1", "user" : "aaa", "avar" : "a8.jpg","roomid" : "2","uid":"1"}
+2018-04-15 09:19:18  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a8.jpg',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 09:19:18  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a8.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:19:18',
+)
+2018-04-15 09:26:28  Server Started : 2018-04-15 09:26:28
+2018-04-15 09:26:28  Listening on   : 127.0.0.1 port 8090
+2018-04-15 09:26:28  Master socket  : Resource id #7 
+
+2018-04-15 09:26:38  
+Resource id #12 CONNECTED!
+2018-04-15 09:26:38  2018-4-15 09:26:38
+2018-04-15 09:26:38  buffer:{"type" : "1", "user" : "aaa", "avar" : "a9.jpg","roomid" : "2","uid":"1"}
+2018-04-15 09:26:38  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a9.jpg',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 09:26:38  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a9.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:26:38',
+)
+2018-04-15 09:26:40  buffer:{"type" : "4", "msg" : "login out"}
+2018-04-15 09:26:40  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+)
+2018-04-15 09:26:40  Resource id #12 DISCONNECTED!
+2018-04-15 09:26:41  
+Resource id #21 CONNECTED!
+2018-04-15 09:26:41  2018-4-15 09:26:41
+2018-04-15 09:26:41  buffer:{"type" : "1", "user" : "aaa", "avar" : "a6.jpg","roomid" : "2","uid":"1"}
+2018-04-15 09:26:41  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a6.jpg',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 09:26:41  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:26:41',
+)
+2018-04-15 09:26:43  buffer:{"type" : "4", "msg" : "login out"}
+2018-04-15 09:26:43  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+)
+2018-04-15 09:26:43  Resource id #21 DISCONNECTED!
+2018-04-15 09:26:44  
+Resource id #30 CONNECTED!
+2018-04-15 09:26:44  2018-4-15 09:26:44
+2018-04-15 09:26:44  buffer:{"type" : "1", "user" : "aaa", "avar" : "a3.jpg","roomid" : "2","uid":"1"}
+2018-04-15 09:26:44  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a3.jpg',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 09:26:44  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a3.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:26:44',
+)
+2018-04-15 09:31:56  Server Started : 2018-04-15 09:31:56
+2018-04-15 09:31:56  Listening on   : 127.0.0.1 port 8090
+2018-04-15 09:31:56  Master socket  : Resource id #7 
+
+2018-04-15 09:32:05  
+Resource id #12 CONNECTED!
+2018-04-15 09:32:05  2018-4-15 09:32:05
+2018-04-15 09:32:05  buffer:{"type" : "1", "user" : "aaa", "avar" : "a9.jpg","roomid" : "2","uid":"1"}
+2018-04-15 09:32:05  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a9.jpg',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 09:32:05  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a9.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:32:05',
+)
+2018-04-15 09:32:06  buffer:{"type" : "4", "msg" : "login out","roomid":"2"}
+2018-04-15 09:32:06  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+  'roomid' => '2',
+)
+2018-04-15 09:32:06  Resource id #12 DISCONNECTED!
+2018-04-15 09:32:06  
+Resource id #21 CONNECTED!
+2018-04-15 09:32:06  2018-4-15 09:32:06
+2018-04-15 09:32:06  buffer:{"type" : "1", "user" : "aaa", "avar" : "a7.jpg","roomid" : "2","uid":"1"}
+2018-04-15 09:32:06  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a7.jpg',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 09:32:06  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a7.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:32:06',
+)
+2018-04-15 09:32:07  buffer:{"type" : "4", "msg" : "login out","roomid":"2"}
+2018-04-15 09:32:07  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+  'roomid' => '2',
+)
+2018-04-15 09:32:07  Resource id #21 DISCONNECTED!
+2018-04-15 09:32:08  
+Resource id #30 CONNECTED!
+2018-04-15 09:32:08  2018-4-15 09:32:08
+2018-04-15 09:32:08  buffer:{"type" : "1", "user" : "aaa", "avar" : "a5.jpg","roomid" : "2","uid":"1"}
+2018-04-15 09:32:08  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a5.jpg',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 09:32:08  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a5.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:32:08',
+)
+2018-04-15 09:32:09  buffer:{"type" : "4", "msg" : "login out","roomid":"2"}
+2018-04-15 09:32:09  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+  'roomid' => '2',
+)
+2018-04-15 09:32:09  Resource id #30 DISCONNECTED!
+2018-04-15 09:32:09  
+Resource id #39 CONNECTED!
+2018-04-15 09:32:09  2018-4-15 09:32:09
+2018-04-15 09:32:09  buffer:{"type" : "1", "user" : "aaa", "avar" : "a9.jpg","roomid" : "2","uid":"1"}
+2018-04-15 09:32:09  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a9.jpg',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 09:32:09  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a9.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:32:09',
+)
+2018-04-15 09:32:10  buffer:{"type" : "4", "msg" : "login out","roomid":"2"}
+2018-04-15 09:32:10  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+  'roomid' => '2',
+)
+2018-04-15 09:32:10  Resource id #39 DISCONNECTED!
+2018-04-15 09:32:11  
+Resource id #48 CONNECTED!
+2018-04-15 09:32:11  2018-4-15 09:32:11
+2018-04-15 09:32:11  buffer:{"type" : "1", "user" : "aaa", "avar" : "a8.jpg","roomid" : "2","uid":"1"}
+2018-04-15 09:32:11  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a8.jpg',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 09:32:11  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a8.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:32:11',
+)
+2018-04-15 09:32:17  
+Resource id #54 CONNECTED!
+2018-04-15 09:32:18  2018-4-15 09:32:18
+2018-04-15 09:32:18  buffer:{"type" : "1", "user" : "bbb", "avar" : "a6.jpg","roomid" : "6","uid":"2"}
+2018-04-15 09:32:18  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a6.jpg',
+  'roomid' => '6',
+  'uid' => '2',
+)
+2018-04-15 09:32:18  sendroomid:6,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:32:18',
+)
+2018-04-15 09:32:20  buffer:�
+2018-04-15 09:32:20  decode buffer:NULL
+2018-04-15 09:32:22  
+Resource id #62 CONNECTED!
+2018-04-15 09:32:22  2018-4-15 09:32:22
+2018-04-15 09:32:22  buffer:{"type" : "1", "user" : "bbb", "avar" : "a1.jpg","roomid" : "6","uid":"2"}
+2018-04-15 09:32:22  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a1.jpg',
+  'roomid' => '6',
+  'uid' => '2',
+)
+2018-04-15 09:32:22  sendroomid:6,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:32:22',
+)
+2018-04-15 09:32:22  socket:Resource id #54,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:32:22',
+)
+2018-04-15 09:32:26  buffer:�
+2018-04-15 09:32:26  decode buffer:NULL
+2018-04-15 09:32:27  
+Resource id #71 CONNECTED!
+2018-04-15 09:32:27  2018-4-15 09:32:27
+2018-04-15 09:32:27  buffer:{"type" : "1", "user" : "bbb", "avar" : "a2.jpg","roomid" : "6","uid":"2"}
+2018-04-15 09:32:27  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a2.jpg',
+  'roomid' => '6',
+  'uid' => '2',
+)
+2018-04-15 09:32:27  sendroomid:6,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:32:27',
+)
+2018-04-15 09:32:27  socket:Resource id #54,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:32:27',
+)
+2018-04-15 09:32:27  socket:Resource id #62,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:32:27',
+)
+2018-04-15 09:32:29  buffer:�
+2018-04-15 09:32:29  decode buffer:NULL
+2018-04-15 09:32:32  
+Resource id #81 CONNECTED!
+2018-04-15 09:32:32  2018-4-15 09:32:32
+2018-04-15 09:32:32  buffer:{"type" : "1", "user" : "bbb", "avar" : "a6.jpg","roomid" : "6","uid":"2"}
+2018-04-15 09:32:32  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a6.jpg',
+  'roomid' => '6',
+  'uid' => '2',
+)
+2018-04-15 09:32:32  sendroomid:6,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:32:32',
+)
+2018-04-15 09:32:32  socket:Resource id #54,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:32:32',
+)
+2018-04-15 09:32:32  socket:Resource id #62,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:32:32',
+)
+2018-04-15 09:32:32  socket:Resource id #71,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:32:32',
+)
+2018-04-15 09:32:38  buffer:�
+2018-04-15 09:32:38  decode buffer:NULL
+2018-04-15 09:32:40  Resource id #54 DISCONNECTED!
+2018-04-15 09:32:41  
+Resource id #93 CONNECTED!
+2018-04-15 09:32:41  2018-4-15 09:32:41
+2018-04-15 09:32:41  buffer:{"type" : "1", "user" : "bbb", "avar" : "a3.jpg","roomid" : "2","uid":"2"}
+2018-04-15 09:32:41  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a3.jpg',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 09:32:41  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a3.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:32:41',
+)
+2018-04-15 09:32:41  socket:Resource id #48,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a3.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:32:41',
+)
+2018-04-15 09:32:44  buffer:�
+2018-04-15 09:32:44  decode buffer:NULL
+2018-04-15 09:32:46  
+Resource id #102 CONNECTED!
+2018-04-15 09:32:46  2018-4-15 09:32:46
+2018-04-15 09:32:46  buffer:{"type" : "1", "user" : "bbb", "avar" : "a1.jpg","roomid" : "2","uid":"2"}
+2018-04-15 09:32:46  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a1.jpg',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 09:32:46  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:32:46',
+)
+2018-04-15 09:32:46  socket:Resource id #48,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:32:46',
+)
+2018-04-15 09:32:46  socket:Resource id #93,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:32:46',
+)
+2018-04-15 09:32:46  Resource id #62 DISCONNECTED!
+2018-04-15 09:32:49  Resource id #71 DISCONNECTED!
+2018-04-15 09:32:50  buffer:{"type" : "4", "msg" : "login out","roomid":"2"}
+2018-04-15 09:32:50  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+  'roomid' => '2',
+)
+2018-04-15 09:32:50  Resource id #48 DISCONNECTED!
+2018-04-15 09:32:51  
+Resource id #115 CONNECTED!
+2018-04-15 09:32:51  2018-4-15 09:32:51
+2018-04-15 09:32:51  buffer:{"type" : "1", "user" : "aaa", "avar" : "a6.jpg","roomid" : "2","uid":"1"}
+2018-04-15 09:32:51  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a6.jpg',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 09:32:51  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:32:51',
+)
+2018-04-15 09:32:51  socket:Resource id #93,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:32:51',
+)
+2018-04-15 09:32:51  socket:Resource id #102,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:32:51',
+)
+2018-04-15 09:32:52  buffer:{"type" : "4", "msg" : "login out","roomid":"2"}
+2018-04-15 09:32:52  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+  'roomid' => '2',
+)
+2018-04-15 09:32:52  Resource id #115 DISCONNECTED!
+2018-04-15 09:32:53  
+Resource id #126 CONNECTED!
+2018-04-15 09:32:53  2018-4-15 09:32:53
+2018-04-15 09:32:53  buffer:{"type" : "1", "user" : "aaa", "avar" : "a1.jpg","roomid" : "2","uid":"1"}
+2018-04-15 09:32:53  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a1.jpg',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 09:32:53  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:32:53',
+)
+2018-04-15 09:32:53  socket:Resource id #93,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:32:53',
+)
+2018-04-15 09:32:53  socket:Resource id #102,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:32:53',
+)
+2018-04-15 09:32:54  buffer:{"type" : "4", "msg" : "login out","roomid":"2"}
+2018-04-15 09:32:54  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+  'roomid' => '2',
+)
+2018-04-15 09:32:54  Resource id #126 DISCONNECTED!
+2018-04-15 09:32:54  
+Resource id #137 CONNECTED!
+2018-04-15 09:32:54  2018-4-15 09:32:54
+2018-04-15 09:32:54  buffer:{"type" : "1", "user" : "aaa", "avar" : "a6.jpg","roomid" : "2","uid":"1"}
+2018-04-15 09:32:54  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a6.jpg',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 09:32:54  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:32:54',
+)
+2018-04-15 09:32:54  socket:Resource id #93,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:32:54',
+)
+2018-04-15 09:32:54  socket:Resource id #102,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:32:54',
+)
+2018-04-15 09:32:55  buffer:{"type" : "4", "msg" : "login out","roomid":"2"}
+2018-04-15 09:32:55  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+  'roomid' => '2',
+)
+2018-04-15 09:32:55  Resource id #137 DISCONNECTED!
+2018-04-15 09:32:56  
+Resource id #148 CONNECTED!
+2018-04-15 09:32:56  2018-4-15 09:32:56
+2018-04-15 09:32:56  buffer:{"type" : "1", "user" : "aaa", "avar" : "a1.jpg","roomid" : "2","uid":"1"}
+2018-04-15 09:32:56  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a1.jpg',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 09:32:56  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:32:56',
+)
+2018-04-15 09:32:56  socket:Resource id #93,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:32:56',
+)
+2018-04-15 09:32:56  socket:Resource id #102,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:32:56',
+)
+2018-04-15 09:32:58  Resource id #81 DISCONNECTED!
+2018-04-15 09:33:00  buffer:{"type" : "4", "msg" : "login out","roomid":"2"}
+2018-04-15 09:33:00  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+  'roomid' => '2',
+)
+2018-04-15 09:33:00  Resource id #148 DISCONNECTED!
+2018-04-15 09:33:01  
+Resource id #160 CONNECTED!
+2018-04-15 09:33:01  2018-4-15 09:33:01
+2018-04-15 09:33:01  buffer:{"type" : "1", "user" : "aaa", "avar" : "a3.jpg","roomid" : "2","uid":"1"}
+2018-04-15 09:33:01  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a3.jpg',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 09:33:01  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a3.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:33:01',
+)
+2018-04-15 09:33:01  socket:Resource id #93,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a3.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:33:01',
+)
+2018-04-15 09:33:01  socket:Resource id #102,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a3.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:33:01',
+)
+2018-04-15 09:33:04  Resource id #93 DISCONNECTED!
+2018-04-15 09:33:09  buffer:�
+2018-04-15 09:33:09  decode buffer:NULL
+2018-04-15 09:33:13  Resource id #102 DISCONNECTED!
+2018-04-15 09:33:28  
+Resource id #172 CONNECTED!
+2018-04-15 09:33:28  2018-4-15 09:33:28
+2018-04-15 09:33:28  buffer:{"type" : "1", "user" : "bbb", "avar" : "a9.jpg","roomid" : "6","uid":"2"}
+2018-04-15 09:33:28  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a9.jpg',
+  'roomid' => '6',
+  'uid' => '2',
+)
+2018-04-15 09:33:28  sendroomid:6,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a9.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:33:28',
+)
+2018-04-15 09:33:31  buffer:�
+2018-04-15 09:33:31  decode buffer:NULL
+2018-04-15 09:33:32  
+Resource id #180 CONNECTED!
+2018-04-15 09:33:32  2018-4-15 09:33:32
+2018-04-15 09:33:32  buffer:{"type" : "1", "user" : "bbb", "avar" : "a7.jpg","roomid" : "6","uid":"2"}
+2018-04-15 09:33:32  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a7.jpg',
+  'roomid' => '6',
+  'uid' => '2',
+)
+2018-04-15 09:33:32  sendroomid:6,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a7.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:33:32',
+)
+2018-04-15 09:33:32  socket:Resource id #172,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a7.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:33:32',
+)
+2018-04-15 09:33:32  buffer:�
+2018-04-15 09:33:32  decode buffer:NULL
+2018-04-15 09:33:33  
+Resource id #189 CONNECTED!
+2018-04-15 09:33:33  2018-4-15 09:33:33
+2018-04-15 09:33:33  buffer:{"type" : "1", "user" : "bbb", "avar" : "a7.jpg","roomid" : "6","uid":"2"}
+2018-04-15 09:33:33  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a7.jpg',
+  'roomid' => '6',
+  'uid' => '2',
+)
+2018-04-15 09:33:33  sendroomid:6,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a7.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:33:33',
+)
+2018-04-15 09:33:33  socket:Resource id #172,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a7.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:33:33',
+)
+2018-04-15 09:33:33  socket:Resource id #180,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a7.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:33:33',
+)
+2018-04-15 09:33:34  buffer:�
+2018-04-15 09:33:34  decode buffer:NULL
+2018-04-15 09:33:34  
+Resource id #199 CONNECTED!
+2018-04-15 09:33:34  2018-4-15 09:33:34
+2018-04-15 09:33:34  buffer:{"type" : "1", "user" : "bbb", "avar" : "a1.jpg","roomid" : "6","uid":"2"}
+2018-04-15 09:33:34  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a1.jpg',
+  'roomid' => '6',
+  'uid' => '2',
+)
+2018-04-15 09:33:34  sendroomid:6,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:33:34',
+)
+2018-04-15 09:33:34  socket:Resource id #172,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:33:34',
+)
+2018-04-15 09:33:34  socket:Resource id #180,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:33:34',
+)
+2018-04-15 09:33:34  socket:Resource id #189,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:33:34',
+)
+2018-04-15 09:33:42  buffer:{"type" : "4", "msg" : "login out","roomid":"2"}
+2018-04-15 09:33:42  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+  'roomid' => '2',
+)
+2018-04-15 09:33:42  Resource id #160 DISCONNECTED!
+2018-04-15 09:33:47  
+Resource id #211 CONNECTED!
+2018-04-15 09:33:47  2018-4-15 09:33:47
+2018-04-15 09:33:47  buffer:{"type" : "1", "user" : "aaa", "avar" : "a9.jpg","roomid" : "2","uid":"1"}
+2018-04-15 09:33:47  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a9.jpg',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 09:33:47  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a9.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:33:47',
+)
+2018-04-15 09:33:51  Resource id #172 DISCONNECTED!
+2018-04-15 09:33:52  buffer:{"type" : "4", "msg" : "login out","roomid":"2"}
+2018-04-15 09:33:52  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+  'roomid' => '2',
+)
+2018-04-15 09:33:52  Resource id #211 DISCONNECTED!
+2018-04-15 09:33:52  
+Resource id #221 CONNECTED!
+2018-04-15 09:33:52  2018-4-15 09:33:52
+2018-04-15 09:33:52  buffer:{"type" : "1", "user" : "aaa", "avar" : "a7.jpg","roomid" : "2","uid":"1"}
+2018-04-15 09:33:52  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a7.jpg',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 09:33:52  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a7.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:33:52',
+)
+2018-04-15 09:33:52  Resource id #180 DISCONNECTED!
+2018-04-15 09:33:53  buffer:{"type" : "4", "msg" : "login out","roomid":"2"}
+2018-04-15 09:33:53  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+  'roomid' => '2',
+)
+2018-04-15 09:33:53  Resource id #221 DISCONNECTED!
+2018-04-15 09:33:54  Resource id #189 DISCONNECTED!
+2018-04-15 09:33:54  
+Resource id #232 CONNECTED!
+2018-04-15 09:33:54  2018-4-15 09:33:54
+2018-04-15 09:33:54  buffer:{"type" : "1", "user" : "aaa", "avar" : "a6.jpg","roomid" : "2","uid":"1"}
+2018-04-15 09:33:54  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a6.jpg',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 09:33:54  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:33:54',
+)
+2018-04-15 09:33:55  buffer:{"type" : "4", "msg" : "login out","roomid":"2"}
+2018-04-15 09:33:55  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+  'roomid' => '2',
+)
+2018-04-15 09:33:55  Resource id #232 DISCONNECTED!
+2018-04-15 09:33:56  
+Resource id #241 CONNECTED!
+2018-04-15 09:33:56  2018-4-15 09:33:56
+2018-04-15 09:33:56  buffer:{"type" : "1", "user" : "aaa", "avar" : "a9.jpg","roomid" : "2","uid":"1"}
+2018-04-15 09:33:56  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a9.jpg',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 09:33:56  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a9.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:33:56',
+)
+2018-04-15 09:33:57  buffer:{"type" : "4", "msg" : "login out","roomid":"2"}
+2018-04-15 09:33:57  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+  'roomid' => '2',
+)
+2018-04-15 09:33:57  Resource id #241 DISCONNECTED!
+2018-04-15 09:33:57  
+Resource id #250 CONNECTED!
+2018-04-15 09:33:57  2018-4-15 09:33:57
+2018-04-15 09:33:57  buffer:{"type" : "1", "user" : "aaa", "avar" : "a8.jpg","roomid" : "2","uid":"1"}
+2018-04-15 09:33:57  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a8.jpg',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 09:33:57  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a8.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:33:57',
+)
+2018-04-15 09:34:07  buffer:�
+2018-04-15 09:34:07  decode buffer:NULL
+2018-04-15 09:34:10  
+Resource id #258 CONNECTED!
+2018-04-15 09:34:10  2018-4-15 09:34:10
+2018-04-15 09:34:10  buffer:{"type" : "1", "user" : "bbb", "avar" : "a9.jpg","roomid" : "2","uid":"2"}
+2018-04-15 09:34:10  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a9.jpg',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 09:34:10  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a9.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:10',
+)
+2018-04-15 09:34:10  socket:Resource id #250,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a9.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:10',
+)
+2018-04-15 09:34:14  buffer:�
+2018-04-15 09:34:14  decode buffer:NULL
+2018-04-15 09:34:15  
+Resource id #267 CONNECTED!
+2018-04-15 09:34:15  2018-4-15 09:34:15
+2018-04-15 09:34:15  buffer:{"type" : "1", "user" : "bbb", "avar" : "a2.jpg","roomid" : "2","uid":"2"}
+2018-04-15 09:34:15  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a2.jpg',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 09:34:15  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:15',
+)
+2018-04-15 09:34:15  socket:Resource id #250,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:15',
+)
+2018-04-15 09:34:15  socket:Resource id #258,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:15',
+)
+2018-04-15 09:34:17  buffer:�
+2018-04-15 09:34:17  decode buffer:NULL
+2018-04-15 09:34:17  
+Resource id #277 CONNECTED!
+2018-04-15 09:34:17  2018-4-15 09:34:17
+2018-04-15 09:34:17  buffer:{"type" : "1", "user" : "bbb", "avar" : "a8.jpg","roomid" : "2","uid":"2"}
+2018-04-15 09:34:17  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a8.jpg',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 09:34:17  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a8.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:17',
+)
+2018-04-15 09:34:17  socket:Resource id #250,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a8.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:17',
+)
+2018-04-15 09:34:17  socket:Resource id #258,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a8.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:17',
+)
+2018-04-15 09:34:17  socket:Resource id #267,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a8.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:17',
+)
+2018-04-15 09:34:19  buffer:�
+2018-04-15 09:34:19  decode buffer:NULL
+2018-04-15 09:34:19  
+Resource id #288 CONNECTED!
+2018-04-15 09:34:19  2018-4-15 09:34:19
+2018-04-15 09:34:19  buffer:{"type" : "1", "user" : "bbb", "avar" : "a1.jpg","roomid" : "2","uid":"2"}
+2018-04-15 09:34:19  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a1.jpg',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 09:34:19  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:19',
+)
+2018-04-15 09:34:19  socket:Resource id #250,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:19',
+)
+2018-04-15 09:34:19  socket:Resource id #258,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:19',
+)
+2018-04-15 09:34:19  socket:Resource id #267,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:19',
+)
+2018-04-15 09:34:19  socket:Resource id #277,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:19',
+)
+2018-04-15 09:34:21  buffer:�
+2018-04-15 09:34:21  decode buffer:NULL
+2018-04-15 09:34:21  
+Resource id #300 CONNECTED!
+2018-04-15 09:34:21  2018-4-15 09:34:21
+2018-04-15 09:34:21  buffer:{"type" : "1", "user" : "bbb", "avar" : "a4.jpg","roomid" : "2","uid":"2"}
+2018-04-15 09:34:21  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a4.jpg',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 09:34:21  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a4.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:21',
+)
+2018-04-15 09:34:21  socket:Resource id #250,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a4.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:21',
+)
+2018-04-15 09:34:21  socket:Resource id #258,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a4.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:21',
+)
+2018-04-15 09:34:21  socket:Resource id #267,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a4.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:21',
+)
+2018-04-15 09:34:21  socket:Resource id #277,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a4.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:21',
+)
+2018-04-15 09:34:21  socket:Resource id #288,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a4.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:21',
+)
+2018-04-15 09:34:22  buffer:�
+2018-04-15 09:34:22  decode buffer:NULL
+2018-04-15 09:34:23  
+Resource id #313 CONNECTED!
+2018-04-15 09:34:23  2018-4-15 09:34:23
+2018-04-15 09:34:23  buffer:{"type" : "1", "user" : "bbb", "avar" : "a6.jpg","roomid" : "2","uid":"2"}
+2018-04-15 09:34:23  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a6.jpg',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 09:34:23  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:23',
+)
+2018-04-15 09:34:23  socket:Resource id #250,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:23',
+)
+2018-04-15 09:34:23  socket:Resource id #258,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:23',
+)
+2018-04-15 09:34:23  socket:Resource id #267,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:23',
+)
+2018-04-15 09:34:23  socket:Resource id #277,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:23',
+)
+2018-04-15 09:34:23  socket:Resource id #288,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:23',
+)
+2018-04-15 09:34:23  socket:Resource id #300,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:23',
+)
+2018-04-15 09:34:23  buffer:�
+2018-04-15 09:34:23  decode buffer:NULL
+2018-04-15 09:34:24  
+Resource id #327 CONNECTED!
+2018-04-15 09:34:24  2018-4-15 09:34:24
+2018-04-15 09:34:24  buffer:{"type" : "1", "user" : "bbb", "avar" : "a2.jpg","roomid" : "2","uid":"2"}
+2018-04-15 09:34:24  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a2.jpg',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 09:34:24  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:24',
+)
+2018-04-15 09:34:24  socket:Resource id #250,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:24',
+)
+2018-04-15 09:34:24  socket:Resource id #258,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:24',
+)
+2018-04-15 09:34:24  socket:Resource id #267,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:24',
+)
+2018-04-15 09:34:24  socket:Resource id #277,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:24',
+)
+2018-04-15 09:34:24  socket:Resource id #288,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:24',
+)
+2018-04-15 09:34:24  socket:Resource id #300,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:24',
+)
+2018-04-15 09:34:24  socket:Resource id #313,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:24',
+)
+2018-04-15 09:34:27  Resource id #199 DISCONNECTED!
+2018-04-15 09:34:34  Resource id #258 DISCONNECTED!
+2018-04-15 09:34:37  Resource id #267 DISCONNECTED!
+2018-04-15 09:34:39  Resource id #277 DISCONNECTED!
+2018-04-15 09:34:41  Resource id #288 DISCONNECTED!
+2018-04-15 09:34:42  Resource id #300 DISCONNECTED!
+2018-04-15 09:34:43  Resource id #313 DISCONNECTED!
+2018-04-15 09:34:44  buffer:�
+2018-04-15 09:34:44  decode buffer:NULL
+2018-04-15 09:34:47  
+Resource id #349 CONNECTED!
+2018-04-15 09:34:47  2018-4-15 09:34:47
+2018-04-15 09:34:47  buffer:{"type" : "1", "user" : "bbb", "avar" : "a5.jpg","roomid" : "2","uid":"2"}
+2018-04-15 09:34:47  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a5.jpg',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 09:34:47  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a5.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:47',
+)
+2018-04-15 09:34:47  socket:Resource id #250,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a5.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:47',
+)
+2018-04-15 09:34:47  socket:Resource id #327,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a5.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:47',
+)
+2018-04-15 09:34:52  buffer:�
+2018-04-15 09:34:52  decode buffer:NULL
+2018-04-15 09:34:53  
+Resource id #359 CONNECTED!
+2018-04-15 09:34:53  2018-4-15 09:34:53
+2018-04-15 09:34:53  buffer:{"type" : "1", "user" : "bbb", "avar" : "a4.jpg","roomid" : "2","uid":"2"}
+2018-04-15 09:34:53  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a4.jpg',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 09:34:53  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a4.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:53',
+)
+2018-04-15 09:34:53  socket:Resource id #250,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a4.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:53',
+)
+2018-04-15 09:34:53  socket:Resource id #327,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a4.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:53',
+)
+2018-04-15 09:34:53  socket:Resource id #349,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a4.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:34:53',
+)
+2018-04-15 09:35:04  Resource id #327 DISCONNECTED!
+2018-04-15 09:35:05  buffer:{"type" : "4", "msg" : "login out","roomid":"2"}
+2018-04-15 09:35:05  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+  'roomid' => '2',
+)
+2018-04-15 09:35:05  Resource id #359 DISCONNECTED!
+2018-04-15 09:35:08  
+Resource id #372 CONNECTED!
+2018-04-15 09:35:08  2018-4-15 09:35:08
+2018-04-15 09:35:08  buffer:{"type" : "1", "user" : "bbb", "avar" : "a3.jpg","roomid" : "2","uid":"2"}
+2018-04-15 09:35:08  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a3.jpg',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 09:35:08  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a3.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:35:08',
+)
+2018-04-15 09:35:08  socket:Resource id #250,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a3.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:35:08',
+)
+2018-04-15 09:35:08  socket:Resource id #349,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a3.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:35:08',
+)
+2018-04-15 09:35:12  Resource id #349 DISCONNECTED!
+2018-04-15 09:35:12  buffer:{"type" : "4", "msg" : "login out","roomid":"2"}
+2018-04-15 09:35:12  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+  'roomid' => '2',
+)
+2018-04-15 09:35:12  Resource id #372 DISCONNECTED!
+2018-04-15 09:35:15  
+Resource id #384 CONNECTED!
+2018-04-15 09:35:15  2018-4-15 09:35:15
+2018-04-15 09:35:15  buffer:{"type" : "1", "user" : "bbb", "avar" : "a4.jpg","roomid" : "2","uid":"2"}
+2018-04-15 09:35:15  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a4.jpg',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 09:35:15  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a4.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:35:15',
+)
+2018-04-15 09:35:15  socket:Resource id #250,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a4.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:35:15',
+)
+2018-04-15 09:35:18  buffer:{"type" : "4", "msg" : "login out","roomid":"2"}
+2018-04-15 09:35:18  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+  'roomid' => '2',
+)
+2018-04-15 09:35:18  Resource id #384 DISCONNECTED!
+2018-04-15 09:35:20  
+Resource id #394 CONNECTED!
+2018-04-15 09:35:20  2018-4-15 09:35:20
+2018-04-15 09:35:20  buffer:{"type" : "1", "user" : "bbb", "avar" : "a5.jpg","roomid" : "2","uid":"2"}
+2018-04-15 09:35:20  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a5.jpg',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 09:35:20  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a5.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:35:20',
+)
+2018-04-15 09:35:20  socket:Resource id #250,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a5.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:35:20',
+)
+2018-04-15 09:35:23  buffer:{"type" : "4", "msg" : "login out","roomid":"2"}
+2018-04-15 09:35:23  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+  'roomid' => '2',
+)
+2018-04-15 09:35:23  Resource id #394 DISCONNECTED!
+2018-04-15 09:35:26  
+Resource id #404 CONNECTED!
+2018-04-15 09:35:26  2018-4-15 09:35:26
+2018-04-15 09:35:26  buffer:{"type" : "1", "user" : "bbb", "avar" : "a8.jpg","roomid" : "2","uid":"2"}
+2018-04-15 09:35:26  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a8.jpg',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 09:35:26  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a8.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:35:26',
+)
+2018-04-15 09:35:26  socket:Resource id #250,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a8.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:35:26',
+)
+2018-04-15 09:35:30  buffer:{"type" : "4", "msg" : "login out","roomid":"2"}
+2018-04-15 09:35:30  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+  'roomid' => '2',
+)
+2018-04-15 09:35:30  Resource id #404 DISCONNECTED!
+2018-04-15 09:35:34  
+Resource id #414 CONNECTED!
+2018-04-15 09:35:34  2018-4-15 09:35:34
+2018-04-15 09:35:34  buffer:{"type" : "1", "user" : "bbb", "avar" : "a8.jpg","roomid" : "2","uid":"2"}
+2018-04-15 09:35:34  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a8.jpg',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 09:35:34  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a8.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:35:34',
+)
+2018-04-15 09:35:34  socket:Resource id #250,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a8.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:35:34',
+)
+2018-04-15 09:35:36  buffer:{"type" : "4", "msg" : "login out","roomid":"2"}
+2018-04-15 09:35:36  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+  'roomid' => '2',
+)
+2018-04-15 09:35:36  Resource id #414 DISCONNECTED!
+2018-04-15 09:35:39  
+Resource id #424 CONNECTED!
+2018-04-15 09:35:39  2018-4-15 09:35:39
+2018-04-15 09:35:39  buffer:{"type" : "1", "user" : "bbb", "avar" : "a8.jpg","roomid" : "2","uid":"2"}
+2018-04-15 09:35:39  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a8.jpg',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 09:35:39  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a8.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:35:39',
+)
+2018-04-15 09:35:39  socket:Resource id #250,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a8.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:35:39',
+)
+2018-04-15 09:35:53  buffer:{"type" : "4", "msg" : "login out","roomid":"2"}
+2018-04-15 09:35:53  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+  'roomid' => '2',
+)
+2018-04-15 09:35:53  Resource id #424 DISCONNECTED!
+2018-04-15 09:36:01  
+Resource id #434 CONNECTED!
+2018-04-15 09:36:01  2018-4-15 09:36:01
+2018-04-15 09:36:01  buffer:{"type" : "1", "user" : "bbb", "avar" : "a2.jpg","roomid" : "2","uid":"2"}
+2018-04-15 09:36:01  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a2.jpg',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 09:36:01  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:36:01',
+)
+2018-04-15 09:36:01  socket:Resource id #250,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:36:01',
+)
+2018-04-15 09:36:15  buffer:{"type" : "4", "msg" : "login out","roomid":"2"}
+2018-04-15 09:36:15  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+  'roomid' => '2',
+)
+2018-04-15 09:36:15  Resource id #434 DISCONNECTED!
+2018-04-15 09:36:23  
+Resource id #444 CONNECTED!
+2018-04-15 09:36:23  2018-4-15 09:36:23
+2018-04-15 09:36:23  buffer:{"type" : "1", "user" : "bbb", "avar" : "a2.jpg","roomid" : "6","uid":"2"}
+2018-04-15 09:36:23  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a2.jpg',
+  'roomid' => '6',
+  'uid' => '2',
+)
+2018-04-15 09:36:23  sendroomid:6,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:36:23',
+)
+2018-04-15 09:36:25  buffer:{"type" : "4", "msg" : "login out","roomid":"6"}
+2018-04-15 09:36:25  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+  'roomid' => '6',
+)
+2018-04-15 09:36:25  Resource id #444 DISCONNECTED!
+2018-04-15 09:36:28  
+Resource id #453 CONNECTED!
+2018-04-15 09:36:28  2018-4-15 09:36:28
+2018-04-15 09:36:28  buffer:{"type" : "1", "user" : "bbb", "avar" : "a1.jpg","roomid" : "6","uid":"2"}
+2018-04-15 09:36:28  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a1.jpg',
+  'roomid' => '6',
+  'uid' => '2',
+)
+2018-04-15 09:36:28  sendroomid:6,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:36:28',
+)
+2018-04-15 09:36:33  buffer:{"type" : "4", "msg" : "login out","roomid":"6"}
+2018-04-15 09:36:33  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+  'roomid' => '6',
+)
+2018-04-15 09:36:33  Resource id #453 DISCONNECTED!
+2018-04-15 09:36:37  
+Resource id #462 CONNECTED!
+2018-04-15 09:36:37  2018-4-15 09:36:37
+2018-04-15 09:36:37  buffer:{"type" : "1", "user" : "bbb", "avar" : "a1.jpg","roomid" : "2","uid":"2"}
+2018-04-15 09:36:37  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a1.jpg',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 09:36:37  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:36:37',
+)
+2018-04-15 09:36:37  socket:Resource id #250,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:36:37',
+)
+2018-04-15 09:36:38  buffer:{"type" : "4", "msg" : "login out","roomid":"2"}
+2018-04-15 09:36:38  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+  'roomid' => '2',
+)
+2018-04-15 09:36:38  Resource id #462 DISCONNECTED!
+2018-04-15 09:36:41  
+Resource id #472 CONNECTED!
+2018-04-15 09:36:41  2018-4-15 09:36:41
+2018-04-15 09:36:41  buffer:{"type" : "1", "user" : "bbb", "avar" : "a6.jpg","roomid" : "2","uid":"2"}
+2018-04-15 09:36:41  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a6.jpg',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 09:36:41  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:36:41',
+)
+2018-04-15 09:36:41  socket:Resource id #250,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:36:41',
+)
+2018-04-15 09:36:56  buffer:{"type" : "4", "msg" : "login out","roomid":"2"}
+2018-04-15 09:36:56  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+  'roomid' => '2',
+)
+2018-04-15 09:36:56  Resource id #472 DISCONNECTED!
+2018-04-15 09:36:59  
+Resource id #482 CONNECTED!
+2018-04-15 09:36:59  2018-4-15 09:36:59
+2018-04-15 09:36:59  buffer:{"type" : "1", "user" : "bbb", "avar" : "a1.jpg","roomid" : "2","uid":"2"}
+2018-04-15 09:36:59  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a1.jpg',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 09:36:59  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:36:59',
+)
+2018-04-15 09:36:59  socket:Resource id #250,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:36:59',
+)
+2018-04-15 09:37:02  buffer:{"type" : "4", "msg" : "login out","roomid":"2"}
+2018-04-15 09:37:02  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+  'roomid' => '2',
+)
+2018-04-15 09:37:02  Resource id #482 DISCONNECTED!
+2018-04-15 09:39:15  buffer:{"type" : "4", "msg" : "login out","roomid":"2"}
+2018-04-15 09:39:15  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+  'roomid' => '2',
+)
+2018-04-15 09:39:15  Resource id #250 DISCONNECTED!
+2018-04-15 09:39:16  
+Resource id #495 CONNECTED!
+2018-04-15 09:39:16  2018-4-15 09:39:16
+2018-04-15 09:39:16  buffer:{"type" : "1", "user" : "aaa", "avar" : "a5.jpg","roomid" : "2","uid":"1"}
+2018-04-15 09:39:16  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a5.jpg',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 09:39:16  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a5.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:39:16',
+)
+2018-04-15 09:39:32  
+Resource id #501 CONNECTED!
+2018-04-15 09:39:32  2018-4-15 09:39:32
+2018-04-15 09:39:32  buffer:{"type" : "1", "user" : "bbb", "avar" : "a3.jpg","roomid" : "6","uid":"2"}
+2018-04-15 09:39:32  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a3.jpg',
+  'roomid' => '6',
+  'uid' => '2',
+)
+2018-04-15 09:39:32  sendroomid:6,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a3.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:39:32',
+)
+2018-04-15 09:39:35  buffer:{"type" : "3", "user" : "bbb", "avar" : "a3.jpg", "stime" : "2018-04-15 12:56:12", "msg": "jajcd ","roomid":"6","uid":"2"}
+2018-04-15 09:39:35  decode buffer:array (
+  'type' => '3',
+  'user' => 'bbb',
+  'avar' => 'a3.jpg',
+  'stime' => '2018-04-15 12:56:12',
+  'msg' => 'jajcd ',
+  'roomid' => '6',
+  'uid' => '2',
+)
+2018-04-15 09:39:35  sendroomid:6,mess:array (
+  'type' => '3',
+  'user' => 'bbb',
+  'avar' => 'a3.jpg',
+  'stime' => '2018-04-15 09:39:35',
+  'msg' => 'jajcd ',
+  'roomid' => '6',
+  'uid' => '2',
+)
+2018-04-15 09:39:48  buffer:{"type" : "3", "user" : "aaa", "avar" : "a5.jpg", "stime" : "2018-04-15 12:56:24", "msg": "acd ","roomid":"2","uid":"1"}
+2018-04-15 09:39:48  decode buffer:array (
+  'type' => '3',
+  'user' => 'aaa',
+  'avar' => 'a5.jpg',
+  'stime' => '2018-04-15 12:56:24',
+  'msg' => 'acd ',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 09:39:48  sendroomid:2,mess:array (
+  'type' => '3',
+  'user' => 'aaa',
+  'avar' => 'a5.jpg',
+  'stime' => '2018-04-15 09:39:48',
+  'msg' => 'acd ',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 09:39:57  buffer:�
+2018-04-15 09:39:57  decode buffer:NULL
+2018-04-15 09:39:59  
+Resource id #515 CONNECTED!
+2018-04-15 09:39:59  2018-4-15 09:39:59
+2018-04-15 09:39:59  buffer:{"type" : "1", "user" : "bbb", "avar" : "a5.jpg","roomid" : "2","uid":"2"}
+2018-04-15 09:39:59  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a5.jpg',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 09:39:59  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a5.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:39:59',
+)
+2018-04-15 09:39:59  socket:Resource id #495,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a5.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:39:59',
+)
+2018-04-15 09:40:07  buffer:{"type" : "3", "user" : "aaa", "avar" : "a5.jpg", "stime" : "2018-04-15 12:56:43", "msg": "lll","roomid":"2","uid":"1"}
+2018-04-15 09:40:07  decode buffer:array (
+  'type' => '3',
+  'user' => 'aaa',
+  'avar' => 'a5.jpg',
+  'stime' => '2018-04-15 12:56:43',
+  'msg' => 'lll',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 09:40:07  sendroomid:2,mess:array (
+  'type' => '3',
+  'user' => 'aaa',
+  'avar' => 'a5.jpg',
+  'stime' => '2018-04-15 09:40:07',
+  'msg' => 'lll',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 09:40:07  socket:Resource id #515,mess:array (
+  'type' => '3',
+  'user' => 'aaa',
+  'avar' => 'a5.jpg',
+  'stime' => '2018-04-15 09:40:07',
+  'msg' => 'lll',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 09:40:12  buffer:{"type" : "3", "user" : "bbb", "avar" : "a5.jpg", "stime" : "2018-04-15 12:56:48", "msg": "hahhcd ","roomid":"2","uid":"2"}
+2018-04-15 09:40:12  decode buffer:array (
+  'type' => '3',
+  'user' => 'bbb',
+  'avar' => 'a5.jpg',
+  'stime' => '2018-04-15 12:56:48',
+  'msg' => 'hahhcd ',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 09:40:12  sendroomid:2,mess:array (
+  'type' => '3',
+  'user' => 'bbb',
+  'avar' => 'a5.jpg',
+  'stime' => '2018-04-15 09:40:12',
+  'msg' => 'hahhcd ',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 09:40:12  socket:Resource id #495,mess:array (
+  'type' => '3',
+  'user' => 'bbb',
+  'avar' => 'a5.jpg',
+  'stime' => '2018-04-15 09:40:12',
+  'msg' => 'hahhcd ',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 09:40:17  Resource id #501 DISCONNECTED!
+2018-04-15 09:40:21  buffer:�
+2018-04-15 09:40:21  decode buffer:NULL
+2018-04-15 09:40:21  
+Resource id #533 CONNECTED!
+2018-04-15 09:40:21  2018-4-15 09:40:21
+2018-04-15 09:40:21  buffer:{"type" : "1", "user" : "bbb", "avar" : "a2.jpg","roomid" : "2","uid":"2"}
+2018-04-15 09:40:21  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a2.jpg',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 09:40:21  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:40:21',
+)
+2018-04-15 09:40:21  socket:Resource id #495,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:40:21',
+)
+2018-04-15 09:40:21  socket:Resource id #515,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:40:21',
+)
+2018-04-15 09:40:41  Resource id #515 DISCONNECTED!
+2018-04-15 09:40:58  buffer:�
+2018-04-15 09:40:58  decode buffer:NULL
+2018-04-15 09:40:58  
+Resource id #544 CONNECTED!
+2018-04-15 09:40:58  2018-4-15 09:40:58
+2018-04-15 09:40:58  buffer:{"type" : "1", "user" : "bbb", "avar" : "a6.jpg","roomid" : "2","uid":"2"}
+2018-04-15 09:40:58  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a6.jpg',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 09:40:58  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:40:58',
+)
+2018-04-15 09:40:58  socket:Resource id #495,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:40:58',
+)
+2018-04-15 09:40:58  socket:Resource id #533,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a6.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:40:58',
+)
+2018-04-15 09:41:02  buffer:�
+2018-04-15 09:41:02  decode buffer:NULL
+2018-04-15 09:41:03  
+Resource id #554 CONNECTED!
+2018-04-15 09:41:03  2018-4-15 09:41:03
+2018-04-15 09:41:03  buffer:{"type" : "1", "user" : "bbb", "avar" : "a2.jpg","roomid" : "2","uid":"2"}
+2018-04-15 09:41:03  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a2.jpg',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 09:41:03  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:41:03',
+)
+2018-04-15 09:41:03  socket:Resource id #495,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:41:03',
+)
+2018-04-15 09:41:03  socket:Resource id #533,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:41:03',
+)
+2018-04-15 09:41:03  socket:Resource id #544,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a2.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:41:03',
+)
+2018-04-15 09:41:06  buffer:�
+2018-04-15 09:41:06  decode buffer:NULL
+2018-04-15 09:41:07  
+Resource id #565 CONNECTED!
+2018-04-15 09:41:07  2018-4-15 09:41:07
+2018-04-15 09:41:07  buffer:{"type" : "1", "user" : "bbb", "avar" : "a1.jpg","roomid" : "2","uid":"2"}
+2018-04-15 09:41:07  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a1.jpg',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 09:41:07  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:41:07',
+)
+2018-04-15 09:41:07  socket:Resource id #495,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:41:07',
+)
+2018-04-15 09:41:07  socket:Resource id #533,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:41:07',
+)
+2018-04-15 09:41:07  socket:Resource id #544,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:41:07',
+)
+2018-04-15 09:41:07  socket:Resource id #554,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a1.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:41:07',
+)
+2018-04-15 09:41:18  Resource id #533 DISCONNECTED!
+2018-04-15 09:41:22  Resource id #544 DISCONNECTED!
+2018-04-15 09:41:26  Resource id #554 DISCONNECTED!
+2018-04-15 09:41:52  buffer:{"type" : "4", "msg" : "login out","roomid":"2"}
+2018-04-15 09:41:52  decode buffer:array (
+  'type' => '4',
+  'msg' => 'login out',
+  'roomid' => '2',
+)
+2018-04-15 09:41:52  Resource id #495 DISCONNECTED!
+2018-04-15 09:41:52  
+Resource id #581 CONNECTED!
+2018-04-15 09:41:52  2018-4-15 09:41:52
+2018-04-15 09:41:52  buffer:{"type" : "1", "user" : "aaa", "avar" : "a3.jpg","roomid" : "2","uid":"1"}
+2018-04-15 09:41:52  decode buffer:array (
+  'type' => '1',
+  'user' => 'aaa',
+  'avar' => 'a3.jpg',
+  'roomid' => '2',
+  'uid' => '1',
+)
+2018-04-15 09:41:52  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a3.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:41:52',
+)
+2018-04-15 09:41:52  socket:Resource id #565,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a3.jpg',
+  'user' => 'aaa',
+  'stime' => '2018-04-15 09:41:52',
+)
+2018-04-15 09:42:09  buffer:�
+2018-04-15 09:42:09  decode buffer:NULL
+2018-04-15 09:42:10  
+Resource id #590 CONNECTED!
+2018-04-15 09:42:10  2018-4-15 09:42:10
+2018-04-15 09:42:10  buffer:{"type" : "1", "user" : "bbb", "avar" : "a5.jpg","roomid" : "2","uid":"2"}
+2018-04-15 09:42:10  decode buffer:array (
+  'type' => '1',
+  'user' => 'bbb',
+  'avar' => 'a5.jpg',
+  'roomid' => '2',
+  'uid' => '2',
+)
+2018-04-15 09:42:10  sendroomid:2,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a5.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:42:10',
+)
+2018-04-15 09:42:10  socket:Resource id #565,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a5.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:42:10',
+)
+2018-04-15 09:42:10  socket:Resource id #581,mess:array (
+  'type' => '2',
+  'msg' => 'online',
+  'avar' => 'a5.jpg',
+  'user' => 'bbb',
+  'stime' => '2018-04-15 09:42:10',
+)
+2018-04-15 09:42:29  Resource id #565 DISCONNECTED!
