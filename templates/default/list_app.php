@@ -53,10 +53,17 @@
                                     <span>剩余时间：&nbsp;&nbsp;<em><?php echo LibUtil::STSH($val['end_time']); ?></em></span>
                                 </p>
                             </div>
-                            <div class="app-btn">
-                                <a class="btn-down" href="<?php echo $val['surl']; ?>">申请加入</a>
+                            <?php if($cid ==22) {?>
+                                <div class="app-btn" >
+                                <a class="btn-down" href = "<?php echo $val['surl']; ?>">进入房间 </a >
                                 <br />
-                            </div>
+                                </div>
+                            <?php }else{?>
+                                <div class="app-btn" >
+                                    <a class="btn-down" href = "<?php echo $val['surl']; ?>">申请加入 </a >
+                                    <br />
+                                </div>
+                            <?php }?>
                           </div>
                           <?php } }else{ echo '<div class="h788"><span>没有找到数据</span></div>';}?>
                         </div>

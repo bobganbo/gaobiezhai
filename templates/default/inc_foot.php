@@ -11,8 +11,8 @@
         </div>
         <p class="line-t-25"></p>
         <span class="footer-info">
-            <p class="line-t-15"></p>
-            <div class="r"><?php echo('Processed in '.number_format(helper::getmicrotime()-$time_start, 2, '.', '').' MilliSeconds ');?>&nbsp;&nbsp;<?php if(defined('COUNT_CODE')) echo(COUNT_CODE); ?></div>
+            <p class="line-t-10"></p>
+            <div class="text-center"><?php echo "告别宅 版权所有 粤ICP备18038720号-1"?>&nbsp;&nbsp;<?php if(defined('COUNT_CODE')) echo(COUNT_CODE); ?></div>
             <p class="line-t-25"></p>
         </span>
       </div>    

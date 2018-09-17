@@ -228,6 +228,16 @@ class LibUtil{
 
         $fen = (int)($time / 60); // 剩下的毫秒数都算作分
 
-        return $days.'天'.$xiaoshi.'时'.$fen.'分';
+        $rtn = "";
+        if($days){
+            $rtn.=$days."天";
+        }
+        if($xiaoshi){
+            $rtn.=$xiaoshi."时";
+        }
+        if($fen){
+            $rtn.=$fen."分";
+        }
+        return $rtn;
     }
 }
